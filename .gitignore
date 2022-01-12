@@ -1,0 +1,33 @@
+##############################
+## Java
+##############################
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+##############################
+## Gradle
+##############################
+bin/
+build/
+.gradle
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
+
+##############################
+## IntelliJ
+##############################
+lib/
+out/
+.idea/
+.idea\
+.idea_modules/
+.idea/vcs.xml
+*.iml
+*.ipr
+*.iws
