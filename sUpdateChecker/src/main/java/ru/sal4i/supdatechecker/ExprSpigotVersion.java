@@ -35,7 +35,7 @@ public class ExprSpigotVersion extends Expression {
     @Override
     public Block createBlock() {
         return new Block(this,
-                new ExpressionParameter("Resourde Id", ClassInfo.STRING)
+                new ExpressionParameter("Resource Id", ClassInfo.STRING)
         ) {
             @Override
             public void prepareBuild(BuildContext buildContext) {
@@ -46,7 +46,6 @@ public class ExprSpigotVersion extends Expression {
 
             @Override
             public String toJava() {
-//                return "PluginMain.getNewSpigotVersion(" + arg(0) + ", " + arg(1) + ")";
                 return String.format("PluginMain.getSpigotVersion(%s)",
                         arg(0));
             }

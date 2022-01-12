@@ -37,7 +37,7 @@ public class ExprHasSpigotUpdate extends Expression {
     @Override
     public Block createBlock() {
         return new Block(this,
-                new ExpressionParameter("Resourde Id", ClassInfo.STRING)
+                new ExpressionParameter("Resource Id", ClassInfo.STRING)
         ) {
             @Override
             public void prepareBuild(BuildContext buildContext) {
@@ -48,7 +48,6 @@ public class ExprHasSpigotUpdate extends Expression {
 
             @Override
             public String toJava() {
-//                return "PluginMain.hasSpigotUpdate(" + arg(0) + ", " + arg(1) + ")";
                 return String.format("PluginMain.hasSpigotUpdate(%s)",
                         arg(0));
             }
