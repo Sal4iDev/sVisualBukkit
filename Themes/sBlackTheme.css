@@ -58,9 +58,8 @@
 
 .tab-pane .tab-header-background {
     /*-fx-background-color: derive(-fx-background, 5%);*/
-    -fx-background-color: rgb(3,3,3);
+    -fx-background-color: rgb(3, 3, 3);
 }
-
 
 
 .plugin-component-block {
