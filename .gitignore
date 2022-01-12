@@ -1,6 +1,3 @@
-##############################
-## Java
-##############################
 .mtj.tmp/
 *.class
 *.jar
@@ -8,20 +5,12 @@
 *.ear
 *.nar
 hs_err_pid*
-
-##############################
-## Gradle
-##############################
 bin/
 build/
 .gradle
 .gradletasknamecache
 gradle-app.setting
 !gradle-wrapper.jar
-
-##############################
-## IntelliJ
-##############################
 lib/
 out/
 .idea/
@@ -31,3 +20,5 @@ out/
 *.iml
 *.ipr
 *.iws
+.gradle/7.1/executionHistory/executionHistory.bin
+.gradle/7.1/executionHistory/executionHistory.bin
