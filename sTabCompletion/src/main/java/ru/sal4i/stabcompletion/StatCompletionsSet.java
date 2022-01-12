@@ -4,6 +4,7 @@ import com.gmail.visualbukkit.blocks.ClassInfo;
 import com.gmail.visualbukkit.blocks.Statement;
 import com.gmail.visualbukkit.blocks.parameters.ExpressionParameter;
 
+@SuppressWarnings({"CommentedOutCode", "unused"})
 public class StatCompletionsSet extends Statement {
 //    private final static String FORMAT_METHOD = """
 //            public static java.util.List<String> formatList(java.util.List<String> list, String[] args) {

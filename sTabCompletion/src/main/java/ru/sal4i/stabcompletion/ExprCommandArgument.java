@@ -4,6 +4,7 @@ import com.gmail.visualbukkit.blocks.ClassInfo;
 import com.gmail.visualbukkit.blocks.Expression;
 import com.gmail.visualbukkit.blocks.parameters.ExpressionParameter;
 
+@SuppressWarnings("unused")
 public class ExprCommandArgument extends Expression {
 
     public ExprCommandArgument() {

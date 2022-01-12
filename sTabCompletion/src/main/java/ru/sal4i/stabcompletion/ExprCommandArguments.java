@@ -3,6 +3,7 @@ package ru.sal4i.stabcompletion;
 import com.gmail.visualbukkit.blocks.ClassInfo;
 import com.gmail.visualbukkit.blocks.Expression;
 
+@SuppressWarnings("unused")
 public class ExprCommandArguments extends Expression {
 
     public ExprCommandArguments() {

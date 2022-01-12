@@ -4,6 +4,9 @@ import com.gmail.visualbukkit.blocks.BlockRegistry;
 import com.gmail.visualbukkit.extensions.VisualBukkitExtension;
 import com.gmail.visualbukkit.project.Project;
 
+import java.util.List;
+
+@SuppressWarnings("unused")
 public class STabComplete extends VisualBukkitExtension {
     public STabComplete() {
         BlockRegistry.register(this, "ru.sal4i.stabcomplete");
@@ -12,11 +15,9 @@ public class STabComplete extends VisualBukkitExtension {
     @Override
     public void activate(Project project) {
         super.activate(project);
-        System.out.println(" ");
-        System.out.println("Order plugins and extensions from Sal4iDev");
-        System.out.println("Discord: Sal4iDev#4767");
-        System.out.println("Have a nice day <3!");
-        System.out.println(" ");
+
+        List.of(" ", "Order plugins and extensions from Sal4iDev",
+                "Discord: Sal4iDev#4767", "Have a nice day <3!", " ").forEach(System.out::println);
     }
 
     @Override

@@ -10,6 +10,7 @@ import org.jboss.forge.roaster.model.source.MethodSource;
 
 import java.util.regex.Pattern;
 
+@SuppressWarnings("unused")
 public class CompTabComplete extends PluginComponent {
     private static final Pattern WHITE_SPACE_PATTERN = Pattern.compile("\\S*");
 
@@ -64,10 +65,12 @@ public class CompTabComplete extends PluginComponent {
     }
 
     public class Block extends PluginComponent.Block {
+        private final CompTabComplete compTabComplete;
         private final InputParameter name;
 
         public Block(CompTabComplete compTabComplete, InputParameter name) {
             super(CompTabComplete.this, name);
+            this.compTabComplete = compTabComplete;
             this.name = name;
 
             getTab().textProperty().bind(Bindings
@@ -78,6 +81,10 @@ public class CompTabComplete extends PluginComponent {
 
         public String getName() {
             return name.toJava();
+        }
+
+        public CompTabComplete getCompTabComplete() {
+            return compTabComplete;
         }
     }
 }
