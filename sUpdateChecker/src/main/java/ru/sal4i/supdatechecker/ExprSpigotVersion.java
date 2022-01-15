@@ -14,7 +14,6 @@ public class ExprSpigotVersion extends Expression {
                          java.util.Scanner scanner = new java.util.Scanner(inputStream)) {
                         if (scanner.hasNext()) newVersion = String.valueOf(scanner.next());
                     } catch (java.io.IOException ioException) {
-                        newVersion = "Sal4iDev#4767";
                         ioException.printStackTrace();
                     }
                     return newVersion;
