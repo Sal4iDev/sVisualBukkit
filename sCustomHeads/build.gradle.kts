@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "ru.sal4i"
-version = "1.0"
+version = "1.2"
 
 dependencies {
     implementation(files("C:/Users/1/Desktop/IDEA Projects/sVisualBukkit-Projects/lib/VisualBukkit-5.1.1.jar"))
