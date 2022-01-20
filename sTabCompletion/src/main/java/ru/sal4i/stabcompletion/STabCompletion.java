@@ -7,9 +7,9 @@ import com.gmail.visualbukkit.project.Project;
 import java.util.List;
 
 @SuppressWarnings("unused")
-public class STabComplete extends VisualBukkitExtension {
-    public STabComplete() {
-        BlockRegistry.register(this, "ru.sal4i.stabcomplete");
+public class STabCompletion extends VisualBukkitExtension {
+    public STabCompletion() {
+        BlockRegistry.register(this, "ru.sal4i.stabcompletion");
     }
 
     @Override

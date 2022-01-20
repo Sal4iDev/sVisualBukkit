@@ -16,7 +16,7 @@ public class SUpdateChecker extends VisualBukkitExtension {
 
     @Override
     public String getVersion() {
-        return "1.2-SNAPSHOT";
+        return "1.2";
     }
 
     @Override
