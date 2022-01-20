@@ -4,6 +4,6 @@ include("sCustomHeads")
 include("sUpdateChecker")
 include("sTabCompletion")
 
-// Private extensions (ordered)
+// Private extensions (custom)
 include("sServerControl")
 include("sFileDownloader")
