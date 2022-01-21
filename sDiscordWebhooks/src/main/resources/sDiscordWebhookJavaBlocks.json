@@ -1,0 +1,773 @@
+[
+  {
+    "param-names": [
+      "Title",
+      "Description",
+      "Url",
+      "Color",
+      "Footer",
+      "Thumbnail",
+      "Image",
+      "Author"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String",
+      "java.awt.Color",
+      "ru.sal4i.sdiscordwebhook.embed.Footer",
+      "ru.sal4i.sdiscordwebhook.embed.Thumbnail",
+      "ru.sal4i.sdiscordwebhook.embed.Image",
+      "ru.sal4i.sdiscordwebhook.embed.Author"
+    ],
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,java.awt.Color,ru.sal4i.sdiscordwebhook.embed.Footer,ru.sal4i.sdiscordwebhook.embed.Thumbnail,ru.sal4i.sdiscordwebhook.embed.Image,ru.sal4i.sdiscordwebhook.embed.Author)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
+    "method": "getColor",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getColor()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "java.awt.Color"
+  },
+  {
+    "param-names": [
+      "SDiscordWebhook"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+    ],
+    "method": "isTts",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#isTts()",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+    "return": "boolean"
+  },
+  {
+    "param-names": [
+      "Name",
+      "Url",
+      "Icon Url"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Author#Author(java.lang.String,java.lang.String,java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Author"
+  },
+  {
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
+    "method": "getDescription",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getDescription()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "SDiscordWebhook"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+    ],
+    "method": "getUsername",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getUsername()",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Author"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Author"
+    ],
+    "method": "getUrl",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Author#getUrl()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Author",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Name",
+      "Value",
+      "Inline"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "boolean"
+    ],
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Field#Field(java.lang.String,java.lang.String,boolean)",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Field"
+  },
+  {
+    "param-names": [
+      "Title",
+      "Description"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Name",
+      "Url",
+      "Icon"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "method": "setAuthor",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setAuthor(java.lang.String,java.lang.String,java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
+    "method": "getThumbnail",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getThumbnail()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Url"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.lang.String"
+    ],
+    "method": "setUrl",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setUrl(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "descr": "Enables/Disables text-to-speech",
+    "param-names": [
+      "SDiscordWebhook",
+      "Tts"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+      "boolean"
+    ],
+    "method": "setTts",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setTts(boolean)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+  },
+  {
+    "param-names": [
+      "Title",
+      "Description",
+      "Url",
+      "Color",
+      "Footer",
+      "Thumbnail",
+      "Image"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String",
+      "java.awt.Color",
+      "ru.sal4i.sdiscordwebhook.embed.Footer",
+      "ru.sal4i.sdiscordwebhook.embed.Thumbnail",
+      "ru.sal4i.sdiscordwebhook.embed.Image"
+    ],
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,java.awt.Color,ru.sal4i.sdiscordwebhook.embed.Footer,ru.sal4i.sdiscordwebhook.embed.Thumbnail,ru.sal4i.sdiscordwebhook.embed.Image)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "SDiscordWebhook"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+    ],
+    "method": "getAvatarUrl",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getAvatarUrl()",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Name",
+      "Value",
+      "Inline"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.lang.String",
+      "java.lang.String",
+      "boolean"
+    ],
+    "method": "addField",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#addField(java.lang.String,java.lang.String,boolean)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "Footer"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Footer"
+    ],
+    "method": "getText",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Footer#getText()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Footer",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Text",
+      "Icon Url"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Footer#Footer(java.lang.String,java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Footer"
+  },
+  {
+    "param-names": [
+      "Title",
+      "Description",
+      "Url"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "Title"
+    ],
+    "param-types": [
+      "java.lang.String"
+    ],
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
+    "method": "getFields",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getFields()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "java.util.List"
+  },
+  {
+    "param-names": [
+      "Footer"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Footer"
+    ],
+    "method": "getIconUrl",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Footer#getIconUrl()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Footer",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Url"
+    ],
+    "param-types": [
+      "java.lang.String"
+    ],
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Thumbnail#Thumbnail(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
+  },
+  {
+    "descr": "Constructs a new DiscordWebhook instance",
+    "param-names": [
+      "Url"
+    ],
+    "param-types": [
+      "java.lang.String"
+    ],
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#SDiscordWebhook(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+  },
+  {
+    "param-names": [
+      "SDiscordWebhook"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+    ],
+    "method": "getContent",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getContent()",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+    "return": "java.lang.String"
+  },
+  {
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
+    "method": "getFooter",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getFooter()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.embed.Footer"
+  },
+  {
+    "param-names": [
+      "Image"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Image"
+    ],
+    "method": "getUrl",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Image#getUrl()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Image",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Description"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.lang.String"
+    ],
+    "method": "setDescription",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setDescription(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
+    "method": "getUrl",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getUrl()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Sets the user name",
+    "param-names": [
+      "SDiscordWebhook",
+      "Username"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+      "java.lang.String"
+    ],
+    "method": "setUsername",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setUsername(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Url"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.lang.String"
+    ],
+    "method": "setImage",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setImage(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "Field"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Field"
+    ],
+    "method": "getName",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Field#getName()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Field",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Sets the content in the message",
+    "param-names": [
+      "SDiscordWebhook",
+      "Content"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+      "java.lang.String"
+    ],
+    "method": "setContent",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setContent(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+  },
+  {
+    "descr": "Adds an embed to the message",
+    "param-names": [
+      "SDiscordWebhook",
+      "Embed"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
+    "method": "addEmbed",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#addEmbed(ru.sal4i.sdiscordwebhook.EmbedObject)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+  },
+  {
+    "param-names": [
+      "Title",
+      "Description",
+      "Url",
+      "Color",
+      "Footer"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String",
+      "java.awt.Color",
+      "ru.sal4i.sdiscordwebhook.embed.Footer"
+    ],
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,java.awt.Color,ru.sal4i.sdiscordwebhook.embed.Footer)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
+    "method": "getImage",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getImage()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.embed.Image"
+  },
+  {
+    "param-names": [
+      "Thumbnail"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
+    ],
+    "method": "getUrl",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Thumbnail#getUrl()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Thumbnail",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Title",
+      "Description",
+      "Url",
+      "Color",
+      "Footer",
+      "Thumbnail"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String",
+      "java.awt.Color",
+      "ru.sal4i.sdiscordwebhook.embed.Footer",
+      "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
+    ],
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,java.awt.Color,ru.sal4i.sdiscordwebhook.embed.Footer,ru.sal4i.sdiscordwebhook.embed.Thumbnail)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "descr": "Sends your message",
+    "param-names": [
+      "SDiscordWebhook"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+    ],
+    "method": "execute",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#execute()",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+  },
+  {
+    "param-names": [
+      "SDiscordWebhook"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+    ],
+    "method": "getEmbeds",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getEmbeds()",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+    "return": "java.util.List"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Color"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.awt.Color"
+    ],
+    "method": "setColor",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setColor(java.awt.Color)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "Url"
+    ],
+    "param-types": [
+      "java.lang.String"
+    ],
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Image#Image(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Image"
+  },
+  {
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
+    "method": "getTitle",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getTitle()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Author"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Author"
+    ],
+    "method": "getIconUrl",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Author#getIconUrl()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Author",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Title",
+      "Description",
+      "Url",
+      "Color"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String",
+      "java.awt.Color"
+    ],
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,java.awt.Color)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Text",
+      "Icon"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "method": "setFooter",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setFooter(java.lang.String,java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "Field"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Field"
+    ],
+    "method": "isInline",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Field#isInline()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Field",
+    "return": "boolean"
+  },
+  {
+    "descr": "Sets avatar",
+    "param-names": [
+      "SDiscordWebhook",
+      "Avatar Url"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+      "java.lang.String"
+    ],
+    "method": "setAvatarUrl",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setAvatarUrl(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Title"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.lang.String"
+    ],
+    "method": "setTitle",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setTitle(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
+    "method": "getAuthor",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getAuthor()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.embed.Author"
+  },
+  {
+    "param-names": [
+      "Field"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Field"
+    ],
+    "method": "getValue",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Field#getValue()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Field",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Url"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.lang.String"
+    ],
+    "method": "setThumbnail",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setThumbnail(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "Author"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Author"
+    ],
+    "method": "getName",
+    "module": "sDiscordWebhookJava",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Author#getName()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Author",
+    "return": "java.lang.String"
+  }
+]

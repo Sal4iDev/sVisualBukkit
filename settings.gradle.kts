@@ -3,8 +3,9 @@ rootProject.name = "sVisualBukkit-Projects"
 include("sCustomHeads")
 include("sUpdateChecker")
 include("sTabCompletion")
+include("sDiscordWebhooks")
 
 // Private extensions (custom)
 include("sServerControl") // 8$
 include("sFileDownloader") // 8$
-include("sDiscordWebhooks") // 15$
+include("sWorldEdit") // 12$
