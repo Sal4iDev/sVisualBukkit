@@ -31,7 +31,7 @@ public class SDiscordWebhooks extends VisualBukkitExtension {
              Adding a java.awt.Color class can damage VisualBukkit
              Specifically, org.bukkit.Color (or whatever the package is.
              In general, I think whoever has read it understands)
-            */
+            */ 
             BlockRegistry.register(this, new JSONArray(new JSONTokener(inputStream1)));
         }
     }
