@@ -18,21 +18,14 @@ public class SDiscordWebhooks extends VisualBukkitExtension {
             buildContext.addMavenDependency(
                     "<groupId>com.github.Sal4iDev</groupId>" +
                             "<artifactId>sDiscordWebhookJava</artifactId>" +
-                            "<version>1.0</version>");
+                            "<version>1.1</version>");
         }
     };
 
     public SDiscordWebhooks() throws IOException {
         PluginModule.register("sDiscordWebhookJava", MODULE);
-        try (InputStream inputStream = SDiscordWebhooks.class.getResourceAsStream("/sDiscordWebhookJavaBlocks.json");
-             InputStream inputStream1 = SDiscordWebhooks.class.getResourceAsStream("/awtColor.json")) {
+        try (InputStream inputStream = SDiscordWebhooks.class.getResourceAsStream("/sDiscordWebhookJavaBlocks.json")) {
             BlockRegistry.register(this, new JSONArray(new JSONTokener(inputStream)));
-            /*
-             Adding a java.awt.Color class can damage VisualBukkit
-             Specifically, org.bukkit.Color (or whatever the package is.
-             In general, I think whoever has read it understands)
-            */ 
-            BlockRegistry.register(this, new JSONArray(new JSONTokener(inputStream1)));
         }
     }
 
