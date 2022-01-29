@@ -1,285 +1,9 @@
 [
   {
-    "descr": "The color black.  In the default sRGB space.",
+    "descr": "The color orange.  In the default sRGB space.",
     "static": true,
-    "field": "black",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#black",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "Sets the user name",
-    "param-names": [
-      "SDiscordWebhook",
-      "Username"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
-      "java.lang.String"
-    ],
-    "method": "setUsername",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setUsername(java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
-  },
-  {
-    "param-names": ["Author"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Author"],
-    "method": "getUrl",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.embed.Author#getUrl()",
-    "class": "ru.sal4i.sdiscordwebhook.embed.Author",
-    "return": "java.lang.String"
-  },
-  {
-    "descr": "Converts a String to an integer and returns the\\nspecified opaque EmbedColor. This method handles string\\nformats that are used to represent octal and hexadecimal numbers.",
-    "param-names": ["Nm"],
-    "static": true,
-    "param-types": ["java.lang.String"],
-    "method": "decode",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#decode(java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "param-names": [
-      "Title",
-      "Description",
-      "Url"
-    ],
-    "param-types": [
-      "java.lang.String",
-      "java.lang.String",
-      "java.lang.String"
-    ],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
-  },
-  {
-    "descr": "The color red.  In the default sRGB space.",
-    "static": true,
-    "field": "RED",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#RED",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "param-names": ["Title"],
-    "param-types": ["java.lang.String"],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
-  },
-  {
-    "descr": "Returns the red component in the range 0-255 in the default sRGB\\nspace.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
-    "method": "getRed",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getRed()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "int"
-  },
-  {
-    "param-names": ["Author"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Author"],
-    "method": "getName",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.embed.Author#getName()",
-    "class": "ru.sal4i.sdiscordwebhook.embed.Author",
-    "return": "java.lang.String"
-  },
-  {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
-    "method": "getUrl",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getUrl()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "java.lang.String"
-  },
-  {
-    "descr": "Returns a float array containing the color and alpha\\ncomponents of the EmbedColor, as represented in the default\\nsRGB color space.\\nIf compArray is null, an array of length\\n4 is created for the return value.  Otherwise,\\ncompArray must have length 4 or greater,\\nand it is filled in with the components and returned.",
-    "param-names": [
-      "EmbedColor",
-      "Comp Array"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.EmbedColor",
-      "float[]"
-    ],
-    "method": "getRGBComponents",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getRGBComponents(float[])",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "float[]"
-  },
-  {
-    "descr": "Sends your message",
-    "param-names": ["SDiscordWebhook"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
-    "method": "execute",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#execute()",
-    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
-  },
-  {
-    "descr": "Creates an sRGB color with the specified red, green, blue, and alpha\\nvalues in the range (0 - 255).",
-    "param-names": [
-      "R",
-      "G",
-      "B",
-      "A"
-    ],
-    "param-types": [
-      "int",
-      "int",
-      "int",
-      "int"
-    ],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(int,int,int,int)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "The color black.  In the default sRGB space.",
-    "static": true,
-    "field": "BLACK",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#BLACK",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "The color white.  In the default sRGB space.",
-    "static": true,
-    "field": "WHITE",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#WHITE",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "Constructs a new DiscordWebhook instance",
-    "param-names": ["Url"],
-    "param-types": ["java.lang.String"],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#SDiscordWebhook(java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
-  },
-  {
-    "descr": "Finds a color in the system properties.\\n\\nThe argument is treated as the name of a system property to\\nbe obtained. The string value of this property is then interpreted\\nas an integer which is then converted to a EmbedColor\\nobject.\\n\\nIf the specified property is not found or could not be parsed as\\nan integer then null is returned.",
-    "param-names": ["Nm"],
-    "static": true,
-    "param-types": ["java.lang.String"],
-    "method": "getColor",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColor(java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "Finds a color in the system properties.\\n\\nThe first argument is treated as the name of a system property to\\nbe obtained. The string value of this property is then interpreted\\nas an integer which is then converted to a EmbedColor\\nobject.\\n\\nIf the specified property is not found or cannot be parsed as\\nan integer then the EmbedColor specified by the second\\nargument is returned instead.",
-    "param-names": [
-      "Nm",
-      "V"
-    ],
-    "static": true,
-    "param-types": [
-      "java.lang.String",
-      "ru.sal4i.sdiscordwebhook.EmbedColor"
-    ],
-    "method": "getColor",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColor(java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "Creates an opaque sRGB color with the specified red, green,\\nand blue values in the range (0 - 255).\\nThe actual color used in rendering depends\\non finding the best match given the color space\\navailable for a given output device.\\nAlpha is defaulted to 255.",
-    "param-names": [
-      "R",
-      "G",
-      "B"
-    ],
-    "param-types": [
-      "int",
-      "int",
-      "int"
-    ],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(int,int,int)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "Sets the content in the message",
-    "param-names": [
-      "SDiscordWebhook",
-      "Content"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
-      "java.lang.String"
-    ],
-    "method": "setContent",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setContent(java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
-  },
-  {
-    "param-names": ["Field"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Field"],
-    "method": "isInline",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.embed.Field#isInline()",
-    "class": "ru.sal4i.sdiscordwebhook.embed.Field",
-    "return": "boolean"
-  },
-  {
-    "param-names": [
-      "EmbedObject",
-      "Name",
-      "Value",
-      "Inline"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.EmbedObject",
-      "java.lang.String",
-      "java.lang.String",
-      "boolean"
-    ],
-    "method": "addField",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#addField(java.lang.String,java.lang.String,boolean)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
-  },
-  {
-    "descr": "Creates a color in the specified ColorSpace\\nwith the color components specified in the float\\narray and the specified alpha.  The number of components is\\ndetermined by the type of the ColorSpace.  For\\nexample, RGB requires 3 components, but CMYK requires 4\\ncomponents.",
-    "param-names": [
-      "Cspace",
-      "Components",
-      "Alpha"
-    ],
-    "param-types": [
-      "java.awt.color.ColorSpace",
-      "float[]",
-      "float"
-    ],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(java.awt.color.ColorSpace,float[],float)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "The color gray.  In the default sRGB space.",
-    "static": true,
-    "field": "GRAY",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#GRAY",
+    "field": "orange",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#orange",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
@@ -287,701 +11,7 @@
     "descr": "The color blue.  In the default sRGB space.",
     "static": true,
     "field": "BLUE",
-    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#BLUE",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "param-names": [
-      "Title",
-      "Description",
-      "Url",
-      "Color",
-      "Footer",
-      "Thumbnail"
-    ],
-    "param-types": [
-      "java.lang.String",
-      "java.lang.String",
-      "java.lang.String",
-      "ru.sal4i.sdiscordwebhook.EmbedColor",
-      "ru.sal4i.sdiscordwebhook.embed.Footer",
-      "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
-    ],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor,ru.sal4i.sdiscordwebhook.embed.Footer,ru.sal4i.sdiscordwebhook.embed.Thumbnail)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
-  },
-  {
-    "descr": "Returns the alpha component in the range 0-255.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
-    "method": "getAlpha",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getAlpha()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "int"
-  },
-  {
-    "param-names": [
-      "Title",
-      "Description",
-      "Url",
-      "Color",
-      "Footer"
-    ],
-    "param-types": [
-      "java.lang.String",
-      "java.lang.String",
-      "java.lang.String",
-      "ru.sal4i.sdiscordwebhook.EmbedColor",
-      "ru.sal4i.sdiscordwebhook.embed.Footer"
-    ],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor,ru.sal4i.sdiscordwebhook.embed.Footer)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
-  },
-  {
-    "param-names": [
-      "Title",
-      "Description"
-    ],
-    "param-types": [
-      "java.lang.String",
-      "java.lang.String"
-    ],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
-  },
-  {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
-    "method": "getAuthor",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getAuthor()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "ru.sal4i.sdiscordwebhook.embed.Author"
-  },
-  {
-    "param-names": ["SDiscordWebhook"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
-    "method": "getEmbeds",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getEmbeds()",
-    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
-    "return": "java.util.List"
-  },
-  {
-    "descr": "The color white.  In the default sRGB space.",
-    "static": true,
-    "field": "white",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#white",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
-    "method": "getImage",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getImage()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "ru.sal4i.sdiscordwebhook.embed.Image"
-  },
-  {
-    "descr": "The color light gray.  In the default sRGB space.",
-    "static": true,
-    "field": "lightGray",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#lightGray",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "Adds an embed to the message",
-    "param-names": [
-      "SDiscordWebhook",
-      "Embed"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
-      "ru.sal4i.sdiscordwebhook.EmbedObject"
-    ],
-    "method": "addEmbed",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#addEmbed(ru.sal4i.sdiscordwebhook.EmbedObject)",
-    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
-  },
-  {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
-    "method": "getDescription",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getDescription()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "java.lang.String"
-  },
-  {
-    "descr": "Enables/Disables text-to-speech",
-    "param-names": [
-      "SDiscordWebhook",
-      "Tts"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
-      "boolean"
-    ],
-    "method": "setTts",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setTts(boolean)",
-    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
-  },
-  {
-    "param-names": ["Author"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Author"],
-    "method": "getIconUrl",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.embed.Author#getIconUrl()",
-    "class": "ru.sal4i.sdiscordwebhook.embed.Author",
-    "return": "java.lang.String"
-  },
-  {
-    "descr": "The color dark gray.  In the default sRGB space.",
-    "static": true,
-    "field": "darkGray",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#darkGray",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "Converts the components of a color, as specified by the default RGB\\nmodel, to an equivalent set of values for hue, saturation, and\\nbrightness that are the three components of the HSB model.\\n\\nIf the hsbvals argument is null, then a\\nnew array is allocated to return the result. Otherwise, the method\\nreturns the array hsbvals, with the values put into\\nthat array.",
-    "param-names": [
-      "R",
-      "G",
-      "B",
-      "Hsbvals"
-    ],
-    "static": true,
-    "param-types": [
-      "int",
-      "int",
-      "int",
-      "float[]"
-    ],
-    "method": "RGBtoHSB",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#RGBtoHSB(int,int,int,float[])",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "float[]"
-  },
-  {
-    "param-names": [
-      "EmbedObject",
-      "Url"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.EmbedObject",
-      "java.lang.String"
-    ],
-    "method": "setThumbnail",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setThumbnail(java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
-  },
-  {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
-    "method": "getTitle",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getTitle()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "java.lang.String"
-  },
-  {
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
-  },
-  {
-    "param-names": [
-      "EmbedObject",
-      "Color"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.EmbedObject",
-      "ru.sal4i.sdiscordwebhook.EmbedColor"
-    ],
-    "method": "setColor",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setColor(ru.sal4i.sdiscordwebhook.EmbedColor)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
-  },
-  {
-    "param-names": [
-      "EmbedObject",
-      "Title"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.EmbedObject",
-      "java.lang.String"
-    ],
-    "method": "setTitle",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setTitle(java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
-  },
-  {
-    "descr": "Converts the components of a color, as specified by the HSB\\nmodel, to an equivalent set of values for the default RGB model.\\n\\nThe saturation and brightness components\\nshould be floating-point values between zero and one\\n(numbers in the range 0.0-1.0).  The hue component\\ncan be any floating-point number.  The floor of this number is\\nsubtracted from it to create a fraction between 0 and 1.  This\\nfractional number is then multiplied by 360 to produce the hue\\nangle in the HSB color model.\\n\\nThe integer that is returned by HSBtoRGB encodes the\\nvalue of a color in bits 0-23 of an integer value that is the same\\nformat used by the method #getRGB() getRGB.\\nThis integer can be supplied as an argument to the\\nEmbedColor constructor that takes a single integer argument.",
-    "param-names": [
-      "Hue",
-      "Saturation",
-      "Brightness"
-    ],
-    "static": true,
-    "param-types": [
-      "float",
-      "float",
-      "float"
-    ],
-    "method": "HSBtoRGB",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#HSBtoRGB(float,float,float)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "int"
-  },
-  {
-    "descr": "The color light gray.  In the default sRGB space.",
-    "static": true,
-    "field": "LIGHT_GRAY",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#LIGHT_GRAY",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "Sets avatar",
-    "param-names": [
-      "SDiscordWebhook",
-      "Avatar Url"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
-      "java.lang.String"
-    ],
-    "method": "setAvatarUrl",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setAvatarUrl(java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
-  },
-  {
-    "descr": "Returns a float array containing only the color\\ncomponents of the EmbedColor, in the default sRGB color\\nspace.  If compArray is null, an array of\\nlength 3 is created for the return value.  Otherwise,\\ncompArray must have length 3 or greater, and it is\\nfilled in with the components and returned.",
-    "param-names": [
-      "EmbedColor",
-      "Comp Array"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.EmbedColor",
-      "float[]"
-    ],
-    "method": "getRGBColorComponents",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getRGBColorComponents(float[])",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "float[]"
-  },
-  {
-    "descr": "Returns a float array containing the color and alpha\\ncomponents of the EmbedColor, in the\\nColorSpace of the EmbedColor.\\nIf compArray is null, an array with\\nlength equal to the number of components in the associated\\nColorSpace plus one is created for\\nthe return value.  Otherwise, compArray must have at\\nleast this length and it is filled in with the components and\\nreturned.",
-    "param-names": [
-      "EmbedColor",
-      "Comp Array"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.EmbedColor",
-      "float[]"
-    ],
-    "method": "getComponents",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getComponents(float[])",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "float[]"
-  },
-  {
-    "param-names": [
-      "Name",
-      "Url",
-      "Icon Url"
-    ],
-    "param-types": [
-      "java.lang.String",
-      "java.lang.String",
-      "java.lang.String"
-    ],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.embed.Author#Author(java.lang.String,java.lang.String,java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.embed.Author"
-  },
-  {
-    "descr": "Returns the RGB value representing the color in the default sRGB\\nColorModel.\\n(Bits 24-31 are alpha, 16-23 are red, 8-15 are green, 0-7 are\\nblue).",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
-    "method": "getRGB",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getRGB()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "int"
-  },
-  {
-    "param-names": ["SDiscordWebhook"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
-    "method": "isTts",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#isTts()",
-    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
-    "return": "boolean"
-  },
-  {
-    "descr": "Computes the hash code for this EmbedColor.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
-    "method": "hashCode",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#hashCode()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "int"
-  },
-  {
-    "descr": "The color red.  In the default sRGB space.",
-    "static": true,
-    "field": "red",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#red",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "The color green.  In the default sRGB space.",
-    "static": true,
-    "field": "GREEN",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#GREEN",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "param-names": ["SDiscordWebhook"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
-    "method": "getAvatarUrl",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getAvatarUrl()",
-    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
-    "return": "java.lang.String"
-  },
-  {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
-    "method": "getThumbnail",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getThumbnail()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
-  },
-  {
-    "param-names": ["Field"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Field"],
-    "method": "getName",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.embed.Field#getName()",
-    "class": "ru.sal4i.sdiscordwebhook.embed.Field",
-    "return": "java.lang.String"
-  },
-  {
-    "descr": "Returns a float array containing only the color\\ncomponents of the EmbedColor, in the\\nColorSpace of the EmbedColor.\\nIf compArray is null, an array with\\nlength equal to the number of components in the associated\\nColorSpace is created for\\nthe return value.  Otherwise, compArray must have at\\nleast this length and it is filled in with the components and\\nreturned.",
-    "param-names": [
-      "EmbedColor",
-      "Comp Array"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.EmbedColor",
-      "float[]"
-    ],
-    "method": "getColorComponents",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColorComponents(float[])",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "float[]"
-  },
-  {
-    "param-names": [
-      "EmbedObject",
-      "Url"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.EmbedObject",
-      "java.lang.String"
-    ],
-    "method": "setImage",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setImage(java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
-  },
-  {
-    "param-names": ["SDiscordWebhook"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
-    "method": "getUsername",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getUsername()",
-    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
-    "return": "java.lang.String"
-  },
-  {
-    "descr": "The color pink.  In the default sRGB space.",
-    "static": true,
-    "field": "PINK",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#PINK",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "Creates a EmbedColor object based on the specified values\\nfor the HSB color model.\\n\\nThe s and b components should be\\nfloating-point values between zero and one\\n(numbers in the range 0.0-1.0).  The h component\\ncan be any floating-point number.  The floor of this number is\\nsubtracted from it to create a fraction between 0 and 1.  This\\nfractional number is then multiplied by 360 to produce the hue\\nangle in the HSB color model.",
-    "param-names": [
-      "H",
-      "S",
-      "B"
-    ],
-    "static": true,
-    "param-types": [
-      "float",
-      "float",
-      "float"
-    ],
-    "method": "getHSBColor",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getHSBColor(float,float,float)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "The color gray.  In the default sRGB space.",
-    "static": true,
-    "field": "gray",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#gray",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "Creates an opaque sRGB color with the specified red, green, and blue\\nvalues in the range (0.0 - 1.0).  Alpha is defaulted to 1.0.  The\\nactual color used in rendering depends on finding the best\\nmatch given the color space available for a particular output\\ndevice.",
-    "param-names": [
-      "R",
-      "G",
-      "B"
-    ],
-    "param-types": [
-      "float",
-      "float",
-      "float"
-    ],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(float,float,float)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "The color yellow.  In the default sRGB space.",
-    "static": true,
-    "field": "YELLOW",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#YELLOW",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "param-names": [
-      "Name",
-      "Value",
-      "Inline"
-    ],
-    "param-types": [
-      "java.lang.String",
-      "java.lang.String",
-      "boolean"
-    ],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.embed.Field#Field(java.lang.String,java.lang.String,boolean)",
-    "class": "ru.sal4i.sdiscordwebhook.embed.Field"
-  },
-  {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
-    "method": "getFooter",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getFooter()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "ru.sal4i.sdiscordwebhook.embed.Footer"
-  },
-  {
-    "descr": "Returns the ColorSpace of this EmbedColor.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
-    "method": "getColorSpace",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColorSpace()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "java.awt.color.ColorSpace"
-  },
-  {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
-    "method": "getColor",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getColor()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "param-names": [
-      "EmbedObject",
-      "Url"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.EmbedObject",
-      "java.lang.String"
-    ],
-    "method": "setUrl",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setUrl(java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
-  },
-  {
-    "descr": "The color yellow.  In the default sRGB space.",
-    "static": true,
-    "field": "yellow",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#yellow",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "Creates a new EmbedColor that is a brighter version of this\\nEmbedColor.\\n\\nThis method applies an arbitrary scale factor to each of the three RGB\\ncomponents of this EmbedColor to create a brighter version\\nof this EmbedColor.\\nThe alpha value is preserved.\\nAlthough brighter and\\ndarker are inverse operations, the results of a\\nseries of invocations of these two methods might be inconsistent\\nbecause of rounding errors.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
-    "method": "brighter",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#brighter()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "param-names": [
-      "EmbedObject",
-      "Text",
-      "Icon"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.EmbedObject",
-      "java.lang.String",
-      "java.lang.String"
-    ],
-    "method": "setFooter",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setFooter(java.lang.String,java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
-  },
-  {
-    "descr": "Creates an sRGB color with the specified red, green, blue, and\\nalpha values in the range (0.0 - 1.0).  The actual color\\nused in rendering depends on finding the best match given the\\ncolor space available for a particular output device.",
-    "param-names": [
-      "R",
-      "G",
-      "B",
-      "A"
-    ],
-    "param-types": [
-      "float",
-      "float",
-      "float",
-      "float"
-    ],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(float,float,float,float)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
-    "method": "getFields",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getFields()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
-    "return": "java.util.List"
-  },
-  {
-    "descr": "Returns a float array containing only the color\\ncomponents of the EmbedColor in the\\nColorSpace specified by the cspace\\nparameter. If compArray is null, an array\\nwith length equal to the number of components in\\ncspace is created for the return value.  Otherwise,\\ncompArray must have at least this length, and it is\\nfilled in with the components and returned.",
-    "param-names": [
-      "EmbedColor",
-      "Cspace",
-      "Comp Array"
-    ],
-    "param-types": [
-      "ru.sal4i.sdiscordwebhook.EmbedColor",
-      "java.awt.color.ColorSpace",
-      "float[]"
-    ],
-    "method": "getColorComponents",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColorComponents(java.awt.color.ColorSpace,float[])",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "float[]"
-  },
-  {
-    "param-names": ["Image"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Image"],
-    "method": "getUrl",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.embed.Image#getUrl()",
-    "class": "ru.sal4i.sdiscordwebhook.embed.Image",
-    "return": "java.lang.String"
-  },
-  {
-    "param-names": ["Url"],
-    "param-types": ["java.lang.String"],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.embed.Image#Image(java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.embed.Image"
-  },
-  {
-    "descr": "The color pink.  In the default sRGB space.",
-    "static": true,
-    "field": "pink",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#pink",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "The color orange.  In the default sRGB space.",
-    "static": true,
-    "field": "orange",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#orange",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "The color cyan.  In the default sRGB space.",
-    "static": true,
-    "field": "CYAN",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#CYAN",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
@@ -1006,50 +36,231 @@
       "ru.sal4i.sdiscordwebhook.embed.Image",
       "ru.sal4i.sdiscordwebhook.embed.Author"
     ],
-    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor,ru.sal4i.sdiscordwebhook.embed.Footer,ru.sal4i.sdiscordwebhook.embed.Thumbnail,ru.sal4i.sdiscordwebhook.embed.Image,ru.sal4i.sdiscordwebhook.embed.Author)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
   {
-    "param-names": ["Url"],
-    "param-types": ["java.lang.String"],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.embed.Thumbnail#Thumbnail(java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
-  },
-  {
-    "descr": "The color orange.  In the default sRGB space.",
-    "static": true,
-    "field": "ORANGE",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#ORANGE",
+    "descr": "Creates a new EmbedColor that is a brighter version of this\\nEmbedColor.\\n\\nThis method applies an arbitrary scale factor to each of the three RGB\\ncomponents of this EmbedColor to create a brighter version\\nof this EmbedColor.\\nThe alpha value is preserved.\\nAlthough brighter and\\ndarker are inverse operations, the results of a\\nseries of invocations of these two methods might be inconsistent\\nbecause of rounding errors.",
+    "param-names": ["EmbedColor"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "method": "brighter",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#brighter()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "descr": "The color cyan.  In the default sRGB space.",
+    "param-names": ["Field"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Field"],
+    "method": "isInline",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Field#isInline()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Field",
+    "return": "boolean"
+  },
+  {
+    "param-names": ["EmbedObject"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "method": "getColor",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getColor()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "descr": "The color red.  In the default sRGB space.",
     "static": true,
-    "field": "cyan",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#cyan",
+    "field": "red",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#red",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": ["EmbedObject"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "method": "getDescription",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getDescription()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "java.lang.String"
   },
   {
     "descr": "Creates an opaque sRGB color with the specified combined RGB value\\nconsisting of the red component in bits 16-23, the green component\\nin bits 8-15, and the blue component in bits 0-7.  The actual color\\nused in rendering depends on finding the best match given the\\ncolor space available for a particular output device.  Alpha is\\ndefaulted to 255.",
     "param-names": ["Rgb"],
     "param-types": ["int"],
-    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(int)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "descr": "Creates a new EmbedColor that is a darker version of this\\nEmbedColor.\\n\\nThis method applies an arbitrary scale factor to each of the three RGB\\ncomponents of this EmbedColor to create a darker version of\\nthis EmbedColor.\\nThe alpha value is preserved.\\nAlthough brighter and\\ndarker are inverse operations, the results of a series\\nof invocations of these two methods might be inconsistent because\\nof rounding errors.",
+    "param-names": ["EmbedColor"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "method": "darker",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#darker()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": [
+      "Url",
+      "Content"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#SDiscordWebhook(java.lang.String,java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+  },
+  {
+    "param-names": [
+      "Title",
+      "Description",
+      "Url"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "descr": "Converts the components of a color, as specified by the HSB\\nmodel, to an equivalent set of values for the default RGB model.\\n\\nThe saturation and brightness components\\nshould be floating-point values between zero and one\\n(numbers in the range 0.0-1.0).  The hue component\\ncan be any floating-point number.  The floor of this number is\\nsubtracted from it to create a fraction between 0 and 1.  This\\nfractional number is then multiplied by 360 to produce the hue\\nangle in the HSB color model.\\n\\nThe integer that is returned by HSBtoRGB encodes the\\nvalue of a color in bits 0-23 of an integer value that is the same\\nformat used by the method #getRGB() getRGB.\\nThis integer can be supplied as an argument to the\\nEmbedColor constructor that takes a single integer argument.",
+    "param-names": [
+      "Hue",
+      "Saturation",
+      "Brightness"
+    ],
+    "static": true,
+    "param-types": [
+      "float",
+      "float",
+      "float"
+    ],
+    "method": "HSBtoRGB",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#HSBtoRGB(float,float,float)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "int"
+  },
+  {
+    "descr": "The color light gray.  In the default sRGB space.",
+    "static": true,
+    "field": "LIGHT_GRAY",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#LIGHT_GRAY",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "descr": "The color green.  In the default sRGB space.",
+    "static": true,
+    "field": "green",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#green",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "descr": "The color black.  In the default sRGB space.",
+    "static": true,
+    "field": "black",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#black",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "descr": "Returns a string representation of this EmbedColor. This\\nmethod is intended to be used only for debugging purposes.  The\\ncontent and format of the returned string might vary between\\nimplementations. The returned string might be empty but cannot\\nbe null.",
+    "param-names": ["EmbedColor"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "method": "toString",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#toString()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Returns a float array containing the color and alpha\\ncomponents of the EmbedColor, as represented in the default\\nsRGB color space.\\nIf compArray is null, an array of length\\n4 is created for the return value.  Otherwise,\\ncompArray must have length 4 or greater,\\nand it is filled in with the components and returned.",
+    "param-names": [
+      "EmbedColor",
+      "Comp Array"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor",
+      "float[]"
+    ],
+    "method": "getRGBComponents",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getRGBComponents(float[])",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "float[]"
+  },
+  {
+    "descr": "Creates an sRGB color with the specified red, green, blue, and alpha\\nvalues in the range (0 - 255).",
+    "param-names": [
+      "R",
+      "G",
+      "B",
+      "A"
+    ],
+    "param-types": [
+      "int",
+      "int",
+      "int",
+      "int"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(int,int,int,int)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "descr": "The color pink.  In the default sRGB space.",
+    "static": true,
+    "field": "pink",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#pink",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "descr": "The color black.  In the default sRGB space.",
+    "static": true,
+    "field": "BLACK",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#BLACK",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": ["SDiscordWebhook"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
+    "method": "getAvatarUrl",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getAvatarUrl()",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+    "return": "java.lang.String"
   },
   {
     "descr": "Returns the blue component in the range 0-255 in the default sRGB\\nspace.",
     "param-names": ["EmbedColor"],
     "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
     "method": "getBlue",
-    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getBlue()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "int"
+  },
+  {
+    "param-names": ["Author"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Author"],
+    "method": "getIconUrl",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Author#getIconUrl()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Author",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Computes the hash code for this EmbedColor.",
+    "param-names": ["EmbedColor"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "method": "hashCode",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#hashCode()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "int"
+  },
+  {
+    "descr": "Returns the RGB value representing the color in the default sRGB\\nColorModel.\\n(Bits 24-31 are alpha, 16-23 are red, 8-15 are green, 0-7 are\\nblue).",
+    "param-names": ["EmbedColor"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "method": "getRGB",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getRGB()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "int"
   },
@@ -1072,51 +283,233 @@
       "ru.sal4i.sdiscordwebhook.embed.Thumbnail",
       "ru.sal4i.sdiscordwebhook.embed.Image"
     ],
-    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor,ru.sal4i.sdiscordwebhook.embed.Footer,ru.sal4i.sdiscordwebhook.embed.Thumbnail,ru.sal4i.sdiscordwebhook.embed.Image)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
   {
-    "descr": "Returns the green component in the range 0-255 in the default sRGB\\nspace.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
-    "method": "getGreen",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getGreen()",
+    "descr": "The color cyan.  In the default sRGB space.",
+    "static": true,
+    "field": "cyan",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#cyan",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "int"
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": ["EmbedObject"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "method": "getFooter",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getFooter()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.embed.Footer"
+  },
+  {
+    "descr": "The color white.  In the default sRGB space.",
+    "static": true,
+    "field": "white",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#white",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": ["EmbedObject"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "method": "getImage",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getImage()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.embed.Image"
+  },
+  {
+    "param-names": ["EmbedObject"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "method": "getUrl",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getUrl()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": ["SDiscordWebhook"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
+    "method": "getContent",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getContent()",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "The color white.  In the default sRGB space.",
+    "static": true,
+    "field": "WHITE",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#WHITE",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": [
+      "Url",
+      "Content",
+      "Username",
+      "Avatar Url",
+      "Tts"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String",
+      "boolean"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#SDiscordWebhook(java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+  },
+  {
+    "descr": "The color green.  In the default sRGB space.",
+    "static": true,
+    "field": "GREEN",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#GREEN",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "descr": "Constructs a new DiscordWebhook instance",
+    "param-names": ["Url"],
+    "param-types": ["java.lang.String"],
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#SDiscordWebhook(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+  },
+  {
+    "descr": "The color cyan.  In the default sRGB space.",
+    "static": true,
+    "field": "CYAN",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#CYAN",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Title"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.lang.String"
+    ],
+    "method": "setTitle",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setTitle(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
   {
     "descr": "The color dark gray.  In the default sRGB space.",
     "static": true,
-    "field": "DARK_GRAY",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#DARK_GRAY",
+    "field": "darkGray",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#darkGray",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "descr": "The color magenta.  In the default sRGB space.",
-    "static": true,
-    "field": "magenta",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#magenta",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "descr": "Creates an sRGB color with the specified combined RGBA value consisting\\nof the alpha component in bits 24-31, the red component in bits 16-23,\\nthe green component in bits 8-15, and the blue component in bits 0-7.\\nIf the hasalpha argument is false, alpha\\nis defaulted to 255.",
+    "descr": "Creates an opaque sRGB color with the specified red, green, and blue\\nvalues in the range (0.0 - 1.0).  Alpha is defaulted to 1.0.  The\\nactual color used in rendering depends on finding the best\\nmatch given the color space available for a particular output\\ndevice.",
     "param-names": [
-      "Rgba",
-      "Hasalpha"
+      "R",
+      "G",
+      "B"
     ],
     "param-types": [
-      "int",
+      "float",
+      "float",
+      "float"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(float,float,float)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "descr": "Returns a float array containing only the color\\ncomponents of the EmbedColor in the\\nColorSpace specified by the cspace\\nparameter. If compArray is null, an array\\nwith length equal to the number of components in\\ncspace is created for the return value.  Otherwise,\\ncompArray must have at least this length, and it is\\nfilled in with the components and returned.",
+    "param-names": [
+      "EmbedColor",
+      "Cspace",
+      "Comp Array"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor",
+      "java.awt.color.ColorSpace",
+      "float[]"
+    ],
+    "method": "getColorComponents",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColorComponents(java.awt.color.ColorSpace,float[])",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "float[]"
+  },
+  {
+    "descr": "Converts a String to an integer and returns the\\nspecified opaque EmbedColor. This method handles string\\nformats that are used to represent octal and hexadecimal numbers.",
+    "param-names": ["Nm"],
+    "static": true,
+    "param-types": ["java.lang.String"],
+    "method": "decode",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#decode(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": ["EmbedObject"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "method": "getFields",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getFields()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "java.util.List"
+  },
+  {
+    "param-names": ["Footer"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Footer"],
+    "method": "getIconUrl",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Footer#getIconUrl()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Footer",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Name",
+      "Url",
+      "Icon Url"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.embed.Author#Author(java.lang.String,java.lang.String,java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Author"
+  },
+  {
+    "param-names": ["EmbedObject"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "method": "getTitle",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getTitle()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Name",
+      "Value",
+      "Inline"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.lang.String",
+      "java.lang.String",
       "boolean"
     ],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(int,boolean)",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
+    "method": "addField",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#addField(java.lang.String,java.lang.String,boolean)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": ["SDiscordWebhook"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
+    "method": "isTts",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#isTts()",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+    "return": "boolean"
   },
   {
     "descr": "Returns a float array containing the color and alpha\\ncomponents of the EmbedColor, in the\\nColorSpace specified by the cspace\\nparameter.  If compArray is null, an\\narray with length equal to the number of components in\\ncspace plus one is created for the return value.\\nOtherwise, compArray must have at least this\\nlength, and it is filled in with the components and returned.",
@@ -1131,65 +524,118 @@
       "float[]"
     ],
     "method": "getComponents",
-    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getComponents(java.awt.color.ColorSpace,float[])",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "float[]"
   },
   {
-    "descr": "The color blue.  In the default sRGB space.",
-    "static": true,
-    "field": "blue",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#blue",
+    "descr": "Returns the alpha component in the range 0-255.",
+    "param-names": ["EmbedColor"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "method": "getAlpha",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getAlpha()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
-  },
-  {
-    "param-names": ["SDiscordWebhook"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
-    "method": "getContent",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getContent()",
-    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
-    "return": "java.lang.String"
-  },
-  {
-    "param-names": [
-      "Text",
-      "Icon Url"
-    ],
-    "param-types": [
-      "java.lang.String",
-      "java.lang.String"
-    ],
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.embed.Footer#Footer(java.lang.String,java.lang.String)",
-    "class": "ru.sal4i.sdiscordwebhook.embed.Footer"
-  },
-  {
-    "descr": "The color magenta.  In the default sRGB space.",
-    "static": true,
-    "field": "MAGENTA",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#MAGENTA",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+    "return": "int"
   },
   {
     "param-names": [
       "EmbedObject",
-      "Description"
+      "Text",
+      "Icon"
     ],
     "param-types": [
       "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.lang.String",
       "java.lang.String"
     ],
-    "method": "setDescription",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setDescription(java.lang.String)",
+    "method": "setFooter",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setFooter(java.lang.String,java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "descr": "Sets avatar",
+    "param-names": [
+      "SDiscordWebhook",
+      "Avatar Url"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+      "java.lang.String"
+    ],
+    "method": "setAvatarUrl",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setAvatarUrl(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+  },
+  {
+    "descr": "The color magenta.  In the default sRGB space.",
+    "static": true,
+    "field": "magenta",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#magenta",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": ["Image"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Image"],
+    "method": "getUrl",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Image#getUrl()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Image",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "The color gray.  In the default sRGB space.",
+    "static": true,
+    "field": "GRAY",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#GRAY",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "descr": "Sets the content in the message",
+    "param-names": [
+      "SDiscordWebhook",
+      "Content"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+      "java.lang.String"
+    ],
+    "method": "setContent",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setContent(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+  },
+  {
+    "descr": "Finds a color in the system properties.\\n\\nThe first argument is treated as the name of a system property to\\nbe obtained. The string value of this property is then interpreted\\nas an integer which is then converted to a EmbedColor\\nobject.\\n\\nIf the specified property is not found or cannot be parsed as\\nan integer then the EmbedColor specified by the second\\nargument is returned instead.",
+    "param-names": [
+      "Nm",
+      "V"
+    ],
+    "static": true,
+    "param-types": [
+      "java.lang.String",
+      "ru.sal4i.sdiscordwebhook.EmbedColor"
+    ],
+    "method": "getColor",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColor(java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": ["Author"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Author"],
+    "method": "getUrl",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Author#getUrl()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Author",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "The color yellow.  In the default sRGB space.",
+    "static": true,
+    "field": "yellow",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#yellow",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
     "param-names": [
@@ -1204,28 +650,40 @@
       "java.lang.String",
       "ru.sal4i.sdiscordwebhook.EmbedColor"
     ],
-    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
   {
-    "descr": "Returns a string representation of this EmbedColor. This\\nmethod is intended to be used only for debugging purposes.  The\\ncontent and format of the returned string might vary between\\nimplementations. The returned string might be empty but cannot\\nbe null.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
-    "method": "toString",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#toString()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "java.lang.String"
+    "descr": "Creates an sRGB color with the specified red, green, blue, and\\nalpha values in the range (0.0 - 1.0).  The actual color\\nused in rendering depends on finding the best match given the\\ncolor space available for a particular output device.",
+    "param-names": [
+      "R",
+      "G",
+      "B",
+      "A"
+    ],
+    "param-types": [
+      "float",
+      "float",
+      "float",
+      "float"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(float,float,float,float)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "param-names": ["Footer"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Footer"],
-    "method": "getIconUrl",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.embed.Footer#getIconUrl()",
-    "class": "ru.sal4i.sdiscordwebhook.embed.Footer",
-    "return": "java.lang.String"
+    "descr": "Returns a float array containing only the color\\ncomponents of the EmbedColor, in the\\nColorSpace of the EmbedColor.\\nIf compArray is null, an array with\\nlength equal to the number of components in the associated\\nColorSpace is created for\\nthe return value.  Otherwise, compArray must have at\\nleast this length and it is filled in with the components and\\nreturned.",
+    "param-names": [
+      "EmbedColor",
+      "Comp Array"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor",
+      "float[]"
+    ],
+    "method": "getColorComponents",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColorComponents(float[])",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "float[]"
   },
   {
     "descr": "Finds a color in the system properties.\\n\\nThe first argument is treated as the name of a system property to\\nbe obtained. The string value of this property is then interpreted\\nas an integer which is then converted to a EmbedColor\\nobject.\\n\\nIf the specified property is not found or could not be parsed as\\nan integer then the integer value v is used instead,\\nand is converted to a EmbedColor object.",
@@ -1239,57 +697,246 @@
       "int"
     ],
     "method": "getColor",
-    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColor(java.lang.String,int)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "descr": "Returns the transparency mode for this EmbedColor.  This is\\nrequired to implement the Paint interface.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
-    "method": "getTransparency",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getTransparency()",
-    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
-    "return": "int"
+    "param-names": ["Field"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Field"],
+    "method": "getName",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Field#getName()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Field",
+    "return": "java.lang.String"
+  },
+  {
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "Url",
+      "Content",
+      "Username",
+      "Avatar Url"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#SDiscordWebhook(java.lang.String,java.lang.String,java.lang.String,java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
   {
     "param-names": ["Footer"],
     "param-types": ["ru.sal4i.sdiscordwebhook.embed.Footer"],
     "method": "getText",
-    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Footer#getText()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Footer",
     "return": "java.lang.String"
   },
   {
-    "param-names": ["Thumbnail"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Thumbnail"],
-    "method": "getUrl",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.embed.Thumbnail#getUrl()",
-    "class": "ru.sal4i.sdiscordwebhook.embed.Thumbnail",
-    "return": "java.lang.String"
+    "descr": "Creates an opaque sRGB color with the specified red, green,\\nand blue values in the range (0 - 255).\\nThe actual color used in rendering depends\\non finding the best match given the color space\\navailable for a given output device.\\nAlpha is defaulted to 255.",
+    "param-names": [
+      "R",
+      "G",
+      "B"
+    ],
+    "param-types": [
+      "int",
+      "int",
+      "int"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(int,int,int)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "param-names": ["Field"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Field"],
-    "method": "getValue",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.embed.Field#getValue()",
-    "class": "ru.sal4i.sdiscordwebhook.embed.Field",
-    "return": "java.lang.String"
+    "descr": "Adds an embed to the message",
+    "param-names": [
+      "SDiscordWebhook",
+      "Embed"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
+    "method": "addEmbed",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#addEmbed(ru.sal4i.sdiscordwebhook.EmbedObject)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
   {
-    "descr": "Creates a new EmbedColor that is a darker version of this\\nEmbedColor.\\n\\nThis method applies an arbitrary scale factor to each of the three RGB\\ncomponents of this EmbedColor to create a darker version of\\nthis EmbedColor.\\nThe alpha value is preserved.\\nAlthough brighter and\\ndarker are inverse operations, the results of a series\\nof invocations of these two methods might be inconsistent because\\nof rounding errors.",
+    "descr": "Returns the ColorSpace of this EmbedColor.",
     "param-names": ["EmbedColor"],
     "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
-    "method": "darker",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#darker()",
+    "method": "getColorSpace",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColorSpace()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "java.awt.color.ColorSpace"
+  },
+  {
+    "descr": "The color magenta.  In the default sRGB space.",
+    "static": true,
+    "field": "MAGENTA",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#MAGENTA",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "descr": "Returns the red component in the range 0-255 in the default sRGB\\nspace.",
+    "param-names": ["EmbedColor"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "method": "getRed",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getRed()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "int"
+  },
+  {
+    "descr": "Returns a float array containing the color and alpha\\ncomponents of the EmbedColor, in the\\nColorSpace of the EmbedColor.\\nIf compArray is null, an array with\\nlength equal to the number of components in the associated\\nColorSpace plus one is created for\\nthe return value.  Otherwise, compArray must have at\\nleast this length and it is filled in with the components and\\nreturned.",
+    "param-names": [
+      "EmbedColor",
+      "Comp Array"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor",
+      "float[]"
+    ],
+    "method": "getComponents",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getComponents(float[])",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "float[]"
+  },
+  {
+    "descr": "Sends your message",
+    "param-names": ["SDiscordWebhook"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
+    "method": "execute",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#execute()",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+  },
+  {
+    "param-names": [
+      "Title",
+      "Description",
+      "Url",
+      "Color",
+      "Footer",
+      "Thumbnail"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String",
+      "ru.sal4i.sdiscordwebhook.EmbedColor",
+      "ru.sal4i.sdiscordwebhook.embed.Footer",
+      "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor,ru.sal4i.sdiscordwebhook.embed.Footer,ru.sal4i.sdiscordwebhook.embed.Thumbnail)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "Url",
+      "Content",
+      "Username"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#SDiscordWebhook(java.lang.String,java.lang.String,java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+  },
+  {
+    "descr": "The color yellow.  In the default sRGB space.",
+    "static": true,
+    "field": "YELLOW",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#YELLOW",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Url"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.lang.String"
+    ],
+    "method": "setUrl",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setUrl(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Color"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "ru.sal4i.sdiscordwebhook.EmbedColor"
+    ],
+    "method": "setColor",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setColor(ru.sal4i.sdiscordwebhook.EmbedColor)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "Name",
+      "Value",
+      "Inline"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "boolean"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.embed.Field#Field(java.lang.String,java.lang.String,boolean)",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Field"
+  },
+  {
+    "descr": "The color red.  In the default sRGB space.",
+    "static": true,
+    "field": "RED",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#RED",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": ["SDiscordWebhook"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
+    "method": "getEmbeds",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getEmbeds()",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+    "return": "java.util.List"
+  },
+  {
+    "descr": "Returns the green component in the range 0-255 in the default sRGB\\nspace.",
+    "param-names": ["EmbedColor"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "method": "getGreen",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getGreen()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "int"
+  },
+  {
+    "descr": "Sets the user name",
+    "param-names": [
+      "SDiscordWebhook",
+      "Username"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+      "java.lang.String"
+    ],
+    "method": "setUsername",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setUsername(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
   {
     "descr": "Determines whether another object is equal to this\\nEmbedColor.\\n\\nThe result is true if and only if the argument is not\\nnull and is a EmbedColor object that has the same\\nred, green, blue, and alpha values as this object.",
@@ -1302,10 +949,17 @@
       "java.lang.Object"
     ],
     "method": "equals",
-    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#equals(java.lang.Object)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "boolean"
+  },
+  {
+    "descr": "The color gray.  In the default sRGB space.",
+    "static": true,
+    "field": "gray",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#gray",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
     "param-names": [
@@ -1321,17 +975,333 @@
       "java.lang.String"
     ],
     "method": "setAuthor",
-    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setAuthor(java.lang.String,java.lang.String,java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
   {
-    "descr": "The color green.  In the default sRGB space.",
+    "descr": "Converts the components of a color, as specified by the default RGB\\nmodel, to an equivalent set of values for hue, saturation, and\\nbrightness that are the three components of the HSB model.\\n\\nIf the hsbvals argument is null, then a\\nnew array is allocated to return the result. Otherwise, the method\\nreturns the array hsbvals, with the values put into\\nthat array.",
+    "param-names": [
+      "R",
+      "G",
+      "B",
+      "Hsbvals"
+    ],
     "static": true,
-    "field": "green",
-    "module": "sDiscordWebhookJava",
-    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#green",
+    "param-types": [
+      "int",
+      "int",
+      "int",
+      "float[]"
+    ],
+    "method": "RGBtoHSB",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#RGBtoHSB(int,int,int,float[])",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "float[]"
+  },
+  {
+    "descr": "Returns the transparency mode for this EmbedColor.  This is\\nrequired to implement the Paint interface.",
+    "param-names": ["EmbedColor"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "method": "getTransparency",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getTransparency()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "int"
+  },
+  {
+    "descr": "Creates an sRGB color with the specified combined RGBA value consisting\\nof the alpha component in bits 24-31, the red component in bits 16-23,\\nthe green component in bits 8-15, and the blue component in bits 0-7.\\nIf the hasalpha argument is false, alpha\\nis defaulted to 255.",
+    "param-names": [
+      "Rgba",
+      "Hasalpha"
+    ],
+    "param-types": [
+      "int",
+      "boolean"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(int,boolean)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": ["EmbedObject"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "method": "getAuthor",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getAuthor()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.embed.Author"
+  },
+  {
+    "descr": "The color pink.  In the default sRGB space.",
+    "static": true,
+    "field": "PINK",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#PINK",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "descr": "The color light gray.  In the default sRGB space.",
+    "static": true,
+    "field": "lightGray",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#lightGray",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "descr": "Finds a color in the system properties.\\n\\nThe argument is treated as the name of a system property to\\nbe obtained. The string value of this property is then interpreted\\nas an integer which is then converted to a EmbedColor\\nobject.\\n\\nIf the specified property is not found or could not be parsed as\\nan integer then null is returned.",
+    "param-names": ["Nm"],
+    "static": true,
+    "param-types": ["java.lang.String"],
+    "method": "getColor",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColor(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": [
+      "EmbedColor",
+      "Cm",
+      "R",
+      "R2d",
+      "Xform",
+      "Hints"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor",
+      "java.awt.image.ColorModel",
+      "java.awt.Rectangle",
+      "java.awt.geom.Rectangle2D",
+      "java.awt.geom.AffineTransform",
+      "java.awt.RenderingHints"
+    ],
+    "method": "createContext",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "java.awt.PaintContext"
+  },
+  {
+    "descr": "Enables/Disables text-to-speech",
+    "param-names": [
+      "SDiscordWebhook",
+      "Tts"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+      "boolean"
+    ],
+    "method": "setTts",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setTts(boolean)",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+  },
+  {
+    "param-names": ["Author"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Author"],
+    "method": "getName",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Author#getName()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Author",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "The color blue.  In the default sRGB space.",
+    "static": true,
+    "field": "blue",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#blue",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "descr": "Creates a EmbedColor object based on the specified values\\nfor the HSB color model.\\n\\nThe s and b components should be\\nfloating-point values between zero and one\\n(numbers in the range 0.0-1.0).  The h component\\ncan be any floating-point number.  The floor of this number is\\nsubtracted from it to create a fraction between 0 and 1.  This\\nfractional number is then multiplied by 360 to produce the hue\\nangle in the HSB color model.",
+    "param-names": [
+      "H",
+      "S",
+      "B"
+    ],
+    "static": true,
+    "param-types": [
+      "float",
+      "float",
+      "float"
+    ],
+    "method": "getHSBColor",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getHSBColor(float,float,float)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": [
+      "Title",
+      "Description",
+      "Url",
+      "Color",
+      "Footer"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String",
+      "java.lang.String",
+      "ru.sal4i.sdiscordwebhook.EmbedColor",
+      "ru.sal4i.sdiscordwebhook.embed.Footer"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor,ru.sal4i.sdiscordwebhook.embed.Footer)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": ["Url"],
+    "param-types": ["java.lang.String"],
+    "id": "ru.sal4i.sdiscordwebhook.embed.Thumbnail#Thumbnail(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
+  },
+  {
+    "param-names": ["Field"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Field"],
+    "method": "getValue",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Field#getValue()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Field",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": ["EmbedObject"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "method": "getThumbnail",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getThumbnail()",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
+  },
+  {
+    "descr": "Returns a float array containing only the color\\ncomponents of the EmbedColor, in the default sRGB color\\nspace.  If compArray is null, an array of\\nlength 3 is created for the return value.  Otherwise,\\ncompArray must have length 3 or greater, and it is\\nfilled in with the components and returned.",
+    "param-names": [
+      "EmbedColor",
+      "Comp Array"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor",
+      "float[]"
+    ],
+    "method": "getRGBColorComponents",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getRGBColorComponents(float[])",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "float[]"
+  },
+  {
+    "descr": "The color dark gray.  In the default sRGB space.",
+    "static": true,
+    "field": "DARK_GRAY",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#DARK_GRAY",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Url"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.lang.String"
+    ],
+    "method": "setThumbnail",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setThumbnail(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "descr": "Creates a color in the specified ColorSpace\\nwith the color components specified in the float\\narray and the specified alpha.  The number of components is\\ndetermined by the type of the ColorSpace.  For\\nexample, RGB requires 3 components, but CMYK requires 4\\ncomponents.",
+    "param-names": [
+      "Cspace",
+      "Components",
+      "Alpha"
+    ],
+    "param-types": [
+      "java.awt.color.ColorSpace",
+      "float[]",
+      "float"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(java.awt.color.ColorSpace,float[],float)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Description"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.lang.String"
+    ],
+    "method": "setDescription",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setDescription(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "Text",
+      "Icon Url"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.embed.Footer#Footer(java.lang.String,java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Footer"
+  },
+  {
+    "param-names": ["Thumbnail"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Thumbnail"],
+    "method": "getUrl",
+    "id": "ru.sal4i.sdiscordwebhook.embed.Thumbnail#getUrl()",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Thumbnail",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": ["Title"],
+    "param-types": ["java.lang.String"],
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "Title",
+      "Description"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": [
+      "EmbedObject",
+      "Url"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject",
+      "java.lang.String"
+    ],
+    "method": "setImage",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setImage(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
+    "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
+  },
+  {
+    "param-names": ["SDiscordWebhook"],
+    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
+    "method": "getUsername",
+    "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getUsername()",
+    "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": ["Url"],
+    "param-types": ["java.lang.String"],
+    "id": "ru.sal4i.sdiscordwebhook.embed.Image#Image(java.lang.String)",
+    "class": "ru.sal4i.sdiscordwebhook.embed.Image"
+  },
+  {
+    "descr": "The color orange.  In the default sRGB space.",
+    "static": true,
+    "field": "ORANGE",
+    "id": "ru.sal4i.sdiscordwebhook.EmbedColor#ORANGE",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   }

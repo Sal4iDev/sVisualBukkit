@@ -6,7 +6,7 @@ group = "ru.sal4i"
 version = "1.3"
 
 dependencies {
-    implementation(files("C:/Users/1/Desktop/IDEA Projects/sVisualBukkit-Projects/lib/VisualBukkit-5.1.1.jar"))
+    implementation(fileTree("lib"))
 }
 
 val jar by tasks.getting(Jar::class) {

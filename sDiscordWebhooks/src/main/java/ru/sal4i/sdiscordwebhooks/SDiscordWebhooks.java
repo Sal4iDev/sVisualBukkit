@@ -18,7 +18,7 @@ public class SDiscordWebhooks extends VisualBukkitExtension {
             buildContext.addMavenDependency(
                     "<groupId>com.github.Sal4iDev</groupId>" +
                             "<artifactId>sDiscordWebhookJava</artifactId>" +
-                            "<version>1.1</version>");
+                            "<version>1.2</version>");
         }
     };
 
@@ -36,7 +36,7 @@ public class SDiscordWebhooks extends VisualBukkitExtension {
 
     @Override
     public String getVersion() {
-        return "1.0";
+        return "1.1";
     }
 
     @Override
