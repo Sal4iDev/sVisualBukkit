@@ -1,0 +1,3130 @@
+[
+  {
+    "descr": "Player food level identifier.",
+    "static": true,
+    "field": "PLAYER_FOOD_LEVEL",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_FOOD_LEVEL",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "First Run flag config path, default and comments.",
+    "static": true,
+    "field": "USE_BYPASS",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig.Path#USE_BYPASS",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig.Path",
+    "return": "com.onarandombox.multiverseinventories.InventoriesConfig.Path"
+  },
+  {
+    "descr": "Grouping for player health related sharables.",
+    "static": true,
+    "field": "ALL_HEALTH",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#ALL_HEALTH",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.SharableGroup"
+  },
+  {
+    "descr": "Grouping for inventory sharables.",
+    "static": true,
+    "field": "ALL_INVENTORY",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#ALL_INVENTORY",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.SharableGroup"
+  },
+  {
+    "param-names": [
+      "Copy Key",
+      "Profile Type"
+    ],
+    "static": true,
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileKey",
+      "com.onarandombox.multiverseinventories.profile.ProfileType"
+    ],
+    "method": "createProfileKey",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileKey#createProfileKey(com.onarandombox.multiverseinventories.profile.ProfileKey,com.onarandombox.multiverseinventories.profile.ProfileType)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileKey",
+    "return": "com.onarandombox.multiverseinventories.profile.ProfileKey"
+  },
+  {
+    "descr": "Player last known name identifier.",
+    "static": true,
+    "field": "PLAYER_LAST_KNOWN_NAME",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_LAST_KNOWN_NAME",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Player experience level identifier.",
+    "static": true,
+    "field": "PLAYER_LEVEL",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_LEVEL",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Inventories"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.MultiverseInventories"
+    ],
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.AdventureListener#AdventureListener(com.onarandombox.multiverseinventories.MultiverseInventories)",
+    "class": "com.onarandombox.multiverseinventories.AdventureListener"
+  },
+  {
+    "descr": "A convenience method to update the GlobalProfile of a player with a specified world.",
+    "param-names": [
+      "ProfileDataSource",
+      "Player Name",
+      "World Name"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileDataSource",
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "method": "updateLastWorld",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileDataSource#updateLastWorld(java.lang.String,java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileDataSource"
+  },
+  {
+    "descr": "Sharing Bed Spawn.",
+    "static": true,
+    "field": "BED_SPAWN",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#BED_SPAWN",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "Number of slots in an ender chest.",
+    "static": true,
+    "field": "ENDER_CHEST_SIZE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.PlayerStats#ENDER_CHEST_SIZE",
+    "class": "com.onarandombox.multiverseinventories.PlayerStats",
+    "return": "int"
+  },
+  {
+    "param-names": [
+      "PersistingProfile"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.PersistingProfile"
+    ],
+    "method": "getProfile",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.PersistingProfile#getProfile()",
+    "class": "com.onarandombox.multiverseinventories.share.PersistingProfile",
+    "return": "com.onarandombox.multiverseinventories.profile.PlayerProfile"
+  },
+  {
+    "param-names": [
+      "Sharable"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Sharable"
+    ],
+    "method": "getNames",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharable#getNames()",
+    "class": "com.onarandombox.multiverseinventories.share.Sharable",
+    "return": "java.lang.String[]"
+  },
+  {
+    "param-names": [
+      "GroupingConflict"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.GroupingConflict"
+    ],
+    "method": "getSecondGroup",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GroupingConflict#getSecondGroup()",
+    "class": "com.onarandombox.multiverseinventories.profile.GroupingConflict",
+    "return": "com.onarandombox.multiverseinventories.WorldGroup"
+  },
+  {
+    "static": true,
+    "method": "values",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.container.ContainerType#values()",
+    "class": "com.onarandombox.multiverseinventories.profile.container.ContainerType",
+    "return": "com.onarandombox.multiverseinventories.profile.container.ContainerType[]"
+  },
+  {
+    "descr": "Potion amplifier identifier.",
+    "static": true,
+    "field": "POTION_AMPLIFIER",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#POTION_AMPLIFIER",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Potions String"
+    ],
+    "static": true,
+    "param-types": [
+      "java.lang.String"
+    ],
+    "method": "parsePotionEffects",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#parsePotionEffects(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "PotionEffect[]"
+  },
+  {
+    "descr": "Tells whether Multiverse-Inventories should save on player logout and load on player login.",
+    "param-names": [
+      "InventoriesConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig"
+    ],
+    "method": "usingLoggingSaveLoad",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#usingLoggingSaveLoad()",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig",
+    "return": "boolean"
+  },
+  {
+    "param-names": [
+      "ShareHandler.AffectedProfiles"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.ShareHandler.AffectedProfiles"
+    ],
+    "method": "getWriteProfiles",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.ShareHandler.AffectedProfiles#getWriteProfiles()",
+    "class": "com.onarandombox.multiverseinventories.ShareHandler.AffectedProfiles",
+    "return": "java.util.List"
+  },
+  {
+    "descr": "Location pitch identifier.",
+    "static": true,
+    "field": "LOCATION_PITCH",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#LOCATION_PITCH",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Clears all cached data in the container.",
+    "param-names": [
+      "ProfileContainer"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.container.ProfileContainer"
+    ],
+    "method": "clearContainer",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.container.ProfileContainer#clearContainer()",
+    "class": "com.onarandombox.multiverseinventories.profile.container.ProfileContainer"
+  },
+  {
+    "param-names": [
+      "Is Stat",
+      "File Tag"
+    ],
+    "param-types": [
+      "boolean",
+      "java.lang.String"
+    ],
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.ProfileEntry#ProfileEntry(boolean,java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.share.ProfileEntry"
+  },
+  {
+    "param-names": [
+      "ProfileKey"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileKey"
+    ],
+    "method": "getPlayerUUID",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileKey#getPlayerUUID()",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileKey",
+    "return": "java.util.UUID"
+  },
+  {
+    "descr": "Sharing Total Experience.",
+    "static": true,
+    "field": "TOTAL_EXPERIENCE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#TOTAL_EXPERIENCE",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "Sets this server's root-folder.",
+    "param-names": [
+      "MultiverseInventories",
+      "New Server Folder"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.MultiverseInventories",
+      "java.io.File"
+    ],
+    "method": "setServerFolder",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.MultiverseInventories#setServerFolder(java.io.File)",
+    "class": "com.onarandombox.multiverseinventories.MultiverseInventories"
+  },
+  {
+    "descr": "Sharing Economy.",
+    "static": true,
+    "field": "ECONOMY",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#ECONOMY",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "Copies all the data belonging to oldName to newName and removes the old data.",
+    "param-names": [
+      "ProfileDataSource",
+      "Old Name",
+      "New Name",
+      "Player UUID",
+      "Remove Old Data"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileDataSource",
+      "java.lang.String",
+      "java.lang.String",
+      "java.util.UUID",
+      "boolean"
+    ],
+    "method": "migratePlayerData",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileDataSource#migratePlayerData(java.lang.String,java.lang.String,java.util.UUID,boolean)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileDataSource"
+  },
+  {
+    "descr": "Adds a player profile to this profile container.",
+    "param-names": [
+      "ProfileContainer",
+      "Player Profile"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.container.ProfileContainer",
+      "com.onarandombox.multiverseinventories.profile.PlayerProfile"
+    ],
+    "method": "addPlayerData",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.container.ProfileContainer#addPlayerData(com.onarandombox.multiverseinventories.profile.PlayerProfile)",
+    "class": "com.onarandombox.multiverseinventories.profile.container.ProfileContainer"
+  },
+  {
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.LocationSerializer#LocationSerializer()",
+    "class": "com.onarandombox.multiverseinventories.share.LocationSerializer"
+  },
+  {
+    "descr": "Player armor contents identifier.",
+    "static": true,
+    "field": "PLAYER_ARMOR_CONTENTS",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_ARMOR_CONTENTS",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Player fall distance identifier.",
+    "static": true,
+    "field": "PLAYER_FALL_DISTANCE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_FALL_DISTANCE",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Retrieves the profile's value of the Sharable passed in.",
+    "param-names": [
+      "PlayerProfile",
+      "Sharable"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.PlayerProfile",
+      "com.onarandombox.multiverseinventories.share.Sharable"
+    ],
+    "method": "get",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.PlayerProfile#<T>get(com.onarandombox.multiverseinventories.share.Sharable<T>)",
+    "class": "com.onarandombox.multiverseinventories.profile.PlayerProfile",
+    "return": "java.lang.Object"
+  },
+  {
+    "descr": "Location world identifier.",
+    "static": true,
+    "field": "LOCATION_WORLD",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#LOCATION_WORLD",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Sharing Enderchest Inventory.",
+    "static": true,
+    "field": "ENDER_CHEST",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#ENDER_CHEST",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "Returns the container type for this container.",
+    "param-names": [
+      "ProfileContainer"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.container.ProfileContainer"
+    ],
+    "method": "getContainerType",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.container.ProfileContainer#getContainerType()",
+    "class": "com.onarandombox.multiverseinventories.profile.container.ProfileContainer",
+    "return": "com.onarandombox.multiverseinventories.profile.container.ContainerType"
+  },
+  {
+    "descr": "Sharing Potions.",
+    "static": true,
+    "field": "POTIONS",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#POTIONS",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "param-names": [
+      "Sharable"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Sharable"
+    ],
+    "method": "getProfileEntry",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharable#getProfileEntry()",
+    "class": "com.onarandombox.multiverseinventories.share.Sharable",
+    "return": "com.onarandombox.multiverseinventories.share.ProfileEntry"
+  },
+  {
+    "param-names": [
+      "Sharable"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Sharable"
+    ],
+    "method": "getType",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharable#getType()",
+    "class": "com.onarandombox.multiverseinventories.share.Sharable",
+    "return": "java.lang.Class"
+  },
+  {
+    "descr": "Creates a new instance of Shares containing all shares negated in the given list.",
+    "param-names": [
+      "Shares List"
+    ],
+    "static": true,
+    "param-types": [
+      "java.util.List"
+    ],
+    "method": "negativeFromList",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#negativeFromList(java.util.List)",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "descr": "Default fire ticks value.",
+    "static": true,
+    "field": "FIRE_TICKS",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.PlayerStats#FIRE_TICKS",
+    "class": "com.onarandombox.multiverseinventories.PlayerStats",
+    "return": "int"
+  },
+  {
+    "descr": "Remove all the worlds in this World Group.",
+    "param-names": [
+      "WorldGroup"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup"
+    ],
+    "method": "removeAllWorlds",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#removeAllWorlds()",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup"
+  },
+  {
+    "param-names": [
+      "MultiverseInventories"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.MultiverseInventories"
+    ],
+    "method": "getMVIConfig",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.MultiverseInventories#getMVIConfig()",
+    "class": "com.onarandombox.multiverseinventories.MultiverseInventories",
+    "return": "com.onarandombox.multiverseinventories.InventoriesConfig"
+  },
+  {
+    "param-names": [
+      "GroupingConflict"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.GroupingConflict"
+    ],
+    "method": "getConflictingShares",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GroupingConflict#getConflictingShares()",
+    "class": "com.onarandombox.multiverseinventories.profile.GroupingConflict",
+    "return": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "param-names": [
+      "Shares",
+      "Shares"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Shares",
+      "com.onarandombox.multiverseinventories.share.Shares"
+    ],
+    "method": "isSharing",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Shares#isSharing(com.onarandombox.multiverseinventories.share.Shares)",
+    "class": "com.onarandombox.multiverseinventories.share.Shares",
+    "return": "boolean"
+  },
+  {
+    "descr": "Sets the last name that the player was seen having.\\nThis should be updated when a player's name is changed through Mojang but only after their data has been\\nmigrated to the new name.",
+    "param-names": [
+      "GlobalProfile",
+      "Last Known Name"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.GlobalProfile",
+      "java.lang.String"
+    ],
+    "method": "setLastKnownName",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GlobalProfile#setLastKnownName(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.profile.GlobalProfile"
+  },
+  {
+    "descr": "Removes a world from this world group and updates the group in the Config.",
+    "param-names": [
+      "WorldGroup",
+      "World Name"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup",
+      "java.lang.String"
+    ],
+    "method": "removeWorld",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#removeWorld(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup"
+  },
+  {
+    "descr": "Location y identifier.",
+    "static": true,
+    "field": "LOCATION_Y",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#LOCATION_Y",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "InventoriesConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig"
+    ],
+    "method": "isUsingGameModeProfiles",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#isUsingGameModeProfiles()",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig",
+    "return": "boolean"
+  },
+  {
+    "descr": "Player stats identifier.",
+    "static": true,
+    "field": "PLAYER_STATS",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_STATS",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Sets whether the player data for the player's logout world should be loaded when the player logs in.",
+    "param-names": [
+      "GlobalProfile",
+      "Load On Login"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.GlobalProfile",
+      "boolean"
+    ],
+    "method": "setLoadOnLogin",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GlobalProfile#setLoadOnLogin(boolean)",
+    "class": "com.onarandombox.multiverseinventories.profile.GlobalProfile"
+  },
+  {
+    "descr": "Potion duration identifier.",
+    "static": true,
+    "field": "POTION_DURATION",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#POTION_DURATION",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Returns the name of this profile container which is primarily used for persistence purposes.\\nThe name reflects the world name if this is a world profile container, or the arbitrary group name if\\nthis is a world group profile container.",
+    "param-names": [
+      "ProfileContainer"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.container.ProfileContainer"
+    ],
+    "method": "getContainerName",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.container.ProfileContainer#getContainerName()",
+    "class": "com.onarandombox.multiverseinventories.profile.container.ProfileContainer",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Whether or not to split data based on game modes.",
+    "static": true,
+    "field": "USE_GAME_MODE_PROFILES",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig.Path#USE_GAME_MODE_PROFILES",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig.Path",
+    "return": "com.onarandombox.multiverseinventories.InventoriesConfig.Path"
+  },
+  {
+    "descr": "This serializes the data for a Sharable. The output is an Object but what you return is up to you, however,\\nthis is limited by the constraints of the persistence method. Generally, returning a String is the safest way\\nto serialize your data. Most boxed primitives are accepted as well as Lists of boxed primitives and\\njava.util.Map&lt;String, Object&gt;.",
+    "param-names": [
+      "SharableSerializer",
+      "T"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.SharableSerializer",
+      "java.lang.Object"
+    ],
+    "method": "serialize",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.SharableSerializer#serialize(T)",
+    "class": "com.onarandombox.multiverseinventories.share.SharableSerializer",
+    "return": "java.lang.Object"
+  },
+  {
+    "param-names": [
+      "ShareHandler.AffectedProfiles"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.ShareHandler.AffectedProfiles"
+    ],
+    "method": "getReadProfiles",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.ShareHandler.AffectedProfiles#getReadProfiles()",
+    "class": "com.onarandombox.multiverseinventories.ShareHandler.AffectedProfiles",
+    "return": "java.util.List"
+  },
+  {
+    "descr": "Default saturation value.",
+    "static": true,
+    "field": "SATURATION",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.PlayerStats#SATURATION",
+    "class": "com.onarandombox.multiverseinventories.PlayerStats",
+    "return": "float"
+  },
+  {
+    "descr": "Player health identifier.",
+    "static": true,
+    "field": "PLAYER_HEALTH",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_HEALTH",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Saves the file as per normal for YamlConfiguration and then parses the file and inserts\\ncomments where necessary.",
+    "param-names": [
+      "CommentedYamlConfiguration"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.util.CommentedYamlConfiguration"
+    ],
+    "method": "save",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.util.CommentedYamlConfiguration#save()",
+    "class": "com.onarandombox.multiverseinventories.util.CommentedYamlConfiguration",
+    "return": "boolean"
+  },
+  {
+    "param-names": [
+      "File",
+      "Do Comments"
+    ],
+    "param-types": [
+      "java.io.File",
+      "boolean"
+    ],
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.util.CommentedYamlConfiguration#CommentedYamlConfiguration(java.io.File,boolean)",
+    "class": "com.onarandombox.multiverseinventories.util.CommentedYamlConfiguration"
+  },
+  {
+    "param-names": [
+      "InventoriesConfig",
+      "Use Game Mode Profile"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig",
+      "boolean"
+    ],
+    "method": "setUsingGameModeProfiles",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#setUsingGameModeProfiles(boolean)",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig"
+  },
+  {
+    "param-names": [
+      "PlayerProfile"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.PlayerProfile"
+    ],
+    "method": "getProfileType",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.PlayerProfile#getProfileType()",
+    "class": "com.onarandombox.multiverseinventories.profile.PlayerProfile",
+    "return": "com.onarandombox.multiverseinventories.profile.ProfileType"
+  },
+  {
+    "descr": "Sharing Hunger.",
+    "static": true,
+    "field": "FOOD_LEVEL",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#FOOD_LEVEL",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "Player should load identifier.",
+    "static": true,
+    "field": "PLAYER_SHOULD_LOAD",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_SHOULD_LOAD",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Shares",
+      "Sharable",
+      "Sharing"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Shares",
+      "com.onarandombox.multiverseinventories.share.Sharable",
+      "boolean"
+    ],
+    "method": "setSharing",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Shares#setSharing(com.onarandombox.multiverseinventories.share.Sharable,boolean)",
+    "class": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "descr": "Adds a comment just before the specified path. The comment can be multiple lines. An empty string will indicate\\na blank line.",
+    "param-names": [
+      "CommentedYamlConfiguration",
+      "Path",
+      "Comment Lines"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.util.CommentedYamlConfiguration",
+      "java.lang.String",
+      "java.util.List"
+    ],
+    "method": "addComment",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.util.CommentedYamlConfiguration#addComment(java.lang.String,java.util.List<java.lang.String>)",
+    "class": "com.onarandombox.multiverseinventories.util.CommentedYamlConfiguration"
+  },
+  {
+    "descr": "Merges what is shared with another share. Only the false items should be merged.",
+    "param-names": [
+      "Shares",
+      "New Shares"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Shares",
+      "com.onarandombox.multiverseinventories.share.Shares"
+    ],
+    "method": "mergeShares",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Shares#mergeShares(com.onarandombox.multiverseinventories.share.Shares)",
+    "class": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "descr": "Player last world identifier.",
+    "static": true,
+    "field": "PLAYER_LAST_WORLD",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_LAST_WORLD",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Checks to see if any of the sharables passed in are shared by this Shares.",
+    "param-names": [
+      "Shares",
+      "Shares"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Shares",
+      "com.onarandombox.multiverseinventories.share.Shares"
+    ],
+    "method": "compare",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Shares#compare(com.onarandombox.multiverseinventories.share.Shares)",
+    "class": "com.onarandombox.multiverseinventories.share.Shares",
+    "return": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "param-names": [
+      "Name"
+    ],
+    "static": true,
+    "param-types": [
+      "java.lang.String"
+    ],
+    "method": "valueOf",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig.Path#valueOf(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig.Path",
+    "return": "com.onarandombox.multiverseinventories.InventoriesConfig.Path"
+  },
+  {
+    "param-names": [
+      "WorldGroup",
+      "World Name"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup",
+      "java.lang.String"
+    ],
+    "method": "containsWorld",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#containsWorld(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup",
+    "return": "boolean"
+  },
+  {
+    "descr": "Player fire ticks identifier.",
+    "static": true,
+    "field": "PLAYER_FIRE_TICKS",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_FIRE_TICKS",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Updates the persisted data for a player for a specific profile.",
+    "param-names": [
+      "ProfileDataSource",
+      "Player Profile"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileDataSource",
+      "com.onarandombox.multiverseinventories.profile.PlayerProfile"
+    ],
+    "method": "updatePlayerData",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileDataSource#updatePlayerData(com.onarandombox.multiverseinventories.profile.PlayerProfile)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileDataSource"
+  },
+  {
+    "descr": "Player exhaustion identifier.",
+    "static": true,
+    "field": "PLAYER_EXHAUSTION",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_EXHAUSTION",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Retrieves the global profile for a player which contains meta-data for the player.",
+    "param-names": [
+      "ProfileDataSource",
+      "Player Name"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileDataSource",
+      "java.lang.String"
+    ],
+    "method": "getGlobalProfile",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileDataSource#getGlobalProfile(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileDataSource",
+    "return": "com.onarandombox.multiverseinventories.profile.GlobalProfile"
+  },
+  {
+    "descr": "Player bed spawn location identifier.",
+    "static": true,
+    "field": "PLAYER_BED_SPAWN_LOCATION",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_BED_SPAWN_LOCATION",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Check if the given world has any configured groups.",
+    "param-names": [
+      "WorldGroupManager",
+      "World Name"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+      "java.lang.String"
+    ],
+    "method": "hasGroup",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.WorldGroupManager#hasGroup(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+    "return": "boolean"
+  },
+  {
+    "descr": "Default fall distance value.",
+    "static": true,
+    "field": "FALL_DISTANCE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.PlayerStats#FALL_DISTANCE",
+    "class": "com.onarandombox.multiverseinventories.PlayerStats",
+    "return": "float"
+  },
+  {
+    "descr": "First Run flag config path, default and comments.",
+    "static": true,
+    "field": "FIRST_RUN",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig.Path#FIRST_RUN",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig.Path",
+    "return": "com.onarandombox.multiverseinventories.InventoriesConfig.Path"
+  },
+  {
+    "param-names": [
+      "Container Type",
+      "Data Name",
+      "Profile Type",
+      "Player UUID"
+    ],
+    "static": true,
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.container.ContainerType",
+      "java.lang.String",
+      "com.onarandombox.multiverseinventories.profile.ProfileType",
+      "java.util.UUID"
+    ],
+    "method": "createProfileKey",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileKey#createProfileKey(com.onarandombox.multiverseinventories.profile.container.ContainerType,java.lang.String,com.onarandombox.multiverseinventories.profile.ProfileType,java.util.UUID)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileKey",
+    "return": "com.onarandombox.multiverseinventories.profile.ProfileKey"
+  },
+  {
+    "param-names": [
+      "ProfileKey"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileKey"
+    ],
+    "method": "getProfileType",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileKey#getProfileType()",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileKey",
+    "return": "com.onarandombox.multiverseinventories.profile.ProfileType"
+  },
+  {
+    "static": true,
+    "method": "getPlugin",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.MultiverseInventories#getPlugin()",
+    "class": "com.onarandombox.multiverseinventories.MultiverseInventories",
+    "return": "com.onarandombox.multiverseinventories.MultiverseInventories"
+  },
+  {
+    "descr": "Default experience value.",
+    "static": true,
+    "field": "EXPERIENCE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.PlayerStats#EXPERIENCE",
+    "class": "com.onarandombox.multiverseinventories.PlayerStats",
+    "return": "float"
+  },
+  {
+    "descr": "Sharing Exhaustion.",
+    "static": true,
+    "field": "EXHAUSTION",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#EXHAUSTION",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "This will make the Sharable use the default serializer which simply passes the data as is to the persistence\\nobject for persistence. This will only work depending on the data type this Sharable represents and further\\ndepending on the types the persistence methods accept. Generally, boxed primitives are okay as well as\\nLists of boxed primitives and java.util.Map&lt;String, Object&gt;. All other types\\nwill likely require a custom SharableSerializer indicated with\\n#serializer(ProfileEntry, SharableSerializer).",
+    "param-names": [
+      "Sharable.Builder",
+      "Entry"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Sharable.Builder",
+      "com.onarandombox.multiverseinventories.share.ProfileEntry"
+    ],
+    "method": "defaultSerializer",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharable.Builder#defaultSerializer(com.onarandombox.multiverseinventories.share.ProfileEntry)",
+    "class": "com.onarandombox.multiverseinventories.share.Sharable.Builder",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable.Builder"
+  },
+  {
+    "descr": "The profile type for the CREATIVE Game Mode.",
+    "static": true,
+    "field": "CREATIVE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileTypes#CREATIVE",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileTypes",
+    "return": "com.onarandombox.multiverseinventories.profile.ProfileType"
+  },
+  {
+    "param-names": [
+      "Sharable"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Sharable"
+    ],
+    "method": "isOptional",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharable#isOptional()",
+    "class": "com.onarandombox.multiverseinventories.share.Sharable",
+    "return": "boolean"
+  },
+  {
+    "descr": "Default health value.",
+    "static": true,
+    "field": "HEALTH",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.PlayerStats#HEALTH",
+    "class": "com.onarandombox.multiverseinventories.PlayerStats",
+    "return": "int"
+  },
+  {
+    "descr": "Sharing Health.",
+    "static": true,
+    "field": "HEALTH",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#HEALTH",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "Default maximum air value.",
+    "static": true,
+    "field": "MAXIMUM_AIR",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.PlayerStats#MAXIMUM_AIR",
+    "class": "com.onarandombox.multiverseinventories.PlayerStats",
+    "return": "int"
+  },
+  {
+    "param-names": [
+      "InventoriesConfig",
+      "Use Bypass"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig",
+      "boolean"
+    ],
+    "method": "setUsingBypass",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#setUsingBypass(boolean)",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig"
+  },
+  {
+    "descr": "Whether Multiverse-Inventories will utilize optional shares in worlds that are not grouped.",
+    "param-names": [
+      "InventoriesConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig"
+    ],
+    "method": "usingOptionalsForUngrouped",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#usingOptionalsForUngrouped()",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig",
+    "return": "boolean"
+  },
+  {
+    "param-names": [
+      "SharableEntry"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.SharableEntry"
+    ],
+    "method": "getValue",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.SharableEntry#getValue()",
+    "class": "com.onarandombox.multiverseinventories.share.SharableEntry",
+    "return": "java.lang.Object"
+  },
+  {
+    "descr": "Adds or updates a world group in Multiverse-Inventories.\\nThis will update an existing group by persisting changes made to it in the groups configuration.\\nThis should be called when any of the facets of a group such as worlds or shares have been modified.\\nIf the group does not exist it will be added to the groups configuration.\\nIf worldGroup's name matches the name of a different WorldGroupProfileContainer object that is already\\nknown, the previous object will be overwritten with worldGroup parameter.",
+    "param-names": [
+      "WorldGroupManager",
+      "World Group"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+      "com.onarandombox.multiverseinventories.WorldGroup"
+    ],
+    "method": "updateGroup",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.WorldGroupManager#updateGroup(com.onarandombox.multiverseinventories.WorldGroup)",
+    "class": "com.onarandombox.multiverseinventories.profile.WorldGroupManager"
+  },
+  {
+    "param-names": [
+      "Copy Key",
+      "Container Type",
+      "Profile Type"
+    ],
+    "static": true,
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileKey",
+      "com.onarandombox.multiverseinventories.profile.container.ContainerType",
+      "com.onarandombox.multiverseinventories.profile.ProfileType"
+    ],
+    "method": "createProfileKey",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileKey#createProfileKey(com.onarandombox.multiverseinventories.profile.ProfileKey,com.onarandombox.multiverseinventories.profile.container.ContainerType,com.onarandombox.multiverseinventories.profile.ProfileType)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileKey",
+    "return": "com.onarandombox.multiverseinventories.profile.ProfileKey"
+  },
+  {
+    "param-names": [
+      "ProfileEntry"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.ProfileEntry"
+    ],
+    "method": "getFileTag",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.ProfileEntry#getFileTag()",
+    "class": "com.onarandombox.multiverseinventories.share.ProfileEntry",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Name",
+      "Shares",
+      "Alternate Names"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "com.onarandombox.multiverseinventories.share.Shares",
+      "java.lang.String[]"
+    ],
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.SharableGroup#SharableGroup(java.lang.String,com.onarandombox.multiverseinventories.share.Shares,java.lang.String...)",
+    "class": "com.onarandombox.multiverseinventories.share.SharableGroup"
+  },
+  {
+    "descr": "Sharing Level.",
+    "static": true,
+    "field": "LEVEL",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#LEVEL",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "Default remaining air value.",
+    "static": true,
+    "field": "REMAINING_AIR",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.PlayerStats#REMAINING_AIR",
+    "class": "com.onarandombox.multiverseinventories.PlayerStats",
+    "return": "int"
+  },
+  {
+    "descr": "Builds a String containing Multiverse-Inventories' version info.",
+    "param-names": [
+      "MultiverseInventories"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.MultiverseInventories"
+    ],
+    "method": "getVersionInfo",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.MultiverseInventories#getVersionInfo()",
+    "class": "com.onarandombox.multiverseinventories.MultiverseInventories",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Retrieves a PlayerProfile from the data source.",
+    "param-names": [
+      "ProfileDataSource",
+      "Container Type",
+      "Data Name",
+      "Profile Type",
+      "Player UUID"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileDataSource",
+      "com.onarandombox.multiverseinventories.profile.container.ContainerType",
+      "java.lang.String",
+      "com.onarandombox.multiverseinventories.profile.ProfileType",
+      "java.util.UUID"
+    ],
+    "method": "getPlayerData",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileDataSource#getPlayerData(com.onarandombox.multiverseinventories.profile.container.ContainerType,java.lang.String,com.onarandombox.multiverseinventories.profile.ProfileType,java.util.UUID)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileDataSource",
+    "return": "com.onarandombox.multiverseinventories.profile.PlayerProfile"
+  },
+  {
+    "descr": "The profile type for the ADVENTURE Game Mode.",
+    "static": true,
+    "field": "ADVENTURE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileTypes#ADVENTURE",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileTypes",
+    "return": "com.onarandombox.multiverseinventories.profile.ProfileType"
+  },
+  {
+    "descr": "Retrieves the shares for this World Group. Any changes to this group must be subsequently saved to the data\\nsource for the changes to be permanent.",
+    "param-names": [
+      "WorldGroup"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup"
+    ],
+    "method": "getShares",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#getShares()",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup",
+    "return": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "descr": "Sets up the World Groups in memory.",
+    "param-names": [
+      "WorldGroupManager",
+      "World Groups"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+      "java.util.List"
+    ],
+    "method": "setGroups",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.WorldGroupManager#setGroups(java.util.List<com.onarandombox.multiverseinventories.WorldGroup>)",
+    "class": "com.onarandombox.multiverseinventories.profile.WorldGroupManager"
+  },
+  {
+    "descr": "Sets globalDebug level.",
+    "param-names": [
+      "InventoriesConfig",
+      "Global Debug"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig",
+      "int"
+    ],
+    "method": "setGlobalDebug",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#setGlobalDebug(int)",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig"
+  },
+  {
+    "descr": "Retrieves the global profile for a player which contains meta-data for the player.",
+    "param-names": [
+      "ProfileDataSource",
+      "Player Name",
+      "Player UUID"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileDataSource",
+      "java.lang.String",
+      "java.util.UUID"
+    ],
+    "method": "getGlobalProfile",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileDataSource#getGlobalProfile(java.lang.String,java.util.UUID)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileDataSource",
+    "return": "com.onarandombox.multiverseinventories.profile.GlobalProfile"
+  },
+  {
+    "descr": "Indicates Group type profiles.",
+    "static": true,
+    "field": "GROUP",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.container.ContainerType#GROUP",
+    "class": "com.onarandombox.multiverseinventories.profile.container.ContainerType",
+    "return": "com.onarandombox.multiverseinventories.profile.container.ContainerType"
+  },
+  {
+    "descr": "Creates a new instance of Shares containing all shares not negated in the given list.",
+    "param-names": [
+      "Shares List"
+    ],
+    "static": true,
+    "param-types": [
+      "java.util.List"
+    ],
+    "method": "fromList",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#fromList(java.util.List)",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "descr": "Player experience identifier.",
+    "static": true,
+    "field": "PLAYER_EXPERIENCE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_EXPERIENCE",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "PlayerProfile"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.PlayerProfile"
+    ],
+    "method": "clone",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.PlayerProfile#clone()",
+    "class": "com.onarandombox.multiverseinventories.profile.PlayerProfile",
+    "return": "com.onarandombox.multiverseinventories.profile.PlayerProfile"
+  },
+  {
+    "param-names": [
+      "MultiverseInventories"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.MultiverseInventories"
+    ],
+    "method": "getImportManager",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.MultiverseInventories#getImportManager()",
+    "class": "com.onarandombox.multiverseinventories.MultiverseInventories",
+    "return": "com.onarandombox.multiverseinventories.migration.ImportManager"
+  },
+  {
+    "descr": "Sharing Fire Ticks.",
+    "static": true,
+    "field": "FIRE_TICKS",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#FIRE_TICKS",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "param-names": [
+      "WorldGroup"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup"
+    ],
+    "method": "getSpawnWorld",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#getSpawnWorld()",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Player profile type identifier.",
+    "static": true,
+    "field": "PLAYER_PROFILE_TYPE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_PROFILE_TYPE",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Convenience method to add multiple worlds to this World Group.",
+    "param-names": [
+      "WorldGroup",
+      "Worlds",
+      "Update Config"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup",
+      "java.util.Collection",
+      "boolean"
+    ],
+    "method": "addWorlds",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#addWorlds(java.util.Collection<java.lang.String>,boolean)",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup"
+  },
+  {
+    "param-names": [
+      "ProfileType"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileType"
+    ],
+    "method": "getName",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileType#getName()",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileType",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Gets the server's root-folder as File.",
+    "param-names": [
+      "MultiverseInventories"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.MultiverseInventories"
+    ],
+    "method": "getServerFolder",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.MultiverseInventories#getServerFolder()",
+    "class": "com.onarandombox.multiverseinventories.MultiverseInventories",
+    "return": "java.io.File"
+  },
+  {
+    "param-names": [
+      "Sharable"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Sharable"
+    ],
+    "method": "getSerializer",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharable#getSerializer()",
+    "class": "com.onarandombox.multiverseinventories.share.Sharable",
+    "return": "com.onarandombox.multiverseinventories.share.SharableSerializer"
+  },
+  {
+    "param-names": [
+      "InventoriesConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig"
+    ],
+    "method": "isDefaultingUngroupedWorlds",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#isDefaultingUngroupedWorlds()",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig",
+    "return": "boolean"
+  },
+  {
+    "descr": "Number of slots in Minecraft player inventory.",
+    "static": true,
+    "field": "INVENTORY_SIZE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.PlayerStats#INVENTORY_SIZE",
+    "class": "com.onarandombox.multiverseinventories.PlayerStats",
+    "return": "int"
+  },
+  {
+    "param-names": [
+      "Name"
+    ],
+    "static": true,
+    "param-types": [
+      "java.lang.String"
+    ],
+    "method": "valueOf",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.container.ContainerType#valueOf(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.profile.container.ContainerType",
+    "return": "com.onarandombox.multiverseinventories.profile.container.ContainerType"
+  },
+  {
+    "param-names": [
+      "InventoriesConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig"
+    ],
+    "method": "isUsingBypass",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#isUsingBypass()",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig",
+    "return": "boolean"
+  },
+  {
+    "static": true,
+    "method": "all",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#all()",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "descr": "Returns a list of all the world groups defined in Multiverse-Inventories's groups configuration.\\nThis list is unmodifiable.",
+    "param-names": [
+      "WorldGroupManager"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.WorldGroupManager"
+    ],
+    "method": "getGroups",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.WorldGroupManager#getGroups()",
+    "class": "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+    "return": "java.util.List"
+  },
+  {
+    "param-names": [
+      "PersistingProfile"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.PersistingProfile"
+    ],
+    "method": "getShares",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.PersistingProfile#getShares()",
+    "class": "com.onarandombox.multiverseinventories.share.PersistingProfile",
+    "return": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "descr": "The profile type for the SURVIVAL Game Mode.",
+    "static": true,
+    "field": "SURVIVAL",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileTypes#SURVIVAL",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileTypes",
+    "return": "com.onarandombox.multiverseinventories.profile.ProfileType"
+  },
+  {
+    "param-names": [
+      "InventoriesConfig",
+      "Use Default Group"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig",
+      "boolean"
+    ],
+    "method": "setDefaultingUngroupedWorlds",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#setDefaultingUngroupedWorlds(boolean)",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig"
+  },
+  {
+    "param-names": [
+      "SharableGroup"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.SharableGroup"
+    ],
+    "method": "getNames",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.SharableGroup#getNames()",
+    "class": "com.onarandombox.multiverseinventories.share.SharableGroup",
+    "return": "java.lang.String[]"
+  },
+  {
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.PotionEffectSerializer#PotionEffectSerializer()",
+    "class": "com.onarandombox.multiverseinventories.share.PotionEffectSerializer"
+  },
+  {
+    "param-names": [
+      "InventoriesConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig"
+    ],
+    "method": "getOptionalShares",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#getOptionalShares()",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig",
+    "return": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "param-names": [
+      "ProfileEntry"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.ProfileEntry"
+    ],
+    "method": "isStat",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.ProfileEntry#isStat()",
+    "class": "com.onarandombox.multiverseinventories.share.ProfileEntry",
+    "return": "boolean"
+  },
+  {
+    "descr": "This deserializes the data for a Sharable. You must be expecting the type of data coming in in order to process\\nthis. That type will generally be the type that this serializes as with #serialize(Object).",
+    "param-names": [
+      "SharableSerializer",
+      "Obj"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.SharableSerializer",
+      "java.lang.Object"
+    ],
+    "method": "deserialize",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.SharableSerializer#deserialize(java.lang.Object)",
+    "class": "com.onarandombox.multiverseinventories.share.SharableSerializer",
+    "return": "java.lang.Object"
+  },
+  {
+    "descr": "Whether or not to make ungrouped worlds use the default group.",
+    "static": true,
+    "field": "DEFAULT_UNGROUPED_WORLDS",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig.Path#DEFAULT_UNGROUPED_WORLDS",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig.Path",
+    "return": "com.onarandombox.multiverseinventories.InventoriesConfig.Path"
+  },
+  {
+    "descr": "Player off hand item identifier.",
+    "static": true,
+    "field": "PLAYER_OFF_HAND_ITEM",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_OFF_HAND_ITEM",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "PlayerProfile"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.PlayerProfile"
+    ],
+    "method": "getContainerType",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.PlayerProfile#getContainerType()",
+    "class": "com.onarandombox.multiverseinventories.profile.PlayerProfile",
+    "return": "com.onarandombox.multiverseinventories.profile.container.ContainerType"
+  },
+  {
+    "descr": "Delimiter to separate a key and it's value.",
+    "static": true,
+    "field": "VALUE_DELIMITER",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#VALUE_DELIMITER",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Shares"
+    ],
+    "static": true,
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Shares"
+    ],
+    "method": "complimentOf",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#complimentOf(com.onarandombox.multiverseinventories.share.Shares)",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "descr": "Sharing Last Location.",
+    "static": true,
+    "field": "LAST_LOCATION",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#LAST_LOCATION",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "Sets whether Multiverse-Inventories should save on player logout and load on player login.",
+    "param-names": [
+      "InventoriesConfig",
+      "Use Logging Save Load"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig",
+      "boolean"
+    ],
+    "method": "setUsingLoggingSaveLoad",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#setUsingLoggingSaveLoad(boolean)",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig"
+  },
+  {
+    "descr": "Ender chest inventory contents identifier.",
+    "static": true,
+    "field": "ENDER_CHEST_CONTENTS",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#ENDER_CHEST_CONTENTS",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Profile"
+    ],
+    "static": true,
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.PlayerProfile"
+    ],
+    "method": "createProfileKey",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileKey#createProfileKey(com.onarandombox.multiverseinventories.profile.PlayerProfile)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileKey",
+    "return": "com.onarandombox.multiverseinventories.profile.ProfileKey"
+  },
+  {
+    "descr": "This allows you to specify a custom SharableSerializer to use to convert the data represented by\\nthis Sharable into something acceptable by persistence.",
+    "param-names": [
+      "Sharable.Builder",
+      "Entry",
+      "Serializer"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Sharable.Builder",
+      "com.onarandombox.multiverseinventories.share.ProfileEntry",
+      "com.onarandombox.multiverseinventories.share.SharableSerializer"
+    ],
+    "method": "serializer",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharable.Builder#serializer(com.onarandombox.multiverseinventories.share.ProfileEntry,com.onarandombox.multiverseinventories.share.SharableSerializer<T>)",
+    "class": "com.onarandombox.multiverseinventories.share.Sharable.Builder",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable.Builder"
+  },
+  {
+    "param-names": [
+      "Shares",
+      "Sharable"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Shares",
+      "com.onarandombox.multiverseinventories.share.Sharable"
+    ],
+    "method": "isSharing",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Shares#isSharing(com.onarandombox.multiverseinventories.share.Sharable)",
+    "class": "com.onarandombox.multiverseinventories.share.Shares",
+    "return": "boolean"
+  },
+  {
+    "descr": "Grouping for ALL default sharables.\\nTODO: make this really mean all, including 3rd party.",
+    "static": true,
+    "field": "ALL_DEFAULT",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#ALL_DEFAULT",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.SharableGroup"
+  },
+  {
+    "static": true,
+    "method": "allOf",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#allOf()",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "descr": "Returns the UUID of the player.",
+    "param-names": [
+      "GlobalProfile"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.GlobalProfile"
+    ],
+    "method": "getPlayerUUID",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GlobalProfile#getPlayerUUID()",
+    "class": "com.onarandombox.multiverseinventories.profile.GlobalProfile",
+    "return": "java.util.UUID"
+  },
+  {
+    "param-names": [
+      "Group One",
+      "Group Two",
+      "Conflicting Shares"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup",
+      "com.onarandombox.multiverseinventories.WorldGroup",
+      "com.onarandombox.multiverseinventories.share.Shares"
+    ],
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GroupingConflict#GroupingConflict(com.onarandombox.multiverseinventories.WorldGroup,com.onarandombox.multiverseinventories.WorldGroup,com.onarandombox.multiverseinventories.share.Shares)",
+    "class": "com.onarandombox.multiverseinventories.profile.GroupingConflict"
+  },
+  {
+    "descr": "Sharing Maximum Air.",
+    "static": true,
+    "field": "MAXIMUM_AIR",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#MAXIMUM_AIR",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "Grouping for experience sharables.",
+    "static": true,
+    "field": "ALL_EXPERIENCE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#ALL_EXPERIENCE",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.SharableGroup"
+  },
+  {
+    "descr": "First Run flag config path, default and comments.",
+    "static": true,
+    "field": "OPTIONAL_SHARES",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig.Path#OPTIONAL_SHARES",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig.Path",
+    "return": "com.onarandombox.multiverseinventories.InventoriesConfig.Path"
+  },
+  {
+    "descr": "Retrieves the world group associated with the given name.\\nThese groups represent the groups that define a set of worlds and what they share.",
+    "param-names": [
+      "WorldGroupManager",
+      "Group Name"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+      "java.lang.String"
+    ],
+    "method": "getGroup",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.WorldGroupManager#getGroup(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+    "return": "com.onarandombox.multiverseinventories.WorldGroup"
+  },
+  {
+    "descr": "Removes the persisted data for a player for a specific profile.",
+    "param-names": [
+      "ProfileDataSource",
+      "Container Type",
+      "Data Name",
+      "Profile Type",
+      "Player Name"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileDataSource",
+      "com.onarandombox.multiverseinventories.profile.container.ContainerType",
+      "java.lang.String",
+      "com.onarandombox.multiverseinventories.profile.ProfileType",
+      "java.lang.String"
+    ],
+    "method": "removePlayerData",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileDataSource#removePlayerData(com.onarandombox.multiverseinventories.profile.container.ContainerType,java.lang.String,com.onarandombox.multiverseinventories.profile.ProfileType,java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileDataSource",
+    "return": "boolean"
+  },
+  {
+    "descr": "Returns the world profile container store for this plugin.\\nPlayer profiles for an individual world can be found here.",
+    "param-names": [
+      "MultiverseInventories"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.MultiverseInventories"
+    ],
+    "method": "getWorldProfileContainerStore",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.MultiverseInventories#getWorldProfileContainerStore()",
+    "class": "com.onarandombox.multiverseinventories.MultiverseInventories",
+    "return": "com.onarandombox.multiverseinventories.profile.container.ProfileContainerStore"
+  },
+  {
+    "descr": "Returns the group profile container store for this plugin.\\nPlayer profiles for a world group can be found here.",
+    "param-names": [
+      "MultiverseInventories"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.MultiverseInventories"
+    ],
+    "method": "getGroupProfileContainerStore",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.MultiverseInventories#getGroupProfileContainerStore()",
+    "class": "com.onarandombox.multiverseinventories.MultiverseInventories",
+    "return": "com.onarandombox.multiverseinventories.profile.container.ProfileContainerStore"
+  },
+  {
+    "descr": "Get the name of this World Group.",
+    "param-names": [
+      "WorldGroup"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup"
+    ],
+    "method": "getName",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#getName()",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Default total experience value.",
+    "static": true,
+    "field": "TOTAL_EXPERIENCE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.PlayerStats#TOTAL_EXPERIENCE",
+    "class": "com.onarandombox.multiverseinventories.PlayerStats",
+    "return": "int"
+  },
+  {
+    "descr": "Creates a new instance of Shares containing the listed Sharables.",
+    "param-names": [
+      "Sharables"
+    ],
+    "static": true,
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Sharable[]"
+    ],
+    "method": "fromSharables",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#fromSharables(com.onarandombox.multiverseinventories.share.Sharable...)",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "descr": "Sharing Inventory.",
+    "static": true,
+    "field": "INVENTORY",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#INVENTORY",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "Player last location identifier.",
+    "static": true,
+    "field": "PLAYER_LAST_LOCATION",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_LAST_LOCATION",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Player max air identifier.",
+    "static": true,
+    "field": "PLAYER_MAX_AIR",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_MAX_AIR",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Removes a world from this world group and optionally updates it in the Config.",
+    "param-names": [
+      "WorldGroup",
+      "World Name",
+      "Update Config"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup",
+      "java.lang.String",
+      "boolean"
+    ],
+    "method": "removeWorld",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#removeWorld(java.lang.String,boolean)",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup"
+  },
+  {
+    "descr": "Gets globalDebug level.",
+    "param-names": [
+      "InventoriesConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig"
+    ],
+    "method": "getGlobalDebug",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#getGlobalDebug()",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig",
+    "return": "int"
+  },
+  {
+    "descr": "Checks all the world groups to see if there are any potential issues.",
+    "param-names": [
+      "WorldGroupManager"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.WorldGroupManager"
+    ],
+    "method": "checkGroups",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.WorldGroupManager#checkGroups()",
+    "class": "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+    "return": "java.util.List"
+  },
+  {
+    "descr": "Creates a new empty world group.\\nPlease note if you do not add worlds to this group it will not persist very well.\\nThis does not automatically persist the new group. It must bed added via #updateGroup(WorldGroup).",
+    "param-names": [
+      "WorldGroupManager",
+      "Name"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+      "java.lang.String"
+    ],
+    "method": "newEmptyGroup",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.WorldGroupManager#newEmptyGroup(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+    "return": "com.onarandombox.multiverseinventories.WorldGroup"
+  },
+  {
+    "descr": "Convenience method to add multiple worlds to this World Group and updates it in the Config.",
+    "param-names": [
+      "WorldGroup",
+      "Worlds"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup",
+      "java.util.Collection"
+    ],
+    "method": "addWorlds",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#addWorlds(java.util.Collection<java.lang.String>)",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup"
+  },
+  {
+    "descr": "Sharing Offhand.",
+    "static": true,
+    "field": "OFF_HAND",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#OFF_HAND",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "Returns the profile container for the given name.",
+    "param-names": [
+      "ProfileContainerStore",
+      "Container Name"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.container.ProfileContainerStore",
+      "java.lang.String"
+    ],
+    "method": "getContainer",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.container.ProfileContainerStore#getContainer(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.profile.container.ProfileContainerStore",
+    "return": "com.onarandombox.multiverseinventories.profile.container.ProfileContainer"
+  },
+  {
+    "descr": "Default level value.",
+    "static": true,
+    "field": "LEVEL",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.PlayerStats#LEVEL",
+    "class": "com.onarandombox.multiverseinventories.PlayerStats",
+    "return": "int"
+  },
+  {
+    "descr": "Whether or not to save/load player data on log out/in.",
+    "static": true,
+    "field": "LOGGING_SAVE_LOAD",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig.Path#LOGGING_SAVE_LOAD",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig.Path",
+    "return": "com.onarandombox.multiverseinventories.InventoriesConfig.Path"
+  },
+  {
+    "descr": "Adds a world to this world group and optionally updates it in the Config.",
+    "param-names": [
+      "WorldGroup",
+      "World Name",
+      "Update Config"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup",
+      "java.lang.String",
+      "boolean"
+    ],
+    "method": "addWorld",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#addWorld(java.lang.String,boolean)",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup"
+  },
+  {
+    "param-names": [
+      "GroupingConflict"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.GroupingConflict"
+    ],
+    "method": "getConflictingWorlds",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GroupingConflict#getConflictingWorlds()",
+    "class": "com.onarandombox.multiverseinventories.profile.GroupingConflict",
+    "return": "java.util.List"
+  },
+  {
+    "descr": "Location yaw identifier.",
+    "static": true,
+    "field": "LOCATION_YAW",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#LOCATION_YAW",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Player remaining air identifier.",
+    "static": true,
+    "field": "PLAYER_REMAINING_AIR",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_REMAINING_AIR",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "PlayerProfile"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.PlayerProfile"
+    ],
+    "method": "getContainerName",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.PlayerProfile#getContainerName()",
+    "class": "com.onarandombox.multiverseinventories.profile.PlayerProfile",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Container Type",
+      "Data Name",
+      "Profile Type",
+      "Player UUID",
+      "Player Name"
+    ],
+    "static": true,
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.container.ContainerType",
+      "java.lang.String",
+      "com.onarandombox.multiverseinventories.profile.ProfileType",
+      "java.util.UUID",
+      "java.lang.String"
+    ],
+    "method": "createProfileKey",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileKey#createProfileKey(com.onarandombox.multiverseinventories.profile.container.ContainerType,java.lang.String,com.onarandombox.multiverseinventories.profile.ProfileType,java.util.UUID,java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileKey",
+    "return": "com.onarandombox.multiverseinventories.profile.ProfileKey"
+  },
+  {
+    "descr": "Creates a new instance of Shares containing all Sharables contained in sharesCollection.",
+    "param-names": [
+      "Shares Collection"
+    ],
+    "static": true,
+    "param-types": [
+      "java.util.Collection"
+    ],
+    "method": "fromCollection",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#fromCollection(java.util.Collection<com.onarandombox.multiverseinventories.share.Sharable>)",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "param-names": [
+      "Inventories"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.MultiverseInventories"
+    ],
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesListener#InventoriesListener(com.onarandombox.multiverseinventories.MultiverseInventories)",
+    "class": "com.onarandombox.multiverseinventories.InventoriesListener"
+  },
+  {
+    "descr": "Creates a global profile object for the given player with default values.",
+    "param-names": [
+      "Player Name"
+    ],
+    "static": true,
+    "param-types": [
+      "java.lang.String"
+    ],
+    "method": "createGlobalProfile",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GlobalProfile#createGlobalProfile(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.profile.GlobalProfile",
+    "return": "com.onarandombox.multiverseinventories.profile.GlobalProfile"
+  },
+  {
+    "descr": "Returns the name of last world the player was in.",
+    "param-names": [
+      "GlobalProfile"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.GlobalProfile"
+    ],
+    "method": "getLastWorld",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GlobalProfile#getLastWorld()",
+    "class": "com.onarandombox.multiverseinventories.profile.GlobalProfile",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Creates a default world group including all of the loaded MV worlds sharing everything.",
+    "param-names": [
+      "WorldGroupManager"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.WorldGroupManager"
+    ],
+    "method": "createDefaultGroup",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.WorldGroupManager#createDefaultGroup()",
+    "class": "com.onarandombox.multiverseinventories.profile.WorldGroupManager"
+  },
+  {
+    "descr": "Retrieves all of the worlds in this World Group.",
+    "param-names": [
+      "WorldGroup"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup"
+    ],
+    "method": "getWorlds",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#getWorlds()",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup",
+    "return": "java.util.Set"
+  },
+  {
+    "param-names": [
+      "WorldGroup",
+      "World Name"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup",
+      "java.lang.String"
+    ],
+    "method": "setSpawnWorld",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#setSpawnWorld(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup"
+  },
+  {
+    "descr": "Is this a default group.",
+    "param-names": [
+      "WorldGroup"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup"
+    ],
+    "method": "isDefault",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#isDefault()",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup",
+    "return": "boolean"
+  },
+  {
+    "descr": "Update the file for a player's global profile.",
+    "param-names": [
+      "ProfileDataSource",
+      "Global Profile"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileDataSource",
+      "com.onarandombox.multiverseinventories.profile.GlobalProfile"
+    ],
+    "method": "updateGlobalProfile",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileDataSource#updateGlobalProfile(com.onarandombox.multiverseinventories.profile.GlobalProfile)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileDataSource",
+    "return": "boolean"
+  },
+  {
+    "static": true,
+    "field": "USE_OPTIONALS_UNGROUPED",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig.Path#USE_OPTIONALS_UNGROUPED",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig.Path",
+    "return": "com.onarandombox.multiverseinventories.InventoriesConfig.Path"
+  },
+  {
+    "descr": "Returns the profile container for this group.",
+    "param-names": [
+      "WorldGroup"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup"
+    ],
+    "method": "getGroupProfileContainer",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#getGroupProfileContainer()",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup",
+    "return": "com.onarandombox.multiverseinventories.profile.container.ProfileContainer"
+  },
+  {
+    "descr": "Sharing Saturation.",
+    "static": true,
+    "field": "SATURATION",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#SATURATION",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "A convenience method for setting whether player data should be loaded on login for the specified player.",
+    "param-names": [
+      "ProfileDataSource",
+      "Player Name",
+      "Load On Login"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileDataSource",
+      "java.lang.String",
+      "boolean"
+    ],
+    "method": "setLoadOnLogin",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileDataSource#setLoadOnLogin(java.lang.String,boolean)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileDataSource"
+  },
+  {
+    "descr": "Tells whether this is the first time the plugin has run as set by a config flag.",
+    "param-names": [
+      "InventoriesConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig"
+    ],
+    "method": "isFirstRun",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#isFirstRun()",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig",
+    "return": "boolean"
+  },
+  {
+    "descr": "Looks up a sharable by one of the acceptable names.",
+    "param-names": [
+      "Name"
+    ],
+    "static": true,
+    "param-types": [
+      "java.lang.String"
+    ],
+    "method": "lookup",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#lookup(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "param-names": [
+      "GroupingConflict"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.GroupingConflict"
+    ],
+    "method": "getWorldsString",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GroupingConflict#getWorldsString()",
+    "class": "com.onarandombox.multiverseinventories.profile.GroupingConflict",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "Inventory Size"
+    ],
+    "param-types": [
+      "int"
+    ],
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.InventorySerializer#InventorySerializer(int)",
+    "class": "com.onarandombox.multiverseinventories.share.InventorySerializer"
+  },
+  {
+    "descr": "Player inventory contents identifier.",
+    "static": true,
+    "field": "PLAYER_INVENTORY_CONTENTS",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_INVENTORY_CONTENTS",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Sharing Experience.",
+    "static": true,
+    "field": "EXPERIENCE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#EXPERIENCE",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "Clears a single profile in cache.",
+    "param-names": [
+      "ProfileDataSource",
+      "Key"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileDataSource",
+      "com.onarandombox.multiverseinventories.profile.ProfileKey"
+    ],
+    "method": "clearProfileCache",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileDataSource#clearProfileCache(com.onarandombox.multiverseinventories.profile.ProfileKey)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileDataSource"
+  },
+  {
+    "param-names": [
+      "ProfileKey"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileKey"
+    ],
+    "method": "getContainerType",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileKey#getContainerType()",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileKey",
+    "return": "com.onarandombox.multiverseinventories.profile.container.ContainerType"
+  },
+  {
+    "static": true,
+    "method": "noneOf",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#noneOf()",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "descr": "Indicates that the new Sharable is optional as described in Sharable#isOptional().",
+    "param-names": [
+      "Sharable.Builder"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Sharable.Builder"
+    ],
+    "method": "optional",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharable.Builder#optional()",
+    "class": "com.onarandombox.multiverseinventories.share.Sharable.Builder",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable.Builder"
+  },
+  {
+    "descr": "Adds a profile container to the store.",
+    "param-names": [
+      "ProfileContainerStore",
+      "Container"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.container.ProfileContainerStore",
+      "com.onarandombox.multiverseinventories.profile.container.ProfileContainer"
+    ],
+    "method": "addContainer",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.container.ProfileContainerStore#addContainer(com.onarandombox.multiverseinventories.profile.container.ProfileContainer)",
+    "class": "com.onarandombox.multiverseinventories.profile.container.ProfileContainerStore"
+  },
+  {
+    "descr": "Initialize this class with the instance of Inventories.",
+    "param-names": [
+      "Inventories"
+    ],
+    "static": true,
+    "param-types": [
+      "com.onarandombox.multiverseinventories.MultiverseInventories"
+    ],
+    "method": "init",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#init(com.onarandombox.multiverseinventories.MultiverseInventories)",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables"
+  },
+  {
+    "descr": "Grouping for air/breath related sharables.",
+    "static": true,
+    "field": "AIR",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#AIR",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.SharableGroup"
+  },
+  {
+    "descr": "Used to look up a Sharable by it's file tag.",
+    "param-names": [
+      "Stat",
+      "File Tag"
+    ],
+    "static": true,
+    "param-types": [
+      "boolean",
+      "java.lang.String"
+    ],
+    "method": "lookup",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.ProfileEntry#lookup(boolean,java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.share.ProfileEntry",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "param-names": [
+      "GroupingConflict"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.GroupingConflict"
+    ],
+    "method": "getFirstGroup",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GroupingConflict#getFirstGroup()",
+    "class": "com.onarandombox.multiverseinventories.profile.GroupingConflict",
+    "return": "com.onarandombox.multiverseinventories.WorldGroup"
+  },
+  {
+    "param-names": [
+      "WorldGroupManager"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.WorldGroupManager"
+    ],
+    "method": "getDefaultGroup",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.WorldGroupManager#getDefaultGroup()",
+    "class": "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+    "return": "com.onarandombox.multiverseinventories.WorldGroup"
+  },
+  {
+    "descr": "Says whether the player data for the player's logout world should be loaded when the player logs in.\\nThe default value is false.",
+    "param-names": [
+      "GlobalProfile"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.GlobalProfile"
+    ],
+    "method": "shouldLoadOnLogin",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GlobalProfile#shouldLoadOnLogin()",
+    "class": "com.onarandombox.multiverseinventories.profile.GlobalProfile",
+    "return": "boolean"
+  },
+  {
+    "param-names": [
+      "ProfileKey"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileKey"
+    ],
+    "method": "getPlayerName",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileKey#getPlayerName()",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileKey",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Default food level value.",
+    "static": true,
+    "field": "FOOD_LEVEL",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.PlayerStats#FOOD_LEVEL",
+    "class": "com.onarandombox.multiverseinventories.PlayerStats",
+    "return": "int"
+  },
+  {
+    "param-names": [
+      "Sharable.Builder"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Sharable.Builder"
+    ],
+    "method": "build",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharable.Builder#build()",
+    "class": "com.onarandombox.multiverseinventories.share.Sharable.Builder",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "param-names": [
+      "ProfileKey"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileKey"
+    ],
+    "method": "getDataName",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileKey#getDataName()",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileKey",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Indicates World type profiles.",
+    "static": true,
+    "field": "WORLD",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.container.ContainerType#WORLD",
+    "class": "com.onarandombox.multiverseinventories.profile.container.ContainerType",
+    "return": "com.onarandombox.multiverseinventories.profile.container.ContainerType"
+  },
+  {
+    "param-names": [
+      "MultiverseInventories"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.MultiverseInventories"
+    ],
+    "method": "getGroupManager",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.MultiverseInventories#getGroupManager()",
+    "class": "com.onarandombox.multiverseinventories.MultiverseInventories",
+    "return": "com.onarandombox.multiverseinventories.profile.WorldGroupManager"
+  },
+  {
+    "descr": "Removes a world group from the collection in memory AND from the groups configuration.",
+    "param-names": [
+      "WorldGroupManager",
+      "World Group"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+      "com.onarandombox.multiverseinventories.WorldGroup"
+    ],
+    "method": "removeGroup",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.WorldGroupManager#removeGroup(com.onarandombox.multiverseinventories.WorldGroup)",
+    "class": "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+    "return": "boolean"
+  },
+  {
+    "descr": "Returns the last name the player was known to have.",
+    "param-names": [
+      "GlobalProfile"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.GlobalProfile"
+    ],
+    "method": "getLastKnownName",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GlobalProfile#getLastKnownName()",
+    "class": "com.onarandombox.multiverseinventories.profile.GlobalProfile",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Sharing Remaining Air.",
+    "static": true,
+    "field": "REMAINING_AIR",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#REMAINING_AIR",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "Sets the last world the player was known to be in. This is done automatically on world change.",
+    "param-names": [
+      "GlobalProfile",
+      "World"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.GlobalProfile",
+      "java.lang.String"
+    ],
+    "method": "setLastWorld",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GlobalProfile#setLastWorld(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.profile.GlobalProfile"
+  },
+  {
+    "descr": "Default exhaustion value.",
+    "static": true,
+    "field": "EXHAUSTION",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.PlayerStats#EXHAUSTION",
+    "class": "com.onarandombox.multiverseinventories.PlayerStats",
+    "return": "float"
+  },
+  {
+    "descr": "Saves the configuration file to disk.",
+    "param-names": [
+      "InventoriesConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig"
+    ],
+    "method": "save",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#save()",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig"
+  },
+  {
+    "param-names": [
+      "Sharable.Builder",
+      "Name"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Sharable.Builder",
+      "java.lang.String"
+    ],
+    "method": "altName",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharable.Builder#altName(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.share.Sharable.Builder",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable.Builder"
+  },
+  {
+    "descr": "Returns the name of the player.",
+    "param-names": [
+      "GlobalProfile"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.GlobalProfile"
+    ],
+    "method": "getPlayerName",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GlobalProfile#getPlayerName()",
+    "class": "com.onarandombox.multiverseinventories.profile.GlobalProfile",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "MultiverseInventories"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.MultiverseInventories"
+    ],
+    "method": "getRequiredProtocol",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.MultiverseInventories#getRequiredProtocol()",
+    "class": "com.onarandombox.multiverseinventories.MultiverseInventories",
+    "return": "int"
+  },
+  {
+    "param-names": [
+      "Shares"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Shares"
+    ],
+    "method": "toStringList",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Shares#toStringList()",
+    "class": "com.onarandombox.multiverseinventories.share.Shares",
+    "return": "java.util.List"
+  },
+  {
+    "param-names": [
+      "Name",
+      "Type",
+      "Handler"
+    ],
+    "param-types": [
+      "java.lang.String",
+      "java.lang.Class",
+      "com.onarandombox.multiverseinventories.share.SharableHandler"
+    ],
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharable.Builder#Builder(java.lang.String,java.lang.Class<T>,com.onarandombox.multiverseinventories.share.SharableHandler<T>)",
+    "class": "com.onarandombox.multiverseinventories.share.Sharable.Builder"
+  },
+  {
+    "descr": "Adds a World Group to the collection in memory, also writing it to the groups configuration.",
+    "param-names": [
+      "WorldGroupManager",
+      "World Group",
+      "Persist"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+      "com.onarandombox.multiverseinventories.WorldGroup",
+      "boolean"
+    ],
+    "method": "addGroup",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.WorldGroupManager#addGroup(com.onarandombox.multiverseinventories.WorldGroup,boolean)",
+    "class": "com.onarandombox.multiverseinventories.profile.WorldGroupManager"
+  },
+  {
+    "static": true,
+    "method": "values",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig.Path#values()",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig.Path",
+    "return": "com.onarandombox.multiverseinventories.InventoriesConfig.Path[]"
+  },
+  {
+    "descr": "Player total experience identifier.",
+    "static": true,
+    "field": "PLAYER_TOTAL_EXPERIENCE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_TOTAL_EXPERIENCE",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Player saturation identifier.",
+    "static": true,
+    "field": "PLAYER_SATURATION",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#PLAYER_SATURATION",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Retrieves the locale string from the config.",
+    "param-names": [
+      "InventoriesConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig"
+    ],
+    "method": "getLocale",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#getLocale()",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Sets the profile's value for the Sharable passed in.",
+    "param-names": [
+      "PlayerProfile",
+      "Sharable",
+      "Value"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.PlayerProfile",
+      "com.onarandombox.multiverseinventories.share.Sharable",
+      "java.lang.Object"
+    ],
+    "method": "set",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.PlayerProfile#<T>set(com.onarandombox.multiverseinventories.share.Sharable<T>,T)",
+    "class": "com.onarandombox.multiverseinventories.profile.PlayerProfile"
+  },
+  {
+    "descr": "Sharing Armor.",
+    "static": true,
+    "field": "ARMOR",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#ARMOR",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "Creates a global profile object for the given player with default values.",
+    "param-names": [
+      "Player Name",
+      "Player UUID"
+    ],
+    "static": true,
+    "param-types": [
+      "java.lang.String",
+      "java.util.UUID"
+    ],
+    "method": "createGlobalProfile",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.GlobalProfile#createGlobalProfile(java.lang.String,java.util.UUID)",
+    "class": "com.onarandombox.multiverseinventories.profile.GlobalProfile",
+    "return": "com.onarandombox.multiverseinventories.profile.GlobalProfile"
+  },
+  {
+    "param-names": [
+      "Copy Key",
+      "Container Type"
+    ],
+    "static": true,
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.ProfileKey",
+      "com.onarandombox.multiverseinventories.profile.container.ContainerType"
+    ],
+    "method": "createProfileKey",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.ProfileKey#createProfileKey(com.onarandombox.multiverseinventories.profile.ProfileKey,com.onarandombox.multiverseinventories.profile.container.ContainerType)",
+    "class": "com.onarandombox.multiverseinventories.profile.ProfileKey",
+    "return": "com.onarandombox.multiverseinventories.profile.ProfileKey"
+  },
+  {
+    "param-names": [
+      "SharableEntry"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.SharableEntry"
+    ],
+    "method": "getSharable",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.SharableEntry#getSharable()",
+    "class": "com.onarandombox.multiverseinventories.share.SharableEntry",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  },
+  {
+    "descr": "Potion type identifier.",
+    "static": true,
+    "field": "POTION_TYPE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#POTION_TYPE",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Locale name config path, default and comments.",
+    "static": true,
+    "field": "LANGUAGE_FILE_NAME",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig.Path#LANGUAGE_FILE_NAME",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig.Path",
+    "return": "com.onarandombox.multiverseinventories.InventoriesConfig.Path"
+  },
+  {
+    "descr": "Grouping for player stat related sharables not including inventory.",
+    "static": true,
+    "field": "STATS",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#STATS",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.SharableGroup"
+  },
+  {
+    "param-names": [
+      "ShareHandler.AffectedProfiles"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.ShareHandler.AffectedProfiles"
+    ],
+    "method": "getAlwaysWriteProfile",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.ShareHandler.AffectedProfiles#getAlwaysWriteProfile()",
+    "class": "com.onarandombox.multiverseinventories.ShareHandler.AffectedProfiles",
+    "return": "com.onarandombox.multiverseinventories.share.PersistingProfile"
+  },
+  {
+    "descr": "Grouping for hunger related sharables.",
+    "static": true,
+    "field": "HUNGER",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#HUNGER",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.SharableGroup"
+  },
+  {
+    "descr": "Retrieves all of the world groups associated with the given world.",
+    "param-names": [
+      "WorldGroupManager",
+      "World Name"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+      "java.lang.String"
+    ],
+    "method": "getGroupsForWorld",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.profile.WorldGroupManager#getGroupsForWorld(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.profile.WorldGroupManager",
+    "return": "java.util.List"
+  },
+  {
+    "param-names": [
+      "Shares",
+      "Sharables",
+      "Sharing"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Shares",
+      "com.onarandombox.multiverseinventories.share.Shares",
+      "boolean"
+    ],
+    "method": "setSharing",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Shares#setSharing(com.onarandombox.multiverseinventories.share.Shares,boolean)",
+    "class": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "param-names": [
+      "Sharable"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Sharable"
+    ],
+    "method": "getHandler",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharable#getHandler()",
+    "class": "com.onarandombox.multiverseinventories.share.Sharable",
+    "return": "com.onarandombox.multiverseinventories.share.SharableHandler"
+  },
+  {
+    "descr": "Location x identifier.",
+    "static": true,
+    "field": "LOCATION_X",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#LOCATION_X",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Sets whether Multiverse-Inventories will utilize optional shares in worlds that are not grouped.",
+    "param-names": [
+      "InventoriesConfig",
+      "Using Optionals For Ungrouped"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.InventoriesConfig",
+      "boolean"
+    ],
+    "method": "setUsingOptionalsForUngrouped",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.InventoriesConfig#setUsingOptionalsForUngrouped(boolean)",
+    "class": "com.onarandombox.multiverseinventories.InventoriesConfig"
+  },
+  {
+    "descr": "Location z identifier.",
+    "static": true,
+    "field": "LOCATION_Z",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.DataStrings#LOCATION_Z",
+    "class": "com.onarandombox.multiverseinventories.DataStrings",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Checks if this group is sharing sharable. This will check both shares and negative shares of the group.\\nThis is the preferred method for checking if a group shares something as shares may contain ALL shares while\\nones indicated in negative shares means those aren't actually shared.",
+    "param-names": [
+      "WorldGroup",
+      "Sharable"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup",
+      "com.onarandombox.multiverseinventories.share.Sharable"
+    ],
+    "method": "isSharing",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#isSharing(com.onarandombox.multiverseinventories.share.Sharable)",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup",
+    "return": "boolean"
+  },
+  {
+    "descr": "Sets this sharable to be serialized as a string in the profile data file. To use this, the class type\\nindicates in the Builder's constructor MUST have a static .valueOf(String) method that returns it's type.",
+    "param-names": [
+      "Sharable.Builder",
+      "Entry"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Sharable.Builder",
+      "com.onarandombox.multiverseinventories.share.ProfileEntry"
+    ],
+    "method": "stringSerializer",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharable.Builder#stringSerializer(com.onarandombox.multiverseinventories.share.ProfileEntry)",
+    "class": "com.onarandombox.multiverseinventories.share.Sharable.Builder",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable.Builder"
+  },
+  {
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.MultiverseInventories#MultiverseInventories()",
+    "class": "com.onarandombox.multiverseinventories.MultiverseInventories"
+  },
+  {
+    "descr": "Remove all the worlds in this World Group.",
+    "param-names": [
+      "WorldGroup",
+      "Update Config"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup",
+      "boolean"
+    ],
+    "method": "removeAllWorlds",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#removeAllWorlds(boolean)",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup"
+  },
+  {
+    "descr": "Adds a world to this world group and updates it in the Config.",
+    "param-names": [
+      "WorldGroup",
+      "World Name"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.WorldGroup",
+      "java.lang.String"
+    ],
+    "method": "addWorld",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.WorldGroup#addWorld(java.lang.String)",
+    "class": "com.onarandombox.multiverseinventories.WorldGroup"
+  },
+  {
+    "param-names": [
+      "Sharable",
+      "Initial Value"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Sharable",
+      "java.lang.Object"
+    ],
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.SharableEntry#SharableEntry(com.onarandombox.multiverseinventories.share.Sharable<T>,T)",
+    "class": "com.onarandombox.multiverseinventories.share.SharableEntry"
+  },
+  {
+    "param-names": [
+      "MultiverseInventories"
+    ],
+    "param-types": [
+      "com.onarandombox.multiverseinventories.MultiverseInventories"
+    ],
+    "method": "getData",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.MultiverseInventories#getData()",
+    "class": "com.onarandombox.multiverseinventories.MultiverseInventories",
+    "return": "com.onarandombox.multiverseinventories.profile.ProfileDataSource"
+  },
+  {
+    "descr": "Number of slots for armor for player.",
+    "static": true,
+    "field": "ARMOR_SIZE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.PlayerStats#ARMOR_SIZE",
+    "class": "com.onarandombox.multiverseinventories.PlayerStats",
+    "return": "int"
+  },
+  {
+    "descr": "Creates a new instance of Shares containing all Sharables contained in shares.",
+    "param-names": [
+      "Shares"
+    ],
+    "static": true,
+    "param-types": [
+      "com.onarandombox.multiverseinventories.share.Shares"
+    ],
+    "method": "fromShares",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#fromShares(com.onarandombox.multiverseinventories.share.Shares)",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Shares"
+  },
+  {
+    "descr": "Sharing Fall Distance.",
+    "static": true,
+    "field": "FALL_DISTANCE",
+    "module": "sMultiverseInventories",
+    "id": "com.onarandombox.multiverseinventories.share.Sharables#FALL_DISTANCE",
+    "class": "com.onarandombox.multiverseinventories.share.Sharables",
+    "return": "com.onarandombox.multiverseinventories.share.Sharable"
+  }
+]
