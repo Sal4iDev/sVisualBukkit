@@ -1,8 +1,12 @@
 [
   {
     "descr": "Gets whether or not Multiverse should auto-adjust the spawn for this world.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getAdjustSpawn",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getAdjustSpawn()",
@@ -11,8 +15,12 @@
   },
   {
     "descr": "Gets whether or not animals are allowed to spawn in this world.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "canAnimalsSpawn",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#canAnimalsSpawn()",
@@ -53,8 +61,12 @@
   },
   {
     "descr": "Gets the alias of this world.\\n\\nThis alias allows users to have a world named \"world\" but show up in the list as \"FernIsland\"",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getAlias",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getAlias()",
@@ -93,8 +105,12 @@
   },
   {
     "descr": "Returns a string that can easily be saved in the config that contains all the details needed to rebuild this\\ndestination.\\n\\nex: e:0,0,0:50:50",
-    "param-names": ["MultiverseCore.api.MVDestination"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVDestination"],
+    "param-names": [
+      "MultiverseCore.api.MVDestination"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVDestination"
+    ],
     "method": "toString",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVDestination#toString()",
@@ -103,8 +119,12 @@
   },
   {
     "descr": "Gets the MultiverseCoreConfig.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "getMVConfig",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#getMVConfig()",
@@ -128,8 +148,12 @@
   },
   {
     "descr": "Gives you a specific name of the destination.\\n\\nFor example, the PlayerDestination sets this to The Player's Name.",
-    "param-names": ["MultiverseCore.api.MVDestination"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVDestination"],
+    "param-names": [
+      "MultiverseCore.api.MVDestination"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVDestination"
+    ],
     "method": "getName",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVDestination#getName()",
@@ -171,8 +195,12 @@
   },
   {
     "descr": "Same as #getTime(), but returns a string.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getTime",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getTime()",
@@ -197,8 +225,12 @@
   },
   {
     "descr": "Gets useasyncchat.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "getUseAsyncChat",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#getUseAsyncChat()",
@@ -222,8 +254,12 @@
   },
   {
     "descr": "Loads the Worlds &amp; Settings for any worlds that bukkit loaded before us.\\n\\nThis way people will _always_ have some worlds in the list.",
-    "param-names": ["MultiverseCore.api.MVWorldManager"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVWorldManager"],
+    "param-names": [
+      "MultiverseCore.api.MVWorldManager"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVWorldManager"
+    ],
     "method": "loadDefaultWorlds",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVWorldManager#loadDefaultWorlds()",
@@ -246,8 +282,12 @@
   },
   {
     "descr": "Gets whether or not this world will display in chat, mvw and mvl regardless if a user has the\\naccess permissions to go to this world.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "isHidden",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#isHidden()",
@@ -256,8 +296,12 @@
   },
   {
     "descr": "Gets whether or not a player who dies in this world will respawn in their\\nbed or follow the normal respawn pattern.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getBedRespawn",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getBedRespawn()",
@@ -266,8 +310,12 @@
   },
   {
     "descr": "Gets the MVWeatherListener.",
-    "param-names": ["MultiverseCore.MultiverseCore"],
-    "param-types": ["com.onarandombox.MultiverseCore.MultiverseCore"],
+    "param-names": [
+      "MultiverseCore.MultiverseCore"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.MultiverseCore"
+    ],
     "method": "getWeatherListener",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.MultiverseCore#getWeatherListener()",
@@ -276,8 +324,12 @@
   },
   {
     "descr": "Reloads the Multiverse Configuration files:\\nworlds.yml and config.yml.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "loadConfigs",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#loadConfigs()",
@@ -346,8 +398,12 @@
   },
   {
     "descr": "Whether we are suppressing startup messages.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "getSilentStart",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#getSilentStart()",
@@ -356,8 +412,12 @@
   },
   {
     "descr": "Gets prefixChat.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "getPrefixChat",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#getPrefixChat()",
@@ -399,8 +459,12 @@
   },
   {
     "descr": "Gets the MVEntityListener.",
-    "param-names": ["MultiverseCore.MultiverseCore"],
-    "param-types": ["com.onarandombox.MultiverseCore.MultiverseCore"],
+    "param-names": [
+      "MultiverseCore.MultiverseCore"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.MultiverseCore"
+    ],
     "method": "getEntityListener",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.MultiverseCore#getEntityListener()",
@@ -424,8 +488,12 @@
   },
   {
     "descr": "Gets the player limit for this world after which players without an override\\npermission node will not be allowed in. A value of -1 or less signifies no limit",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getPlayerLimit",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getPlayerLimit()",
@@ -434,8 +502,12 @@
   },
   {
     "descr": "Returns true if the destination is valid and players will be taken to it.\\n\\nEven if destinations are in the correct format (p:MyPortal) MyPortal may not exist, and therefore this would\\nreturn false.",
-    "param-names": ["MultiverseCore.api.MVDestination"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVDestination"],
+    "param-names": [
+      "MultiverseCore.api.MVDestination"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVDestination"
+    ],
     "method": "isValid",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVDestination#isValid()",
@@ -460,8 +532,12 @@
   },
   {
     "descr": "Gets the generator of this world.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getGenerator",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getGenerator()",
@@ -470,8 +546,12 @@
   },
   {
     "descr": "Returns a list of animals. This list always negates the #canAnimalsSpawn() result.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getAnimalList",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getAnimalList()",
@@ -495,8 +575,12 @@
   },
   {
     "descr": "Gets the primary class responsible for managing Multiverse Worlds.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "getMVWorldManager",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#getMVWorldManager()",
@@ -505,8 +589,12 @@
   },
   {
     "descr": "Gets firstSpawnOverride.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "getFirstSpawnOverride",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#getFirstSpawnOverride()",
@@ -530,8 +618,12 @@
   },
   {
     "descr": "Gets a list of all the worlds that players CANNOT travel to from this world,\\nregardless of their access permissions.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getWorldBlacklist",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getWorldBlacklist()",
@@ -600,8 +692,12 @@
   },
   {
     "descr": "Whether or not players are allowed to fly in this world.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getAllowFlight",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getAllowFlight()",
@@ -641,8 +737,12 @@
   },
   {
     "descr": "Parse the Authors Array into a readable String with ',' and 'and'.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "getAuthors",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#getAuthors()",
@@ -667,8 +767,12 @@
   },
   {
     "descr": "Get all the possible worlds that Multiverse has detected to be importable.",
-    "param-names": ["MultiverseCore.api.MVWorldManager"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVWorldManager"],
+    "param-names": [
+      "MultiverseCore.api.MVWorldManager"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVWorldManager"
+    ],
     "method": "getPotentialWorlds",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVWorldManager#getPotentialWorlds()",
@@ -695,8 +799,12 @@
   },
   {
     "descr": "Gets the WorldPurger.\\n\\nTODO: Remove #getWorldPurger() and replace it with this method.",
-    "param-names": ["MultiverseCore.api.MVWorldManager"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVWorldManager"],
+    "param-names": [
+      "MultiverseCore.api.MVWorldManager"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVWorldManager"
+    ],
     "method": "getTheWorldPurger",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVWorldManager#getTheWorldPurger()",
@@ -738,8 +846,12 @@
   },
   {
     "descr": "Gets the list of worlds in the config, but unloaded.",
-    "param-names": ["MultiverseCore.api.MVWorldManager"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVWorldManager"],
+    "param-names": [
+      "MultiverseCore.api.MVWorldManager"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVWorldManager"
+    ],
     "method": "getUnloadedWorlds",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVWorldManager#getUnloadedWorlds()",
@@ -828,8 +940,12 @@
   },
   {
     "descr": "Gets whether or not CraftBukkit is keeping the chunks for this world in memory.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "isKeepingSpawnInMemory",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#isKeepingSpawnInMemory()",
@@ -883,8 +999,12 @@
   },
   {
     "descr": "Gets the world seed of this world.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getSeed",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getSeed()",
@@ -893,8 +1013,12 @@
   },
   {
     "descr": "Gets whether or not Multiverse should auto-load this world.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getAutoLoad",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getAutoLoad()",
@@ -903,8 +1027,12 @@
   },
   {
     "descr": "Gets the world players should spawn in first.",
-    "param-names": ["MultiverseCore.api.MVWorldManager"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVWorldManager"],
+    "param-names": [
+      "MultiverseCore.api.MVWorldManager"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVWorldManager"
+    ],
     "method": "getFirstSpawnWorld",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVWorldManager#getFirstSpawnWorld()",
@@ -913,8 +1041,12 @@
   },
   {
     "descr": "Gets the lowercased name of the world. This method is required, since the permissables\\nlowercase all permissions when recalculating.\\n\\nNote: This also means if a user has worlds named: world and WORLD, that they can both\\nexist, and both be teleported to independently, but their permissions **cannot** be\\nuniqueified at this time. See bug report #.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getPermissibleName",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getPermissibleName()",
@@ -939,8 +1071,12 @@
   },
   {
     "descr": "Gets the BlockSafety this Core is using.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "getBlockSafety",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#getBlockSafety()",
@@ -949,8 +1085,12 @@
   },
   {
     "descr": "Gets the LocationManipulation this Core is using.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "getLocationManipulation",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#getLocationManipulation()",
@@ -974,8 +1114,12 @@
   },
   {
     "descr": "Gets teleportIntercept.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "getTeleportIntercept",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#getTeleportIntercept()",
@@ -999,8 +1143,12 @@
   },
   {
     "descr": "Returns the permissions string required to go here.\\n\\nex: multiverse.access.world\\n\\nNOTE: This is NOT the permission to use the teleport command.",
-    "param-names": ["MultiverseCore.api.MVDestination"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVDestination"],
+    "param-names": [
+      "MultiverseCore.api.MVDestination"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVDestination"
+    ],
     "method": "getRequiredPermission",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVDestination#getRequiredPermission()",
@@ -1025,8 +1173,12 @@
   },
   {
     "descr": "Gets portalCooldown.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "getTeleportCooldown",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#getTeleportCooldown()",
@@ -1053,8 +1205,12 @@
   },
   {
     "descr": "Turn pvp on or off. This setting is used to set the world's PVP mode, and thus relies on fakePVP",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getFakePVP",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getFakePVP()",
@@ -1063,8 +1219,12 @@
   },
   {
     "descr": "Gets the server's root-folder as File.",
-    "param-names": ["MultiverseCore.MultiverseCore"],
-    "param-types": ["com.onarandombox.MultiverseCore.MultiverseCore"],
+    "param-names": [
+      "MultiverseCore.MultiverseCore"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.MultiverseCore"
+    ],
     "method": "getServerFolder",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.MultiverseCore#getServerFolder()",
@@ -1088,8 +1248,12 @@
   },
   {
     "descr": "Return the World Purger.",
-    "param-names": ["MultiverseCore.api.MVWorldManager"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVWorldManager"],
+    "param-names": [
+      "MultiverseCore.api.MVWorldManager"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVWorldManager"
+    ],
     "method": "getWorldPurger",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVWorldManager#getWorldPurger()",
@@ -1144,8 +1308,12 @@
   },
   {
     "descr": "Gets whether or not monsters are allowed to spawn in this world.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "canMonstersSpawn",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#canMonstersSpawn()",
@@ -1185,8 +1353,12 @@
   },
   {
     "descr": "Gets the reference to MultiverseCore.",
-    "param-names": ["MultiverseCore.api.MVPlugin"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVPlugin"],
+    "param-names": [
+      "MultiverseCore.api.MVPlugin"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVPlugin"
+    ],
     "method": "getCore",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVPlugin#getCore()",
@@ -1194,8 +1366,12 @@
     "return": "com.onarandombox.MultiverseCore.MultiverseCore"
   },
   {
-    "param-names": ["MultiverseCore.MultiverseCore"],
-    "param-types": ["com.onarandombox.MultiverseCore.MultiverseCore"],
+    "param-names": [
+      "MultiverseCore.MultiverseCore"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.MultiverseCore"
+    ],
     "method": "getUnsafeCallWrapper",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.MultiverseCore#getUnsafeCallWrapper()",
@@ -1219,9 +1395,13 @@
   },
   {
     "descr": "This method is used to find out who is teleporting a player.",
-    "param-names": ["Player Name"],
+    "param-names": [
+      "Player Name"
+    ],
     "static": true,
-    "param-types": ["java.lang.String"],
+    "param-types": [
+      "java.lang.String"
+    ],
     "method": "getPlayerTeleporter",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.MultiverseCore#getPlayerTeleporter(java.lang.String)",
@@ -1230,8 +1410,12 @@
   },
   {
     "descr": "Returns a list of all the worlds Multiverse knows about.",
-    "param-names": ["MultiverseCore.api.MVWorldManager"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVWorldManager"],
+    "param-names": [
+      "MultiverseCore.api.MVWorldManager"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVWorldManager"
+    ],
     "method": "getMVWorlds",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVWorldManager#getMVWorlds()",
@@ -1259,8 +1443,12 @@
   },
   {
     "descr": "Gets whether weather is enabled in this world.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "isWeatherEnabled",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#isWeatherEnabled()",
@@ -1269,8 +1457,12 @@
   },
   {
     "descr": "Gets the log-tag.",
-    "param-names": ["MultiverseCore.MultiverseCore"],
-    "param-types": ["com.onarandombox.MultiverseCore.MultiverseCore"],
+    "param-names": [
+      "MultiverseCore.MultiverseCore"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.MultiverseCore"
+    ],
     "method": "getTag",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.MultiverseCore#getTag()",
@@ -1294,8 +1486,12 @@
   },
   {
     "descr": "Gets the MVPlayerListener.",
-    "param-names": ["MultiverseCore.MultiverseCore"],
-    "param-types": ["com.onarandombox.MultiverseCore.MultiverseCore"],
+    "param-names": [
+      "MultiverseCore.MultiverseCore"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.MultiverseCore"
+    ],
     "method": "getPlayerListener",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.MultiverseCore#getPlayerListener()",
@@ -1304,8 +1500,12 @@
   },
   {
     "descr": "Gets prefixChatFormat.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "getPrefixChatFormat",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#getPrefixChatFormat()",
@@ -1314,8 +1514,12 @@
   },
   {
     "descr": "Gets the Multiverse message system. This allows you to send messages\\nto users at specified intervals.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "getMessaging",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#getMessaging()",
@@ -1324,8 +1528,12 @@
   },
   {
     "descr": "Gets the message-cooldown.",
-    "param-names": ["MultiverseCore.api.MultiverseMessaging"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseMessaging"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseMessaging"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseMessaging"
+    ],
     "method": "getCooldown",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseMessaging#getCooldown()",
@@ -1365,8 +1573,12 @@
   },
   {
     "descr": "Saves the Multiverse-Config.",
-    "param-names": ["MultiverseCore.MultiverseCore"],
-    "param-types": ["com.onarandombox.MultiverseCore.MultiverseCore"],
+    "param-names": [
+      "MultiverseCore.MultiverseCore"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.MultiverseCore"
+    ],
     "method": "saveMVConfig",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.MultiverseCore#saveMVConfig()",
@@ -1375,8 +1587,12 @@
   },
   {
     "descr": "Saves the world config to disk.",
-    "param-names": ["MultiverseCore.api.MVWorldManager"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVWorldManager"],
+    "param-names": [
+      "MultiverseCore.api.MVWorldManager"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVWorldManager"
+    ],
     "method": "saveWorldsConfig",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVWorldManager#saveWorldsConfig()",
@@ -1385,8 +1601,12 @@
   },
   {
     "descr": "Gets whether or not a world will auto-heal players if the difficulty is on peaceful.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getAutoHeal",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getAutoHeal()",
@@ -1395,8 +1615,12 @@
   },
   {
     "descr": "Returns a list of monsters. This list always negates the #canMonstersSpawn() result.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getMonsterList",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getMonsterList()",
@@ -1405,8 +1629,12 @@
   },
   {
     "descr": "Returns the identifier or prefix that is required for this destination.\\n\\nPortals have a prefix of \"p\" for example and OpenWarp (third party plugin) uses \"ow\". This is derived from a\\nhash and cannot have duplicate values. Read that as your plugin cannot use 'p' because it's already used.\\nPlease check the wiki when adding a custom destination!",
-    "param-names": ["MultiverseCore.api.MVDestination"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVDestination"],
+    "param-names": [
+      "MultiverseCore.api.MVDestination"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVDestination"
+    ],
     "method": "getIdentifier",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVDestination#getIdentifier()",
@@ -1415,8 +1643,12 @@
   },
   {
     "descr": "Should the Multiverse SafeTeleporter be used?\\n\\nIf not, MV will blindly take people to the location specified.",
-    "param-names": ["MultiverseCore.api.MVDestination"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVDestination"],
+    "param-names": [
+      "MultiverseCore.api.MVDestination"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVDestination"
+    ],
     "method": "useSafeTeleporter",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVDestination#useSafeTeleporter()",
@@ -1425,8 +1657,12 @@
   },
   {
     "descr": "Gets the String-representation of this FancyText.",
-    "param-names": ["MultiverseCore.api.FancyText"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.FancyText"],
+    "param-names": [
+      "MultiverseCore.api.FancyText"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.FancyText"
+    ],
     "method": "getFancyText",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.FancyText#getFancyText()",
@@ -1435,8 +1671,12 @@
   },
   {
     "descr": "Gets version.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "getVersion",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#getVersion()",
@@ -1445,8 +1685,12 @@
   },
   {
     "descr": "Gets whether or not the automatic purge of entities is enabled.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "isAutoPurgeEnabled",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#isAutoPurgeEnabled()",
@@ -1508,8 +1752,12 @@
   },
   {
     "descr": "Gets the name of this world. The name cannot be changed.\\n\\nNote for plugin developers: Usually #getAlias()\\nis what you want to use instead of this method.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getName",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getName()",
@@ -1548,8 +1796,12 @@
   },
   {
     "descr": "Gets the AnchorManager.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "getAnchorManager",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#getAnchorManager()",
@@ -1558,8 +1810,12 @@
   },
   {
     "descr": "Retrieves Multiverse's friendly economist. The economist can be used for dealing with economies without\\nworrying about any of the messy details.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "getEconomist",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#getEconomist()",
@@ -1568,8 +1824,12 @@
   },
   {
     "descr": "Returns the number of plugins that have specifically hooked into core.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "getPluginCount",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#getPluginCount()",
@@ -1578,8 +1838,12 @@
   },
   {
     "descr": "Gets whether or not Bukkit will be determining portal search radius on its own or if Multiverse should help.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "isUsingDefaultPortalSearch",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#isUsingDefaultPortalSearch()",
@@ -1588,8 +1852,12 @@
   },
   {
     "descr": "Gets the world players will spawn in on first join.\\nCurrently this always returns worlds.get(0) from Bukkit.",
-    "param-names": ["MultiverseCore.api.MVWorldManager"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVWorldManager"],
+    "param-names": [
+      "MultiverseCore.api.MVWorldManager"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVWorldManager"
+    ],
     "method": "getSpawnWorld",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVWorldManager#getSpawnWorld()",
@@ -1613,8 +1881,12 @@
   },
   {
     "descr": "Gets which type(s) of portals are allowed to be constructed in this world.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getAllowedPortals",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getAllowedPortals()",
@@ -1623,8 +1895,12 @@
   },
   {
     "descr": "Multiverse uses an advanced permissions setup, this object\\nsimplifies getting/setting permissions.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "getMVPerms",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#getMVPerms()",
@@ -1633,8 +1909,12 @@
   },
   {
     "descr": "Saves the world config.",
-    "param-names": ["MultiverseCore.MultiverseCore"],
-    "param-types": ["com.onarandombox.MultiverseCore.MultiverseCore"],
+    "param-names": [
+      "MultiverseCore.MultiverseCore"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.MultiverseCore"
+    ],
     "method": "saveWorldConfig",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.MultiverseCore#saveWorldConfig()",
@@ -1643,8 +1923,12 @@
   },
   {
     "descr": "Increments the number of plugins that have specifically hooked into core.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "incrementPluginCount",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#incrementPluginCount()",
@@ -1652,8 +1936,12 @@
   },
   {
     "descr": "Decrements the number of plugins that have specifically hooked into core.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "decrementPluginCount",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#decrementPluginCount()",
@@ -1726,8 +2014,12 @@
   },
   {
     "descr": "Returns a very nicely colored string (using Alias and Color if they are set).",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getColoredWorldString",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getColoredWorldString()",
@@ -1783,8 +2075,12 @@
   },
   {
     "descr": "Gets enableBuscript.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "getEnableBuscript",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#getEnableBuscript()",
@@ -1793,8 +2089,12 @@
   },
   {
     "descr": "Gets firstSpawnWorld.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "getFirstSpawnWorld",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#getFirstSpawnWorld()",
@@ -1803,8 +2103,12 @@
   },
   {
     "descr": "Gets the radius at which vanilla style portals will be searched for to connect to worlds together.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "getPortalSearchRadius",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#getPortalSearchRadius()",
@@ -1813,8 +2117,12 @@
   },
   {
     "descr": "Gets globalDebug.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "getGlobalDebug",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#getGlobalDebug()",
@@ -1823,8 +2131,12 @@
   },
   {
     "descr": "Gets the MVChatListener.",
-    "param-names": ["MultiverseCore.MultiverseCore"],
-    "param-types": ["com.onarandombox.MultiverseCore.MultiverseCore"],
+    "param-names": [
+      "MultiverseCore.MultiverseCore"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.MultiverseCore"
+    ],
     "method": "getChatListener",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.MultiverseCore#getChatListener()",
@@ -1838,8 +2150,12 @@
   },
   {
     "descr": "Allows Multiverse or a plugin to query another Multiverse plugin to see what version its protocol is. This\\nnumber\\nshould change when something will break the code.",
-    "param-names": ["MultiverseCore.api.MVPlugin"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVPlugin"],
+    "param-names": [
+      "MultiverseCore.api.MVPlugin"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVPlugin"
+    ],
     "method": "getProtocolVersion",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVPlugin#getProtocolVersion()",
@@ -1848,8 +2164,12 @@
   },
   {
     "descr": "Gets whether or not PVP is enabled in this world in some form (fake or not).",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "isPVPEnabled",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#isPVPEnabled()",
@@ -1906,8 +2226,12 @@
   },
   {
     "descr": "Gets the scaling value of this world.Really only has an effect if you use\\nMultiverse-NetherPortals.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getScaling",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getScaling()",
@@ -1946,8 +2270,12 @@
   },
   {
     "descr": "Returns the Vault handler used by Multiverse.  The returned object will have all methods necessary for\\ninterfacing with Vault.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "getVaultHandler",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#getVaultHandler()",
@@ -1972,8 +2300,12 @@
   },
   {
     "descr": "Gets the factory class responsible for loading many different destinations\\non demand.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "getDestFactory",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#getDestFactory()",
@@ -1982,8 +2314,12 @@
   },
   {
     "descr": "Manager for command that requires /mv confirm before execution.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "getCommandQueueManager",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#getCommandQueueManager()",
@@ -2007,8 +2343,12 @@
   },
   {
     "descr": "Gets enforceAccess.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "getEnforceAccess",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#getEnforceAccess()",
@@ -2064,8 +2404,12 @@
   },
   {
     "descr": "Gets the SafeTTeleporter this Core is using.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "getSafeTTeleporter",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#getSafeTTeleporter()",
@@ -2074,8 +2418,12 @@
   },
   {
     "descr": "Gives you a general friendly description of the type of destination.\\n\\nFor example, the PlayerDestination sets this to \"Player\". You can use this to show where a player will be taken.",
-    "param-names": ["MultiverseCore.api.MVDestination"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVDestination"],
+    "param-names": [
+      "MultiverseCore.api.MVDestination"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVDestination"
+    ],
     "method": "getType",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVDestination#getType()",
@@ -2100,8 +2448,12 @@
   },
   {
     "descr": "Gets the amount of currency it requires to enter this world.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getPrice",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getPrice()",
@@ -2177,8 +2529,12 @@
     "return": "boolean"
   },
   {
-    "param-names": ["MultiverseCore.MultiverseCore"],
-    "param-types": ["com.onarandombox.MultiverseCore.MultiverseCore"],
+    "param-names": [
+      "MultiverseCore.MultiverseCore"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.MultiverseCore"
+    ],
     "method": "getEconomist",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.MultiverseCore#getEconomist()",
@@ -2247,8 +2603,12 @@
   },
   {
     "descr": "Gets messageCooldown.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "getMessageCooldown",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#getMessageCooldown()",
@@ -2257,8 +2617,12 @@
   },
   {
     "descr": "Saves all configs.",
-    "param-names": ["MultiverseCore.api.Core"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.Core"],
+    "param-names": [
+      "MultiverseCore.api.Core"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.Core"
+    ],
     "method": "saveMVConfigs",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.Core#saveMVConfigs()",
@@ -2267,8 +2631,12 @@
   },
   {
     "descr": "Gets whether or not the hunger level of players will go down in a world.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getHunger",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getHunger()",
@@ -2320,8 +2688,12 @@
   },
   {
     "descr": "Gets whether or not the donation/patreon messages are shown.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "isShowingDonateMessage",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#isShowingDonateMessage()",
@@ -2330,8 +2702,12 @@
   },
   {
     "descr": "Gets displayPermErrors.",
-    "param-names": ["MultiverseCore.api.MultiverseCoreConfig"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseCoreConfig"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig"
+    ],
     "method": "getDisplayPermErrors",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseCoreConfig#getDisplayPermErrors()",
@@ -2355,8 +2731,12 @@
   },
   {
     "descr": "Gets all the names of all properties that can be SET.",
-    "param-names": ["MultiverseCore.api.MultiverseWorld"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MultiverseWorld"],
+    "param-names": [
+      "MultiverseCore.api.MultiverseWorld"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MultiverseWorld"
+    ],
     "method": "getAllPropertyNames",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MultiverseWorld#getAllPropertyNames()",
@@ -2418,8 +2798,12 @@
   },
   {
     "descr": "This method populates an internal list and needs to be called after multiverse initialization.",
-    "param-names": ["MultiverseCore.api.MVWorldManager"],
-    "param-types": ["com.onarandombox.MultiverseCore.api.MVWorldManager"],
+    "param-names": [
+      "MultiverseCore.api.MVWorldManager"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiverseCore.api.MVWorldManager"
+    ],
     "method": "getDefaultWorldGenerators",
     "module": "sMultiverseCore",
     "id": "com.onarandombox.MultiverseCore.api.MVWorldManager#getDefaultWorldGenerators()",

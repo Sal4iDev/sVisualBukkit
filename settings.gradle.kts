@@ -1,4 +1,8 @@
 rootProject.name = "sVisualBukkit-Projects"
+// Private extensions (custom)
+include("sFileDownloader") // 8$
+
+
 // Public extensions
 include("sCustomHeads")
 include("sUpdateChecker")
@@ -8,7 +12,5 @@ include("sFileUtils")
 include("sWorldEdit")
 include("sMultiverseCore")
 include("sMultiverseInventories")
-
-// Private extensions (custom)
-include("sFileDownloader") // 8$
-
+include("sEnchantGui") // Public custom
+include("sUtils")

@@ -1,0 +1,136 @@
+[
+  {
+    "descr": "EnchantGui will use the value returned by this method\\nto identity what type of economy it is\\nFor information about this method, see this\\n\\nNote: the identity can't be the same as others!",
+    "param-names": [
+      "IEconomy"
+    ],
+    "param-types": [
+      "com.gmail.legamemc.enchantgui.api.economy.IEconomy"
+    ],
+    "method": "getIdentity",
+    "module": "sEnchantGui",
+    "id": "com.gmail.legamemc.enchantgui.api.economy.IEconomy#getIdentity()",
+    "class": "com.gmail.legamemc.enchantgui.api.economy.IEconomy",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Get the amount of money player used to enchant the item",
+    "param-names": [
+      "Cost"
+    ],
+    "param-types": [
+      "com.gmail.legamemc.enchantgui.api.data.Cost"
+    ],
+    "method": "getMoney",
+    "module": "sEnchantGui",
+    "id": "com.gmail.legamemc.enchantgui.api.data.Cost#getMoney()",
+    "class": "com.gmail.legamemc.enchantgui.api.data.Cost",
+    "return": "double"
+  },
+  {
+    "descr": "Get the cost of enchanting the item",
+    "param-names": [
+      "PlayerEnchantItemEvent"
+    ],
+    "param-types": [
+      "com.gmail.legamemc.enchantgui.api.event.PlayerEnchantItemEvent"
+    ],
+    "method": "getCost",
+    "module": "sEnchantGui",
+    "id": "com.gmail.legamemc.enchantgui.api.event.PlayerEnchantItemEvent#getCost()",
+    "class": "com.gmail.legamemc.enchantgui.api.event.PlayerEnchantItemEvent",
+    "return": "com.gmail.legamemc.enchantgui.api.data.Cost"
+  },
+  {
+    "descr": "Get the level of the enchantment",
+    "param-names": [
+      "PlayerEnchantItemEvent"
+    ],
+    "param-types": [
+      "com.gmail.legamemc.enchantgui.api.event.PlayerEnchantItemEvent"
+    ],
+    "method": "getLevel",
+    "module": "sEnchantGui",
+    "id": "com.gmail.legamemc.enchantgui.api.event.PlayerEnchantItemEvent#getLevel()",
+    "class": "com.gmail.legamemc.enchantgui.api.event.PlayerEnchantItemEvent",
+    "return": "int"
+  },
+  {
+    "descr": "Get the amount of lapis player used to enchant the item",
+    "param-names": [
+      "Cost"
+    ],
+    "param-types": [
+      "com.gmail.legamemc.enchantgui.api.data.Cost"
+    ],
+    "method": "getLapis",
+    "module": "sEnchantGui",
+    "id": "com.gmail.legamemc.enchantgui.api.data.Cost#getLapis()",
+    "class": "com.gmail.legamemc.enchantgui.api.data.Cost",
+    "return": "int"
+  },
+  {
+    "descr": "Get the amount of custom economy player used to enchant the item",
+    "param-names": [
+      "Cost",
+      "Identity"
+    ],
+    "param-types": [
+      "com.gmail.legamemc.enchantgui.api.data.Cost",
+      "java.lang.String"
+    ],
+    "method": "getCustomEconomy",
+    "module": "sEnchantGui",
+    "id": "com.gmail.legamemc.enchantgui.api.data.Cost#getCustomEconomy(java.lang.String)",
+    "class": "com.gmail.legamemc.enchantgui.api.data.Cost",
+    "return": "double"
+  },
+  {
+    "descr": "Get the amount of exp player used to enchant the item",
+    "param-names": [
+      "Cost"
+    ],
+    "param-types": [
+      "com.gmail.legamemc.enchantgui.api.data.Cost"
+    ],
+    "method": "getExp",
+    "module": "sEnchantGui",
+    "id": "com.gmail.legamemc.enchantgui.api.data.Cost#getExp()",
+    "class": "com.gmail.legamemc.enchantgui.api.data.Cost",
+    "return": "int"
+  },
+  {
+    "descr": "To replace the {NAME} in the message",
+    "param-names": [
+      "IEconomy"
+    ],
+    "param-types": [
+      "com.gmail.legamemc.enchantgui.api.economy.IEconomy"
+    ],
+    "method": "getName",
+    "module": "sEnchantGui",
+    "id": "com.gmail.legamemc.enchantgui.api.economy.IEconomy#getName()",
+    "class": "com.gmail.legamemc.enchantgui.api.economy.IEconomy",
+    "return": "java.lang.String"
+  },
+  {
+    "descr": "Get the amount of level player used to enchant the item",
+    "param-names": [
+      "Cost"
+    ],
+    "param-types": [
+      "com.gmail.legamemc.enchantgui.api.data.Cost"
+    ],
+    "method": "getLevel",
+    "module": "sEnchantGui",
+    "id": "com.gmail.legamemc.enchantgui.api.data.Cost#getLevel()",
+    "class": "com.gmail.legamemc.enchantgui.api.data.Cost",
+    "return": "int"
+  },
+  {
+    "descr": "",
+    "module": "sEnchantGui",
+    "event": true,
+    "class": "com.gmail.legamemc.enchantgui.api.event.PlayerEnchantItemEvent"
+  }
+]
