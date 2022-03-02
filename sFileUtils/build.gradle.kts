@@ -11,6 +11,6 @@ dependencies {
 
 val jar by tasks.getting(Jar::class) {
     manifest {
-        attributes["Main-Class"] = "ru.sal4i.sdiscordwebhooks.SDiscordWebhooks"
+        attributes["Main-Class"] = "ru.sal4i.sfileutils.SFileUtils"
     }
 }

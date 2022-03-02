@@ -7,7 +7,7 @@ import com.gmail.visualbukkit.project.BuildContext;
 
 @SuppressWarnings("unused")
 public class StatCompletionsSet extends Statement {
-    private final static String FORMAT_METHOD = """
+    private static final String FORMAT_METHOD = """
             public static java.util.List<String> formatList(java.util.List<String> list, String[] args) {
                 java.util.List<String> completions = new java.util.ArrayList<>();
 

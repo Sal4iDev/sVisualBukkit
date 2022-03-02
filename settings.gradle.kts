@@ -4,8 +4,11 @@ include("sCustomHeads")
 include("sUpdateChecker")
 include("sTabCompletion")
 include("sDiscordWebhooks")
+include("sFileUtils")
+include("sWorldEdit")
 
 // Private extensions (custom)
-include("sServerControl") // 8$
 include("sFileDownloader") // 8$
-include("sWorldEdit") // 20$
+include("sMultiverseAPI")
+include("sMultiverseCore")
+include("sMultiverseInventories")

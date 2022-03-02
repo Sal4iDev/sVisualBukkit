@@ -1,6 +1,6 @@
 .mtj.tmp/
 *.class
-*.jar
+#*.jar
 *.war
 *.ear
 *.nar
@@ -22,7 +22,8 @@ out/
 *.iws
 .gradle/7.1/executionHistory/executionHistory.bin
 
+common
 
-sServerControl
+
 sFileDownloader
-sWorldEdit
+#sWorldEdit
