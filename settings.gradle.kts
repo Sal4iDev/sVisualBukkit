@@ -1,6 +1,6 @@
 rootProject.name = "sVisualBukkit-Projects"
 // Private extensions (custom)
-include("sFileDownloader") // 8$
+// include("sFileDownloader") // 8$
 
 
 // Public extensions
