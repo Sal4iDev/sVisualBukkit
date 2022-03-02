@@ -19,7 +19,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.github.Sal4iDev"
             artifactId = "sUtils"
-            version = "1.2"
+            version = "2.0"
 
             from(components["java"])
         }

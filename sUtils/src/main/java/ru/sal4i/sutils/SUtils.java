@@ -1,5 +1,9 @@
 package ru.sal4i.sutils;
 
+import com.gmail.visualbukkit.VisualBukkitApp;
+import com.gmail.visualbukkit.extensions.VisualBukkitExtension;
+import com.gmail.visualbukkit.project.Project;
+
 import java.util.List;
 
 public class SUtils {
