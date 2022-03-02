@@ -1,17 +1,16 @@
-package ru.sal4i.supdatechecker;
+package ru.sal4i.sfileutils;
 
 import com.gmail.visualbukkit.blocks.BlockRegistry;
 import com.gmail.visualbukkit.extensions.VisualBukkitExtension;
 
-public class SUpdateChecker extends VisualBukkitExtension {
-
-    public SUpdateChecker() {
-        BlockRegistry.register(this, "ru.sal4i.supdatechecker");
+public class SFileUtils extends VisualBukkitExtension {
+    public SFileUtils() {
+        BlockRegistry.register(this, "ru.sal4i.sfileutils");
     }
 
     @Override
     public String getName() {
-        return "sUpdateChecker";
+        return "sFileUtils";
     }
 
     @Override
@@ -26,6 +25,6 @@ public class SUpdateChecker extends VisualBukkitExtension {
 
     @Override
     public String getDescription() {
-        return "Adds the ability to check your plugin for new versions";
+        return null;
     }
 }

@@ -41,24 +41,36 @@
   },
   {
     "descr": "Creates a new EmbedColor that is a brighter version of this\\nEmbedColor.\\n\\nThis method applies an arbitrary scale factor to each of the three RGB\\ncomponents of this EmbedColor to create a brighter version\\nof this EmbedColor.\\nThe alpha value is preserved.\\nAlthough brighter and\\ndarker are inverse operations, the results of a\\nseries of invocations of these two methods might be inconsistent\\nbecause of rounding errors.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "param-names": [
+      "EmbedColor"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor"
+    ],
     "method": "brighter",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#brighter()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "param-names": ["Field"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Field"],
+    "param-names": [
+      "Field"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Field"
+    ],
     "method": "isInline",
     "id": "ru.sal4i.sdiscordwebhook.embed.Field#isInline()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Field",
     "return": "boolean"
   },
   {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
     "method": "getColor",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getColor()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
@@ -73,8 +85,12 @@
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
     "method": "getDescription",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getDescription()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
@@ -82,15 +98,23 @@
   },
   {
     "descr": "Creates an opaque sRGB color with the specified combined RGB value\\nconsisting of the red component in bits 16-23, the green component\\nin bits 8-15, and the blue component in bits 0-7.  The actual color\\nused in rendering depends on finding the best match given the\\ncolor space available for a particular output device.  Alpha is\\ndefaulted to 255.",
-    "param-names": ["Rgb"],
-    "param-types": ["int"],
+    "param-names": [
+      "Rgb"
+    ],
+    "param-types": [
+      "int"
+    ],
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(int)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
     "descr": "Creates a new EmbedColor that is a darker version of this\\nEmbedColor.\\n\\nThis method applies an arbitrary scale factor to each of the three RGB\\ncomponents of this EmbedColor to create a darker version of\\nthis EmbedColor.\\nThe alpha value is preserved.\\nAlthough brighter and\\ndarker are inverse operations, the results of a series\\nof invocations of these two methods might be inconsistent because\\nof rounding errors.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "param-names": [
+      "EmbedColor"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor"
+    ],
     "method": "darker",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#darker()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
@@ -166,8 +190,12 @@
   },
   {
     "descr": "Returns a string representation of this EmbedColor. This\\nmethod is intended to be used only for debugging purposes.  The\\ncontent and format of the returned string might vary between\\nimplementations. The returned string might be empty but cannot\\nbe null.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "param-names": [
+      "EmbedColor"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor"
+    ],
     "method": "toString",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#toString()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
@@ -222,8 +250,12 @@
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "param-names": ["SDiscordWebhook"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
+    "param-names": [
+      "SDiscordWebhook"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+    ],
     "method": "getAvatarUrl",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getAvatarUrl()",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
@@ -231,16 +263,24 @@
   },
   {
     "descr": "Returns the blue component in the range 0-255 in the default sRGB\\nspace.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "param-names": [
+      "EmbedColor"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor"
+    ],
     "method": "getBlue",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getBlue()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "int"
   },
   {
-    "param-names": ["Author"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Author"],
+    "param-names": [
+      "Author"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Author"
+    ],
     "method": "getIconUrl",
     "id": "ru.sal4i.sdiscordwebhook.embed.Author#getIconUrl()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Author",
@@ -248,8 +288,12 @@
   },
   {
     "descr": "Computes the hash code for this EmbedColor.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "param-names": [
+      "EmbedColor"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor"
+    ],
     "method": "hashCode",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#hashCode()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
@@ -257,8 +301,12 @@
   },
   {
     "descr": "Returns the RGB value representing the color in the default sRGB\\nColorModel.\\n(Bits 24-31 are alpha, 16-23 are red, 8-15 are green, 0-7 are\\nblue).",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "param-names": [
+      "EmbedColor"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor"
+    ],
     "method": "getRGB",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getRGB()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
@@ -295,8 +343,12 @@
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
     "method": "getFooter",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getFooter()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
@@ -311,24 +363,36 @@
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
     "method": "getImage",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getImage()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.embed.Image"
   },
   {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
     "method": "getUrl",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getUrl()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "java.lang.String"
   },
   {
-    "param-names": ["SDiscordWebhook"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
+    "param-names": [
+      "SDiscordWebhook"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+    ],
     "method": "getContent",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getContent()",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
@@ -370,8 +434,12 @@
   },
   {
     "descr": "Constructs a new DiscordWebhook instance",
-    "param-names": ["Url"],
-    "param-types": ["java.lang.String"],
+    "param-names": [
+      "Url"
+    ],
+    "param-types": [
+      "java.lang.String"
+    ],
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#SDiscordWebhook(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
@@ -439,25 +507,37 @@
   },
   {
     "descr": "Converts a String to an integer and returns the\\nspecified opaque EmbedColor. This method handles string\\nformats that are used to represent octal and hexadecimal numbers.",
-    "param-names": ["Nm"],
+    "param-names": [
+      "Nm"
+    ],
     "static": true,
-    "param-types": ["java.lang.String"],
+    "param-types": [
+      "java.lang.String"
+    ],
     "method": "decode",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#decode(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
     "method": "getFields",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getFields()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "java.util.List"
   },
   {
-    "param-names": ["Footer"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Footer"],
+    "param-names": [
+      "Footer"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Footer"
+    ],
     "method": "getIconUrl",
     "id": "ru.sal4i.sdiscordwebhook.embed.Footer#getIconUrl()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Footer",
@@ -478,8 +558,12 @@
     "class": "ru.sal4i.sdiscordwebhook.embed.Author"
   },
   {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
     "method": "getTitle",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getTitle()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
@@ -504,8 +588,12 @@
     "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
   {
-    "param-names": ["SDiscordWebhook"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
+    "param-names": [
+      "SDiscordWebhook"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+    ],
     "method": "isTts",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#isTts()",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
@@ -530,8 +618,12 @@
   },
   {
     "descr": "Returns the alpha component in the range 0-255.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "param-names": [
+      "EmbedColor"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor"
+    ],
     "method": "getAlpha",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getAlpha()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
@@ -576,8 +668,12 @@
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "param-names": ["Image"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Image"],
+    "param-names": [
+      "Image"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Image"
+    ],
     "method": "getUrl",
     "id": "ru.sal4i.sdiscordwebhook.embed.Image#getUrl()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Image",
@@ -622,8 +718,12 @@
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "param-names": ["Author"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Author"],
+    "param-names": [
+      "Author"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Author"
+    ],
     "method": "getUrl",
     "id": "ru.sal4i.sdiscordwebhook.embed.Author#getUrl()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Author",
@@ -702,8 +802,12 @@
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "param-names": ["Field"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Field"],
+    "param-names": [
+      "Field"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Field"
+    ],
     "method": "getName",
     "id": "ru.sal4i.sdiscordwebhook.embed.Field#getName()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Field",
@@ -730,8 +834,12 @@
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
   {
-    "param-names": ["Footer"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Footer"],
+    "param-names": [
+      "Footer"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Footer"
+    ],
     "method": "getText",
     "id": "ru.sal4i.sdiscordwebhook.embed.Footer#getText()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Footer",
@@ -768,8 +876,12 @@
   },
   {
     "descr": "Returns the ColorSpace of this EmbedColor.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "param-names": [
+      "EmbedColor"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor"
+    ],
     "method": "getColorSpace",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColorSpace()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
@@ -785,8 +897,12 @@
   },
   {
     "descr": "Returns the red component in the range 0-255 in the default sRGB\\nspace.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "param-names": [
+      "EmbedColor"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor"
+    ],
     "method": "getRed",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getRed()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
@@ -809,8 +925,12 @@
   },
   {
     "descr": "Sends your message",
-    "param-names": ["SDiscordWebhook"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
+    "param-names": [
+      "SDiscordWebhook"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+    ],
     "method": "execute",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#execute()",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
@@ -908,8 +1028,12 @@
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "param-names": ["SDiscordWebhook"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
+    "param-names": [
+      "SDiscordWebhook"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+    ],
     "method": "getEmbeds",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getEmbeds()",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
@@ -917,8 +1041,12 @@
   },
   {
     "descr": "Returns the green component in the range 0-255 in the default sRGB\\nspace.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "param-names": [
+      "EmbedColor"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor"
+    ],
     "method": "getGreen",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getGreen()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
@@ -1001,8 +1129,12 @@
   },
   {
     "descr": "Returns the transparency mode for this EmbedColor.  This is\\nrequired to implement the Paint interface.",
-    "param-names": ["EmbedColor"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedColor"],
+    "param-names": [
+      "EmbedColor"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedColor"
+    ],
     "method": "getTransparency",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getTransparency()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
@@ -1022,8 +1154,12 @@
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
   {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
     "method": "getAuthor",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getAuthor()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
@@ -1047,9 +1183,13 @@
   },
   {
     "descr": "Finds a color in the system properties.\\n\\nThe argument is treated as the name of a system property to\\nbe obtained. The string value of this property is then interpreted\\nas an integer which is then converted to a EmbedColor\\nobject.\\n\\nIf the specified property is not found or could not be parsed as\\nan integer then null is returned.",
-    "param-names": ["Nm"],
+    "param-names": [
+      "Nm"
+    ],
     "static": true,
-    "param-types": ["java.lang.String"],
+    "param-types": [
+      "java.lang.String"
+    ],
     "method": "getColor",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColor(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
@@ -1092,8 +1232,12 @@
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
   {
-    "param-names": ["Author"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Author"],
+    "param-names": [
+      "Author"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Author"
+    ],
     "method": "getName",
     "id": "ru.sal4i.sdiscordwebhook.embed.Author#getName()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Author",
@@ -1144,22 +1288,34 @@
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
   {
-    "param-names": ["Url"],
-    "param-types": ["java.lang.String"],
+    "param-names": [
+      "Url"
+    ],
+    "param-types": [
+      "java.lang.String"
+    ],
     "id": "ru.sal4i.sdiscordwebhook.embed.Thumbnail#Thumbnail(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
   },
   {
-    "param-names": ["Field"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Field"],
+    "param-names": [
+      "Field"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Field"
+    ],
     "method": "getValue",
     "id": "ru.sal4i.sdiscordwebhook.embed.Field#getValue()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Field",
     "return": "java.lang.String"
   },
   {
-    "param-names": ["EmbedObject"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.EmbedObject"],
+    "param-names": [
+      "EmbedObject"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.EmbedObject"
+    ],
     "method": "getThumbnail",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getThumbnail()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
@@ -1244,16 +1400,24 @@
     "class": "ru.sal4i.sdiscordwebhook.embed.Footer"
   },
   {
-    "param-names": ["Thumbnail"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.embed.Thumbnail"],
+    "param-names": [
+      "Thumbnail"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
+    ],
     "method": "getUrl",
     "id": "ru.sal4i.sdiscordwebhook.embed.Thumbnail#getUrl()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Thumbnail",
     "return": "java.lang.String"
   },
   {
-    "param-names": ["Title"],
-    "param-types": ["java.lang.String"],
+    "param-names": [
+      "Title"
+    ],
+    "param-types": [
+      "java.lang.String"
+    ],
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
@@ -1284,16 +1448,24 @@
     "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
   {
-    "param-names": ["SDiscordWebhook"],
-    "param-types": ["ru.sal4i.sdiscordwebhook.SDiscordWebhook"],
+    "param-names": [
+      "SDiscordWebhook"
+    ],
+    "param-types": [
+      "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
+    ],
     "method": "getUsername",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getUsername()",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
     "return": "java.lang.String"
   },
   {
-    "param-names": ["Url"],
-    "param-types": ["java.lang.String"],
+    "param-names": [
+      "Url"
+    ],
+    "param-types": [
+      "java.lang.String"
+    ],
     "id": "ru.sal4i.sdiscordwebhook.embed.Image#Image(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.embed.Image"
   },

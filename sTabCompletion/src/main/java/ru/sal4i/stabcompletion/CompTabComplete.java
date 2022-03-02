@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 public class CompTabComplete extends PluginComponent {
     private static final Pattern WHITE_SPACE_PATTERN = Pattern.compile("\\S*");
 
-    private final static String METHOD = """
+    private static final String METHOD = """
             @Override
             public java.util.List<String> onTabComplete(CommandSender commandSender, Command command, String alias, String[] commandArgs) {
                 return null;

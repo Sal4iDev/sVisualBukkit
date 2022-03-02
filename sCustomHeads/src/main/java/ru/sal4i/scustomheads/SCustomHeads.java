@@ -17,7 +17,7 @@ public class SCustomHeads extends VisualBukkitExtension {
 
     @Override
     public String getVersion() {
-        return "1.3";
+        return "2.0";
     }
 
     @Override

@@ -1,4 +1,4 @@
-package ru.sal4i.sdiscordwebhooks;
+package ru.sal4i.sworldedit;
 
 import com.gmail.visualbukkit.blocks.BlockRegistry;
 import com.gmail.visualbukkit.extensions.VisualBukkitExtension;
@@ -10,33 +10,36 @@ import org.json.JSONTokener;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class SDiscordWebhooks extends VisualBukkitExtension {
-
+public class SWorldEdit extends VisualBukkitExtension {
     private static final PluginModule MODULE = new PluginModule() {
         @Override
         public void prepareBuild(BuildContext buildContext) {
-            buildContext.addMavenDependency(
-                    "<groupId>com.github.Sal4iDev</groupId>" +
-                            "<artifactId>sDiscordWebhookJava</artifactId>" +
-                            "<version>1.2</version>");
+            buildContext.addMavenRepository("<id>enginehub-maven</id>\n" +
+                    "<url>https://maven.enginehub.org/repo/</url>");
+            buildContext.addMavenDependency("<groupId>com.sk89q.worldedit</groupId>\n" +
+                    "<artifactId>worldedit-bukkit</artifactId>\n" +
+                    "<version>7.2.0-SNAPSHOT</version>\n" +
+                    "<scope>provided</scope>");
         }
     };
 
-    public SDiscordWebhooks() throws IOException {
-        PluginModule.register("sDiscordWebhookJava", MODULE);
-        try (InputStream inputStream = SDiscordWebhooks.class.getResourceAsStream("/sDiscordWebhookJavaBlocks.json")) {
+    public SWorldEdit() {
+        PluginModule.register("sWorldEdit", MODULE);
+        try (InputStream inputStream = SWorldEdit.class.getResourceAsStream("/WorldEditBlocks.json")) {
             BlockRegistry.register(this, new JSONArray(new JSONTokener(inputStream)));
+        } catch (IOException ioException) {
+            ioException.printStackTrace();
         }
     }
 
     @Override
     public String getName() {
-        return "sDiscordWebhooks";
+        return "sWorldEdit";
     }
 
     @Override
     public String getVersion() {
-        return "1.1";
+        return "2.0";
     }
 
     @Override
