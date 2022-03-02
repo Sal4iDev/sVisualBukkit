@@ -6,9 +6,9 @@ include("sTabCompletion")
 include("sDiscordWebhooks")
 include("sFileUtils")
 include("sWorldEdit")
+include("sMultiverseCore")
+include("sMultiverseInventories")
 
 // Private extensions (custom)
 include("sFileDownloader") // 8$
-include("sMultiverseAPI")
-include("sMultiverseCore")
-include("sMultiverseInventories")
+
