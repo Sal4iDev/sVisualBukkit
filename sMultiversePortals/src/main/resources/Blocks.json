@@ -1,0 +1,1127 @@
+[
+  {
+    "param-names": [
+      "Instance",
+      "Name",
+      "Owner",
+      "Location"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.MultiversePortals",
+      "java.lang.String",
+      "java.lang.String",
+      "com.onarandombox.MultiversePortals.PortalLocation"
+    ],
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#MVPortal(com.onarandombox.MultiversePortals.MultiversePortals,java.lang.String,java.lang.String,com.onarandombox.MultiversePortals.PortalLocation)",
+    "class": "com.onarandombox.MultiversePortals.MVPortal"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.PortalPlayerSession",
+      "Date"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.PortalPlayerSession",
+      "java.util.Date"
+    ],
+    "method": "setTeleportTime",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalPlayerSession#setTeleportTime(java.util.Date)",
+    "class": "com.onarandombox.MultiversePortals.PortalPlayerSession"
+  },
+  {
+    "param-names": ["MultiversePortals.PortalPlayerSession"],
+    "param-types": ["com.onarandombox.MultiversePortals.PortalPlayerSession"],
+    "method": "getSelectedPortal",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalPlayerSession#getSelectedPortal()",
+    "class": "com.onarandombox.MultiversePortals.PortalPlayerSession",
+    "return": "com.onarandombox.MultiversePortals.MVPortal"
+  },
+  {
+    "descr": "Returns the WorldEdit compatibility object. Use this to check for WorldEdit and get a player's WorldEdit selection.",
+    "param-names": ["MultiversePortals.MultiversePortals"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "method": "getWorldEditConnection",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#getWorldEditConnection()",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals",
+    "return": "com.onarandombox.MultiversePortals.WorldEditConnection"
+  },
+  {
+    "static": true,
+    "method": "values",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty#values()",
+    "class": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty",
+    "return": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty[]"
+  },
+  {
+    "param-names": ["MultiversePortals.MVPortal"],
+    "param-types": ["com.onarandombox.MultiversePortals.MVPortal"],
+    "method": "getHandlerScript",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#getHandlerScript()",
+    "class": "com.onarandombox.MultiversePortals.MVPortal",
+    "return": "java.lang.String"
+  },
+  {
+    "static": true,
+    "field": "portalsdefaulttonether",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty#portalsdefaulttonether",
+    "class": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty",
+    "return": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty"
+  },
+  {
+    "static": true,
+    "field": "ClearOnRemove",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#ClearOnRemove",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals",
+    "return": "boolean"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.PortalPlayerSession",
+      "Debug Mode"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.PortalPlayerSession",
+      "boolean"
+    ],
+    "method": "setDebugMode",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalPlayerSession#setDebugMode(boolean)",
+    "class": "com.onarandombox.MultiversePortals.PortalPlayerSession"
+  },
+  {
+    "param-names": ["MultiversePortals.MultiversePortals"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "method": "savePortalsConfig",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#savePortalsConfig()",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals",
+    "return": "boolean"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.MVPortal",
+      "Handler Script"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.MVPortal",
+      "java.lang.String"
+    ],
+    "method": "setHandlerScript",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#setHandlerScript(java.lang.String)",
+    "class": "com.onarandombox.MultiversePortals.MVPortal"
+  },
+  {
+    "static": true,
+    "field": "UseOnMove",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#UseOnMove",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals",
+    "return": "boolean"
+  },
+  {
+    "param-names": ["MultiversePortals.PortalLocation"],
+    "param-types": ["com.onarandombox.MultiversePortals.PortalLocation"],
+    "method": "isValidLocation",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalLocation#isValidLocation()",
+    "class": "com.onarandombox.MultiversePortals.PortalLocation",
+    "return": "boolean"
+  },
+  {
+    "static": true,
+    "field": "location",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.SetProperties#location",
+    "class": "com.onarandombox.MultiversePortals.enums.SetProperties",
+    "return": "com.onarandombox.MultiversePortals.enums.SetProperties"
+  },
+  {
+    "param-names": [
+      "Level",
+      "Msg"
+    ],
+    "static": true,
+    "param-types": [
+      "java.util.logging.Level",
+      "java.lang.String"
+    ],
+    "method": "staticDebugLog",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#staticDebugLog(java.util.logging.Level,java.lang.String)",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals"
+  },
+  {
+    "descr": "If a player teleports from A - B, this method will report A even if the player is in B.\\nThis is done for hysteresis. For the exact detection please use #getUncachedStandingInPortal()",
+    "param-names": ["MultiversePortals.PortalPlayerSession"],
+    "param-types": ["com.onarandombox.MultiversePortals.PortalPlayerSession"],
+    "method": "getStandingInPortal",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalPlayerSession#getStandingInPortal()",
+    "class": "com.onarandombox.MultiversePortals.PortalPlayerSession",
+    "return": "com.onarandombox.MultiversePortals.MVPortal"
+  },
+  {
+    "static": true,
+    "field": "destination",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.SetProperties#destination",
+    "class": "com.onarandombox.MultiversePortals.enums.SetProperties",
+    "return": "com.onarandombox.MultiversePortals.enums.SetProperties"
+  },
+  {
+    "param-names": ["MultiversePortals.MultiversePortals"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "method": "onEnable",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#onEnable()",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals"
+  },
+  {
+    "param-names": ["MultiversePortals.MVPortal"],
+    "param-types": ["com.onarandombox.MultiversePortals.MVPortal"],
+    "method": "removePermission",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#removePermission()",
+    "class": "com.onarandombox.MultiversePortals.MVPortal"
+  },
+  {
+    "descr": "Returns the type of portal that was used.\\nThis will be Legacy for MV1 style portals and Normal for Portals that use the swirly purple goo.",
+    "param-names": ["MultiversePortals.event.MVPortalEvent"],
+    "param-types": ["com.onarandombox.MultiversePortals.event.MVPortalEvent"],
+    "method": "getPortalType",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.event.MVPortalEvent#getPortalType()",
+    "class": "com.onarandombox.MultiversePortals.event.MVPortalEvent",
+    "return": "com.onarandombox.MultiversePortals.enums.PortalType"
+  },
+  {
+    "param-names": ["Plugin"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.utils.PortalManager#PortalManager(com.onarandombox.MultiversePortals.MultiversePortals)",
+    "class": "com.onarandombox.MultiversePortals.utils.PortalManager"
+  },
+  {
+    "param-names": ["MultiversePortals.PortalPlayerSession"],
+    "param-types": ["com.onarandombox.MultiversePortals.PortalPlayerSession"],
+    "method": "isDebugModeOn",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalPlayerSession#isDebugModeOn()",
+    "class": "com.onarandombox.MultiversePortals.PortalPlayerSession",
+    "return": "boolean"
+  },
+  {
+    "param-names": ["MultiversePortals.PortalLocation"],
+    "param-types": ["com.onarandombox.MultiversePortals.PortalLocation"],
+    "method": "getVectors",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalLocation#getVectors()",
+    "class": "com.onarandombox.MultiversePortals.PortalLocation",
+    "return": "java.util.List"
+  },
+  {
+    "param-names": ["Plugin"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.listeners.MVPCoreListener#MVPCoreListener(com.onarandombox.MultiversePortals.MultiversePortals)",
+    "class": "com.onarandombox.MultiversePortals.listeners.MVPCoreListener"
+  },
+  {
+    "param-names": [
+      "Instance",
+      "Name"
+    ],
+    "static": true,
+    "param-types": [
+      "com.onarandombox.MultiversePortals.MultiversePortals",
+      "java.lang.String"
+    ],
+    "method": "loadMVPortalFromConfig",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#loadMVPortalFromConfig(com.onarandombox.MultiversePortals.MultiversePortals,java.lang.String)",
+    "class": "com.onarandombox.MultiversePortals.MVPortal",
+    "return": "com.onarandombox.MultiversePortals.MVPortal"
+  },
+  {
+    "param-names": ["MultiversePortals.MVPortal"],
+    "param-types": ["com.onarandombox.MultiversePortals.MVPortal"],
+    "method": "getPrice",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#getPrice()",
+    "class": "com.onarandombox.MultiversePortals.MVPortal",
+    "return": "double"
+  },
+  {
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.destination.RandomPortalDestination#RandomPortalDestination()",
+    "class": "com.onarandombox.MultiversePortals.destination.RandomPortalDestination"
+  },
+  {
+    "param-names": ["MultiversePortals.MultiversePortals"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "method": "onLoad",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#onLoad()",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.MultiversePortals",
+      "Reload Portals"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.MultiversePortals",
+      "boolean"
+    ],
+    "method": "reloadConfigs",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#reloadConfigs(boolean)",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals"
+  },
+  {
+    "param-names": ["Name"],
+    "static": true,
+    "param-types": ["java.lang.String"],
+    "method": "valueOf",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.PortalType#valueOf(java.lang.String)",
+    "class": "com.onarandombox.MultiversePortals.enums.PortalType",
+    "return": "com.onarandombox.MultiversePortals.enums.PortalType"
+  },
+  {
+    "param-names": ["MultiversePortals.destination.PortalDestination"],
+    "param-types": ["com.onarandombox.MultiversePortals.destination.PortalDestination"],
+    "method": "getRequiredPermission",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.destination.PortalDestination#getRequiredPermission()",
+    "class": "com.onarandombox.MultiversePortals.destination.PortalDestination",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.PortalPlayerSession",
+      "Event Type"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.PortalPlayerSession",
+      "com.onarandombox.MultiversePortals.enums.MoveType"
+    ],
+    "method": "doTeleportPlayer",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalPlayerSession#doTeleportPlayer(com.onarandombox.MultiversePortals.enums.MoveType)",
+    "class": "com.onarandombox.MultiversePortals.PortalPlayerSession",
+    "return": "boolean"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.utils.PortalManager",
+      "Portal Name",
+      "Remove From Configs"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.utils.PortalManager",
+      "java.lang.String",
+      "boolean"
+    ],
+    "method": "removePortal",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.utils.PortalManager#removePortal(java.lang.String,boolean)",
+    "class": "com.onarandombox.MultiversePortals.utils.PortalManager",
+    "return": "com.onarandombox.MultiversePortals.MVPortal"
+  },
+  {
+    "static": true,
+    "field": "TeleportVehicles",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#TeleportVehicles",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals",
+    "return": "boolean"
+  },
+  {
+    "param-names": ["MultiversePortals.utils.MultiverseRegion"],
+    "param-types": ["com.onarandombox.MultiversePortals.utils.MultiverseRegion"],
+    "method": "getWidth",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.utils.MultiverseRegion#getWidth()",
+    "class": "com.onarandombox.MultiversePortals.utils.MultiverseRegion",
+    "return": "int"
+  },
+  {
+    "param-names": ["Plugin"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.listeners.MVPVehicleListener#MVPVehicleListener(com.onarandombox.MultiversePortals.MultiversePortals)",
+    "class": "com.onarandombox.MultiversePortals.listeners.MVPVehicleListener"
+  },
+  {
+    "param-names": ["MultiversePortals.PortalPlayerSession"],
+    "param-types": ["com.onarandombox.MultiversePortals.PortalPlayerSession"],
+    "method": "showDebugInfo",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalPlayerSession#showDebugInfo()",
+    "class": "com.onarandombox.MultiversePortals.PortalPlayerSession",
+    "return": "boolean"
+  },
+  {
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalLocation#PortalLocation()",
+    "class": "com.onarandombox.MultiversePortals.PortalLocation"
+  },
+  {
+    "param-names": ["MultiversePortals.PortalPlayerSession"],
+    "param-types": ["com.onarandombox.MultiversePortals.PortalPlayerSession"],
+    "method": "getSelectedRegion",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalPlayerSession#getSelectedRegion()",
+    "class": "com.onarandombox.MultiversePortals.PortalPlayerSession",
+    "return": "com.onarandombox.MultiversePortals.utils.MultiverseRegion"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.MVPortal",
+      "Location String",
+      "World String"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.MVPortal",
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "method": "setPortalLocation",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#setPortalLocation(java.lang.String,java.lang.String)",
+    "class": "com.onarandombox.MultiversePortals.MVPortal",
+    "return": "boolean"
+  },
+  {
+    "param-names": ["MultiversePortals.utils.MultiverseRegion"],
+    "param-types": ["com.onarandombox.MultiversePortals.utils.MultiverseRegion"],
+    "method": "getDepth",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.utils.MultiverseRegion#getDepth()",
+    "class": "com.onarandombox.MultiversePortals.utils.MultiverseRegion",
+    "return": "int"
+  },
+  {
+    "static": true,
+    "method": "getAllValues",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty#getAllValues()",
+    "class": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty",
+    "return": "java.lang.String"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.utils.PortalManager",
+      "Remove From Configs"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.utils.PortalManager",
+      "boolean"
+    ],
+    "method": "removeAll",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.utils.PortalManager#removeAll(boolean)",
+    "class": "com.onarandombox.MultiversePortals.utils.PortalManager"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.PortalPlayerSession",
+      "Portal"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.PortalPlayerSession",
+      "com.onarandombox.MultiversePortals.MVPortal"
+    ],
+    "method": "showDebugInfo",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalPlayerSession#showDebugInfo(com.onarandombox.MultiversePortals.MVPortal)",
+    "class": "com.onarandombox.MultiversePortals.PortalPlayerSession",
+    "return": "boolean"
+  },
+  {
+    "descr": "Returns the Portal sending the player",
+    "param-names": ["MultiversePortals.event.MVPortalEvent"],
+    "param-types": ["com.onarandombox.MultiversePortals.event.MVPortalEvent"],
+    "method": "getSendingPortal",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.event.MVPortalEvent#getSendingPortal()",
+    "class": "com.onarandombox.MultiversePortals.event.MVPortalEvent",
+    "return": "com.onarandombox.MultiversePortals.MVPortal"
+  },
+  {
+    "param-names": ["MultiversePortals.MVPortal"],
+    "param-types": ["com.onarandombox.MultiversePortals.MVPortal"],
+    "method": "getName",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#getName()",
+    "class": "com.onarandombox.MultiversePortals.MVPortal",
+    "return": "java.lang.String"
+  },
+  {
+    "static": true,
+    "field": "VEHICLE_MOVE",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.MoveType#VEHICLE_MOVE",
+    "class": "com.onarandombox.MultiversePortals.enums.MoveType",
+    "return": "com.onarandombox.MultiversePortals.enums.MoveType"
+  },
+  {
+    "static": true,
+    "field": "FrameMaterials",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#FrameMaterials",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals",
+    "return": "java.util.List"
+  },
+  {
+    "static": true,
+    "field": "price",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.SetProperties#price",
+    "class": "com.onarandombox.MultiversePortals.enums.SetProperties",
+    "return": "com.onarandombox.MultiversePortals.enums.SetProperties"
+  },
+  {
+    "static": true,
+    "field": "dest",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.SetProperties#dest",
+    "class": "com.onarandombox.MultiversePortals.enums.SetProperties",
+    "return": "com.onarandombox.MultiversePortals.enums.SetProperties"
+  },
+  {
+    "descr": "Returns whether this portal is of the PortalType#Legacy type.",
+    "param-names": ["MultiversePortals.MVPortal"],
+    "param-types": ["com.onarandombox.MultiversePortals.MVPortal"],
+    "method": "isLegacyPortal",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#isLegacyPortal()",
+    "class": "com.onarandombox.MultiversePortals.MVPortal",
+    "return": "boolean"
+  },
+  {
+    "param-names": ["MultiversePortals.utils.MultiverseRegion"],
+    "param-types": ["com.onarandombox.MultiversePortals.utils.MultiverseRegion"],
+    "method": "getHeight",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.utils.MultiverseRegion#getHeight()",
+    "class": "com.onarandombox.MultiversePortals.utils.MultiverseRegion",
+    "return": "int"
+  },
+  {
+    "param-names": ["Plugin"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.listeners.MVPPluginListener#MVPPluginListener(com.onarandombox.MultiversePortals.MultiversePortals)",
+    "class": "com.onarandombox.MultiversePortals.listeners.MVPPluginListener"
+  },
+  {
+    "param-names": ["MultiversePortals.MVPortal"],
+    "param-types": ["com.onarandombox.MultiversePortals.MVPortal"],
+    "method": "getLocation",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#getLocation()",
+    "class": "com.onarandombox.MultiversePortals.MVPortal",
+    "return": "com.onarandombox.MultiversePortals.PortalLocation"
+  },
+  {
+    "param-names": [
+      "Plugin",
+      "Helper"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.MultiversePortals",
+      "com.onarandombox.MultiversePortals.listeners.PlayerListenerHelper"
+    ],
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.listeners.MVPPlayerMoveListener#MVPPlayerMoveListener(com.onarandombox.MultiversePortals.MultiversePortals,com.onarandombox.MultiversePortals.listeners.PlayerListenerHelper)",
+    "class": "com.onarandombox.MultiversePortals.listeners.MVPPlayerMoveListener"
+  },
+  {
+    "static": true,
+    "method": "values",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.PortalType#values()",
+    "class": "com.onarandombox.MultiversePortals.enums.PortalType",
+    "return": "com.onarandombox.MultiversePortals.enums.PortalType[]"
+  },
+  {
+    "param-names": ["MultiversePortals.MVPortal"],
+    "param-types": ["com.onarandombox.MultiversePortals.MVPortal"],
+    "method": "getTeleportNonPlayers",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#getTeleportNonPlayers()",
+    "class": "com.onarandombox.MultiversePortals.MVPortal",
+    "return": "boolean"
+  },
+  {
+    "param-names": ["MultiversePortals.PortalPlayerSession"],
+    "param-types": ["com.onarandombox.MultiversePortals.PortalPlayerSession"],
+    "method": "hasMovedOutOfPortal",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalPlayerSession#hasMovedOutOfPortal()",
+    "class": "com.onarandombox.MultiversePortals.PortalPlayerSession",
+    "return": "boolean"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.utils.PortalManager",
+      "Portal"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.utils.PortalManager",
+      "com.onarandombox.MultiversePortals.MVPortal"
+    ],
+    "method": "addPortal",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.utils.PortalManager#addPortal(com.onarandombox.MultiversePortals.MVPortal)",
+    "class": "com.onarandombox.MultiversePortals.utils.PortalManager",
+    "return": "boolean"
+  },
+  {
+    "static": true,
+    "field": "wand",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty#wand",
+    "class": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty",
+    "return": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty"
+  },
+  {
+    "descr": "Checks if the teleport cooldown is still in effect. If it is, a message is sent\\nto the player informing them.",
+    "param-names": ["MultiversePortals.PortalPlayerSession"],
+    "param-types": ["com.onarandombox.MultiversePortals.PortalPlayerSession"],
+    "method": "checkAndSendCooldownMessage",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalPlayerSession#checkAndSendCooldownMessage()",
+    "class": "com.onarandombox.MultiversePortals.PortalPlayerSession",
+    "return": "boolean"
+  },
+  {
+    "static": true,
+    "field": "enforceportalaccess",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty#enforceportalaccess",
+    "class": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty",
+    "return": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty"
+  },
+  {
+    "param-names": ["MultiversePortals.destination.PortalDestination"],
+    "param-types": ["com.onarandombox.MultiversePortals.destination.PortalDestination"],
+    "method": "getOrientationString",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.destination.PortalDestination#getOrientationString()",
+    "class": "com.onarandombox.MultiversePortals.destination.PortalDestination",
+    "return": "java.lang.String"
+  },
+  {
+    "static": true,
+    "method": "values",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.SetProperties#values()",
+    "class": "com.onarandombox.MultiversePortals.enums.SetProperties",
+    "return": "com.onarandombox.MultiversePortals.enums.SetProperties[]"
+  },
+  {
+    "param-names": ["MultiversePortals.utils.MultiverseRegion"],
+    "param-types": ["com.onarandombox.MultiversePortals.utils.MultiverseRegion"],
+    "method": "getArea",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.utils.MultiverseRegion#getArea()",
+    "class": "com.onarandombox.MultiversePortals.utils.MultiverseRegion",
+    "return": "int"
+  },
+  {
+    "static": true,
+    "field": "EnforcePortalAccess",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#EnforcePortalAccess",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals",
+    "return": "boolean"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.MVPortal",
+      "Location"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.MVPortal",
+      "com.onarandombox.MultiversePortals.PortalLocation"
+    ],
+    "method": "setPortalLocation",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#setPortalLocation(com.onarandombox.MultiversePortals.PortalLocation)",
+    "class": "com.onarandombox.MultiversePortals.MVPortal",
+    "return": "boolean"
+  },
+  {
+    "param-names": ["Name"],
+    "static": true,
+    "param-types": ["java.lang.String"],
+    "method": "valueOf",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.MoveType#valueOf(java.lang.String)",
+    "class": "com.onarandombox.MultiversePortals.enums.MoveType",
+    "return": "com.onarandombox.MultiversePortals.enums.MoveType"
+  },
+  {
+    "descr": "Tests the connection to the WorldEdit plugin.",
+    "param-names": ["MultiversePortals.WorldEditConnection"],
+    "param-types": ["com.onarandombox.MultiversePortals.WorldEditConnection"],
+    "method": "isConnected",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.WorldEditConnection#isConnected()",
+    "class": "com.onarandombox.MultiversePortals.WorldEditConnection",
+    "return": "boolean"
+  },
+  {
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.utils.DisplayUtils#DisplayUtils()",
+    "class": "com.onarandombox.MultiversePortals.utils.DisplayUtils"
+  },
+  {
+    "param-names": ["MultiversePortals.PortalLocation"],
+    "param-types": ["com.onarandombox.MultiversePortals.PortalLocation"],
+    "method": "getRegion",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalLocation#getRegion()",
+    "class": "com.onarandombox.MultiversePortals.PortalLocation",
+    "return": "com.onarandombox.MultiversePortals.utils.MultiverseRegion"
+  },
+  {
+    "param-names": ["MultiversePortals.MultiversePortals"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "method": "getVersionInfo",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#getVersionInfo()",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals",
+    "return": "java.lang.String"
+  },
+  {
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.destination.PortalDestination#PortalDestination()",
+    "class": "com.onarandombox.MultiversePortals.destination.PortalDestination"
+  },
+  {
+    "static": true,
+    "field": "PORTAL_NAME_PATTERN",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#PORTAL_NAME_PATTERN",
+    "class": "com.onarandombox.MultiversePortals.MVPortal",
+    "return": "java.util.regex.Pattern"
+  },
+  {
+    "static": true,
+    "field": "telenonplayers",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.SetProperties#telenonplayers",
+    "class": "com.onarandombox.MultiversePortals.enums.SetProperties",
+    "return": "com.onarandombox.MultiversePortals.enums.SetProperties"
+  },
+  {
+    "static": true,
+    "field": "Legacy",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.PortalType#Legacy",
+    "class": "com.onarandombox.MultiversePortals.enums.PortalType",
+    "return": "com.onarandombox.MultiversePortals.enums.PortalType"
+  },
+  {
+    "static": true,
+    "field": "PLAYER_MOVE",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.MoveType#PLAYER_MOVE",
+    "class": "com.onarandombox.MultiversePortals.enums.MoveType",
+    "return": "com.onarandombox.MultiversePortals.enums.MoveType"
+  },
+  {
+    "param-names": ["MultiversePortals.MultiversePortals"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "method": "reloadConfigs",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#reloadConfigs()",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals"
+  },
+  {
+    "param-names": ["MultiversePortals.MultiversePortals"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "method": "onDisable",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#onDisable()",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals"
+  },
+  {
+    "static": true,
+    "field": "plugin",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.utils.DisplayUtils#plugin",
+    "class": "com.onarandombox.MultiversePortals.utils.DisplayUtils",
+    "return": "com.onarandombox.MultiversePortals.MultiversePortals"
+  },
+  {
+    "param-names": ["Name"],
+    "static": true,
+    "param-types": ["java.lang.String"],
+    "method": "valueOf",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty#valueOf(java.lang.String)",
+    "class": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty",
+    "return": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty"
+  },
+  {
+    "static": true,
+    "field": "currency",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.SetProperties#currency",
+    "class": "com.onarandombox.MultiversePortals.enums.SetProperties",
+    "return": "com.onarandombox.MultiversePortals.enums.SetProperties"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.MultiversePortals",
+      "Enabled"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.MultiversePortals",
+      "boolean"
+    ],
+    "method": "setWandEnabled",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#setWandEnabled(boolean)",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals"
+  },
+  {
+    "static": true,
+    "field": "useonmove",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty#useonmove",
+    "class": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty",
+    "return": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.MVPortal",
+      "Property",
+      "Value"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.MVPortal",
+      "java.lang.String",
+      "java.lang.String"
+    ],
+    "method": "setProperty",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#setProperty(java.lang.String,java.lang.String)",
+    "class": "com.onarandombox.MultiversePortals.MVPortal",
+    "return": "boolean"
+  },
+  {
+    "static": true,
+    "field": "clearonremove",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty#clearonremove",
+    "class": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty",
+    "return": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty"
+  },
+  {
+    "static": true,
+    "field": "curr",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.SetProperties#curr",
+    "class": "com.onarandombox.MultiversePortals.enums.SetProperties",
+    "return": "com.onarandombox.MultiversePortals.enums.SetProperties"
+  },
+  {
+    "param-names": ["MultiversePortals.utils.PortalManager"],
+    "param-types": ["com.onarandombox.MultiversePortals.utils.PortalManager"],
+    "method": "getAllPortals",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.utils.PortalManager#getAllPortals()",
+    "class": "com.onarandombox.MultiversePortals.utils.PortalManager",
+    "return": "java.util.List"
+  },
+  {
+    "param-names": ["MultiversePortals.MVPortal"],
+    "param-types": ["com.onarandombox.MultiversePortals.MVPortal"],
+    "method": "useSafeTeleporter",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#useSafeTeleporter()",
+    "class": "com.onarandombox.MultiversePortals.MVPortal",
+    "return": "boolean"
+  },
+  {
+    "param-names": ["Name"],
+    "static": true,
+    "param-types": ["java.lang.String"],
+    "method": "valueOf",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.SetProperties#valueOf(java.lang.String)",
+    "class": "com.onarandombox.MultiversePortals.enums.SetProperties",
+    "return": "com.onarandombox.MultiversePortals.enums.SetProperties"
+  },
+  {
+    "static": true,
+    "field": "Normal",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.PortalType#Normal",
+    "class": "com.onarandombox.MultiversePortals.enums.PortalType",
+    "return": "com.onarandombox.MultiversePortals.enums.PortalType"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.PortalPlayerSession",
+      "Portal"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.PortalPlayerSession",
+      "com.onarandombox.MultiversePortals.MVPortal"
+    ],
+    "method": "selectPortal",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalPlayerSession#selectPortal(com.onarandombox.MultiversePortals.MVPortal)",
+    "class": "com.onarandombox.MultiversePortals.PortalPlayerSession",
+    "return": "boolean"
+  },
+  {
+    "static": true,
+    "method": "values",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.MoveType#values()",
+    "class": "com.onarandombox.MultiversePortals.enums.MoveType",
+    "return": "com.onarandombox.MultiversePortals.enums.MoveType[]"
+  },
+  {
+    "descr": "Returns what type of portal this is.\\nThis will be PortalType#Normal for portals filled with the nether portal block,\\nand PortalType#Legacy for portals filled with anything else.",
+    "param-names": ["MultiversePortals.MVPortal"],
+    "param-types": ["com.onarandombox.MultiversePortals.MVPortal"],
+    "method": "getPortalType",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#getPortalType()",
+    "class": "com.onarandombox.MultiversePortals.MVPortal",
+    "return": "com.onarandombox.MultiversePortals.enums.PortalType"
+  },
+  {
+    "param-names": ["Plugin"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.listeners.MVPBlockListener#MVPBlockListener(com.onarandombox.MultiversePortals.MultiversePortals)",
+    "class": "com.onarandombox.MultiversePortals.listeners.MVPBlockListener"
+  },
+  {
+    "param-names": [
+      "Plugin",
+      "Helper"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.MultiversePortals",
+      "com.onarandombox.MultiversePortals.listeners.PlayerListenerHelper"
+    ],
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.listeners.MVPPlayerListener#MVPPlayerListener(com.onarandombox.MultiversePortals.MultiversePortals,com.onarandombox.MultiversePortals.listeners.PlayerListenerHelper)",
+    "class": "com.onarandombox.MultiversePortals.listeners.MVPPlayerListener"
+  },
+  {
+    "static": true,
+    "field": "teleportvehicles",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty#teleportvehicles",
+    "class": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty",
+    "return": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty"
+  },
+  {
+    "static": true,
+    "field": "loc",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.SetProperties#loc",
+    "class": "com.onarandombox.MultiversePortals.enums.SetProperties",
+    "return": "com.onarandombox.MultiversePortals.enums.SetProperties"
+  },
+  {
+    "static": true,
+    "field": "handlerscript",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.SetProperties#handlerscript",
+    "class": "com.onarandombox.MultiversePortals.enums.SetProperties",
+    "return": "com.onarandombox.MultiversePortals.enums.SetProperties"
+  },
+  {
+    "static": true,
+    "field": "owner",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.SetProperties#owner",
+    "class": "com.onarandombox.MultiversePortals.enums.SetProperties",
+    "return": "com.onarandombox.MultiversePortals.enums.SetProperties"
+  },
+  {
+    "descr": "Logs a message to Multiverse-Portal's Logger.  If the Message is of fine-finest level, it will be logged to the\\ndebug log if enabled.",
+    "param-names": [
+      "Level",
+      "Msg"
+    ],
+    "static": true,
+    "param-types": [
+      "java.util.logging.Level",
+      "java.lang.String"
+    ],
+    "method": "staticLog",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#staticLog(java.util.logging.Level,java.lang.String)",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals"
+  },
+  {
+    "param-names": ["MultiversePortals.MultiversePortals"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "method": "saveMainConfig",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#saveMainConfig()",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals",
+    "return": "boolean"
+  },
+  {
+    "param-names": ["MultiversePortals.PortalPlayerSession"],
+    "param-types": ["com.onarandombox.MultiversePortals.PortalPlayerSession"],
+    "method": "isStaleLocation",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalPlayerSession#isStaleLocation()",
+    "class": "com.onarandombox.MultiversePortals.PortalPlayerSession",
+    "return": "boolean"
+  },
+  {
+    "param-names": ["MultiversePortals.MultiversePortals"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "method": "loadConfig",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#loadConfig()",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals"
+  },
+  {
+    "param-names": ["MultiversePortals.MultiversePortals"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "method": "getCooldownTime",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#getCooldownTime()",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals",
+    "return": "long"
+  },
+  {
+    "param-names": ["MultiversePortals.MultiversePortals"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "method": "isWandEnabled",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#isWandEnabled()",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals",
+    "return": "boolean"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.MVPortal",
+      "Destination String"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.MVPortal",
+      "java.lang.String"
+    ],
+    "method": "setDestination",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#setDestination(java.lang.String)",
+    "class": "com.onarandombox.MultiversePortals.MVPortal",
+    "return": "boolean"
+  },
+  {
+    "descr": "This will ALWAYS return the portal a player is actually in. For hysteresis see #getStandingInPortal().",
+    "param-names": ["MultiversePortals.PortalPlayerSession"],
+    "param-types": ["com.onarandombox.MultiversePortals.PortalPlayerSession"],
+    "method": "getUncachedStandingInPortal",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalPlayerSession#getUncachedStandingInPortal()",
+    "class": "com.onarandombox.MultiversePortals.PortalPlayerSession",
+    "return": "com.onarandombox.MultiversePortals.MVPortal"
+  },
+  {
+    "param-names": [
+      "Instance",
+      "Name"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.MultiversePortals",
+      "java.lang.String"
+    ],
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MVPortal#MVPortal(com.onarandombox.MultiversePortals.MultiversePortals,java.lang.String)",
+    "class": "com.onarandombox.MultiversePortals.MVPortal"
+  },
+  {
+    "static": true,
+    "field": "portalcooldown",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty#portalcooldown",
+    "class": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty",
+    "return": "com.onarandombox.MultiversePortals.enums.PortalConfigProperty"
+  },
+  {
+    "param-names": [
+      "MultiversePortals.PortalPlayerSession",
+      "Active"
+    ],
+    "param-types": [
+      "com.onarandombox.MultiversePortals.PortalPlayerSession",
+      "boolean"
+    ],
+    "method": "setStaleLocation",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.PortalPlayerSession#setStaleLocation(boolean)",
+    "class": "com.onarandombox.MultiversePortals.PortalPlayerSession"
+  },
+  {
+    "static": true,
+    "field": "WandEnabled",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#WandEnabled",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals",
+    "return": "boolean"
+  },
+  {
+    "param-names": ["Plugin"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.listeners.PlayerListenerHelper#PlayerListenerHelper(com.onarandombox.MultiversePortals.MultiversePortals)",
+    "class": "com.onarandombox.MultiversePortals.listeners.PlayerListenerHelper"
+  },
+  {
+    "param-names": ["MultiversePortals.MultiversePortals"],
+    "param-types": ["com.onarandombox.MultiversePortals.MultiversePortals"],
+    "method": "getPortalManager",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#getPortalManager()",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals",
+    "return": "com.onarandombox.MultiversePortals.utils.PortalManager"
+  },
+  {
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.MultiversePortals#MultiversePortals()",
+    "class": "com.onarandombox.MultiversePortals.MultiversePortals"
+  },
+  {
+    "static": true,
+    "field": "safe",
+    "module": "sMultiversePortals",
+    "id": "com.onarandombox.MultiversePortals.enums.SetProperties#safe",
+    "class": "com.onarandombox.MultiversePortals.enums.SetProperties",
+    "return": "com.onarandombox.MultiversePortals.enums.SetProperties"
+  },
+  {
+    "descr": "",
+    "module": "sMultiversePortals",
+    "event": true,
+    "class": "com.onarandombox.MultiversePortals.event.MVPortalEvent"
+  }
+]

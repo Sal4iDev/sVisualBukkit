@@ -14,3 +14,4 @@ include("sMultiverseCore")
 include("sMultiverseInventories")
 include("sEnchantGui") // Public custom
 include("sUtils")
+include("sMultiversePortals")
