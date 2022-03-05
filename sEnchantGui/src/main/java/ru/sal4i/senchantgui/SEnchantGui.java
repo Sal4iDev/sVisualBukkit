@@ -17,13 +17,14 @@ public class SEnchantGui extends VisualBukkitExtension {
             buildContext.addMavenDependency(
                     "<groupId>com.github.LegameMc</groupId>\n" +
                             "<artifactId>EnchantGui-API</artifactId>\n" +
-                            "<version>1.0</version>");
+                            "<version>1.0</version>\n" +
+                            "<scope>provided</scope>");
         }
     };
 
     public SEnchantGui() throws IOException {
         PluginModule.register("sEnchantGui", MODULE);
-        try (InputStream inputStream = getClass().getResourceAsStream("/Blocks.json")) {
+        try (InputStream inputStream = SEnchantGui.class.getResourceAsStream("/Blocks.json")) {
             BlockRegistry.register(this, new JSONArray(new JSONTokener(inputStream)));
         }
         BlockRegistry.register(this, "ru.sal4i.senchantgui");
@@ -36,7 +37,7 @@ public class SEnchantGui extends VisualBukkitExtension {
 
     @Override
     public String getVersion() {
-        return "2.1";
+        return "2.2";
     }
 
     @Override
