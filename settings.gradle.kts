@@ -9,9 +9,10 @@ include("sUpdateChecker")
 include("sTabCompletion")
 include("sDiscordWebhooks")
 include("sFileUtils")
-include("sWorldEdit")
-include("sMultiverseCore")
-include("sMultiverseInventories")
+include("sWorldEdit") // Public custom
+include("sMultiverseCore") // Public custom
+include("sMultiverseInventories") // Public custom
 include("sEnchantGui") // Public custom
-include("sUtils")
-include("sMultiversePortals")
+include("sMultiversePortals") // Public custom
+include("sCitizensAPI")
+//include("sWorldGuard")
