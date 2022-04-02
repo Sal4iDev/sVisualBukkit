@@ -24,7 +24,7 @@ public class ExprHasSpigotUpdate extends Expression {
 
 
     public ExprHasSpigotUpdate() {
-        super("expr-has-spigot-update", "Has Spigot Update", "SAL4i", "Checks if there is a newer " +
+        super("expr-has-spigot-update", "Has Spigot Update", "SAL4I", "Checks if there is a newer " +
                 "version of the plugin than the current one" +
                 "\nLink format: \"https://api.spigotmc.org/legacy/update.php?resource=YOUR_RESOURCE_ID\"");
     }
