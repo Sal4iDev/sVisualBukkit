@@ -3,6 +3,7 @@
     "descr": "The color orange.  In the default sRGB space.",
     "static": true,
     "field": "orange",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#orange",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -11,6 +12,7 @@
     "descr": "The color blue.  In the default sRGB space.",
     "static": true,
     "field": "BLUE",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#BLUE",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -36,6 +38,7 @@
       "ru.sal4i.sdiscordwebhook.embed.Image",
       "ru.sal4i.sdiscordwebhook.embed.Author"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor,ru.sal4i.sdiscordwebhook.embed.Footer,ru.sal4i.sdiscordwebhook.embed.Thumbnail,ru.sal4i.sdiscordwebhook.embed.Image,ru.sal4i.sdiscordwebhook.embed.Author)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
@@ -48,6 +51,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedColor"
     ],
     "method": "brighter",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#brighter()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -60,6 +64,7 @@
       "ru.sal4i.sdiscordwebhook.embed.Field"
     ],
     "method": "isInline",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Field#isInline()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Field",
     "return": "boolean"
@@ -72,6 +77,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedObject"
     ],
     "method": "getColor",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getColor()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -80,6 +86,7 @@
     "descr": "The color red.  In the default sRGB space.",
     "static": true,
     "field": "red",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#red",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -92,6 +99,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedObject"
     ],
     "method": "getDescription",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getDescription()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "java.lang.String"
@@ -104,6 +112,7 @@
     "param-types": [
       "int"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(int)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
@@ -116,6 +125,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedColor"
     ],
     "method": "darker",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#darker()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -129,6 +139,7 @@
       "java.lang.String",
       "java.lang.String"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#SDiscordWebhook(java.lang.String,java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
@@ -143,6 +154,7 @@
       "java.lang.String",
       "java.lang.String"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
@@ -160,6 +172,7 @@
       "float"
     ],
     "method": "HSBtoRGB",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#HSBtoRGB(float,float,float)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "int"
@@ -168,6 +181,7 @@
     "descr": "The color light gray.  In the default sRGB space.",
     "static": true,
     "field": "LIGHT_GRAY",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#LIGHT_GRAY",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -176,6 +190,7 @@
     "descr": "The color green.  In the default sRGB space.",
     "static": true,
     "field": "green",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#green",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -184,6 +199,7 @@
     "descr": "The color black.  In the default sRGB space.",
     "static": true,
     "field": "black",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#black",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -197,6 +213,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedColor"
     ],
     "method": "toString",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#toString()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "java.lang.String"
@@ -212,6 +229,7 @@
       "float[]"
     ],
     "method": "getRGBComponents",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getRGBComponents(float[])",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "float[]"
@@ -230,6 +248,7 @@
       "int",
       "int"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(int,int,int,int)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
@@ -237,6 +256,7 @@
     "descr": "The color pink.  In the default sRGB space.",
     "static": true,
     "field": "pink",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#pink",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -245,6 +265,7 @@
     "descr": "The color black.  In the default sRGB space.",
     "static": true,
     "field": "BLACK",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#BLACK",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -257,6 +278,7 @@
       "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
     ],
     "method": "getAvatarUrl",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getAvatarUrl()",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
     "return": "java.lang.String"
@@ -270,6 +292,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedColor"
     ],
     "method": "getBlue",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getBlue()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "int"
@@ -282,6 +305,7 @@
       "ru.sal4i.sdiscordwebhook.embed.Author"
     ],
     "method": "getIconUrl",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Author#getIconUrl()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Author",
     "return": "java.lang.String"
@@ -295,6 +319,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedColor"
     ],
     "method": "hashCode",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#hashCode()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "int"
@@ -308,6 +333,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedColor"
     ],
     "method": "getRGB",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getRGB()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "int"
@@ -331,6 +357,7 @@
       "ru.sal4i.sdiscordwebhook.embed.Thumbnail",
       "ru.sal4i.sdiscordwebhook.embed.Image"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor,ru.sal4i.sdiscordwebhook.embed.Footer,ru.sal4i.sdiscordwebhook.embed.Thumbnail,ru.sal4i.sdiscordwebhook.embed.Image)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
@@ -338,6 +365,7 @@
     "descr": "The color cyan.  In the default sRGB space.",
     "static": true,
     "field": "cyan",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#cyan",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -350,6 +378,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedObject"
     ],
     "method": "getFooter",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getFooter()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.embed.Footer"
@@ -358,6 +387,7 @@
     "descr": "The color white.  In the default sRGB space.",
     "static": true,
     "field": "white",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#white",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -370,6 +400,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedObject"
     ],
     "method": "getImage",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getImage()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.embed.Image"
@@ -382,6 +413,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedObject"
     ],
     "method": "getUrl",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getUrl()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "java.lang.String"
@@ -394,6 +426,7 @@
       "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
     ],
     "method": "getContent",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getContent()",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
     "return": "java.lang.String"
@@ -402,6 +435,7 @@
     "descr": "The color white.  In the default sRGB space.",
     "static": true,
     "field": "WHITE",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#WHITE",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -421,6 +455,7 @@
       "java.lang.String",
       "boolean"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#SDiscordWebhook(java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
@@ -428,6 +463,7 @@
     "descr": "The color green.  In the default sRGB space.",
     "static": true,
     "field": "GREEN",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#GREEN",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -440,6 +476,7 @@
     "param-types": [
       "java.lang.String"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#SDiscordWebhook(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
@@ -447,6 +484,7 @@
     "descr": "The color cyan.  In the default sRGB space.",
     "static": true,
     "field": "CYAN",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#CYAN",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -461,6 +499,7 @@
       "java.lang.String"
     ],
     "method": "setTitle",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setTitle(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
@@ -469,6 +508,7 @@
     "descr": "The color dark gray.  In the default sRGB space.",
     "static": true,
     "field": "darkGray",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#darkGray",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -485,6 +525,7 @@
       "float",
       "float"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(float,float,float)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
@@ -501,6 +542,7 @@
       "float[]"
     ],
     "method": "getColorComponents",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColorComponents(java.awt.color.ColorSpace,float[])",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "float[]"
@@ -515,6 +557,7 @@
       "java.lang.String"
     ],
     "method": "decode",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#decode(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -527,6 +570,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedObject"
     ],
     "method": "getFields",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getFields()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "java.util.List"
@@ -539,6 +583,7 @@
       "ru.sal4i.sdiscordwebhook.embed.Footer"
     ],
     "method": "getIconUrl",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Footer#getIconUrl()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Footer",
     "return": "java.lang.String"
@@ -554,6 +599,7 @@
       "java.lang.String",
       "java.lang.String"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Author#Author(java.lang.String,java.lang.String,java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.embed.Author"
   },
@@ -565,6 +611,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedObject"
     ],
     "method": "getTitle",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getTitle()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "java.lang.String"
@@ -583,6 +630,7 @@
       "boolean"
     ],
     "method": "addField",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#addField(java.lang.String,java.lang.String,boolean)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
@@ -595,6 +643,7 @@
       "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
     ],
     "method": "isTts",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#isTts()",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
     "return": "boolean"
@@ -612,6 +661,7 @@
       "float[]"
     ],
     "method": "getComponents",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getComponents(java.awt.color.ColorSpace,float[])",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "float[]"
@@ -625,6 +675,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedColor"
     ],
     "method": "getAlpha",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getAlpha()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "int"
@@ -641,6 +692,7 @@
       "java.lang.String"
     ],
     "method": "setFooter",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setFooter(java.lang.String,java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
@@ -656,6 +708,7 @@
       "java.lang.String"
     ],
     "method": "setAvatarUrl",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setAvatarUrl(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
@@ -663,6 +716,7 @@
     "descr": "The color magenta.  In the default sRGB space.",
     "static": true,
     "field": "magenta",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#magenta",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -675,6 +729,7 @@
       "ru.sal4i.sdiscordwebhook.embed.Image"
     ],
     "method": "getUrl",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Image#getUrl()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Image",
     "return": "java.lang.String"
@@ -683,6 +738,7 @@
     "descr": "The color gray.  In the default sRGB space.",
     "static": true,
     "field": "GRAY",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#GRAY",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -698,6 +754,7 @@
       "java.lang.String"
     ],
     "method": "setContent",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setContent(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
@@ -713,6 +770,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedColor"
     ],
     "method": "getColor",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColor(java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -725,6 +783,7 @@
       "ru.sal4i.sdiscordwebhook.embed.Author"
     ],
     "method": "getUrl",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Author#getUrl()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Author",
     "return": "java.lang.String"
@@ -733,6 +792,7 @@
     "descr": "The color yellow.  In the default sRGB space.",
     "static": true,
     "field": "yellow",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#yellow",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -750,6 +810,7 @@
       "java.lang.String",
       "ru.sal4i.sdiscordwebhook.EmbedColor"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
@@ -767,6 +828,7 @@
       "float",
       "float"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(float,float,float,float)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
@@ -781,6 +843,7 @@
       "float[]"
     ],
     "method": "getColorComponents",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColorComponents(float[])",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "float[]"
@@ -797,6 +860,7 @@
       "int"
     ],
     "method": "getColor",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColor(java.lang.String,int)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -809,11 +873,13 @@
       "ru.sal4i.sdiscordwebhook.embed.Field"
     ],
     "method": "getName",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Field#getName()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Field",
     "return": "java.lang.String"
   },
   {
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
@@ -830,6 +896,7 @@
       "java.lang.String",
       "java.lang.String"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#SDiscordWebhook(java.lang.String,java.lang.String,java.lang.String,java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
@@ -841,6 +908,7 @@
       "ru.sal4i.sdiscordwebhook.embed.Footer"
     ],
     "method": "getText",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Footer#getText()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Footer",
     "return": "java.lang.String"
@@ -857,6 +925,7 @@
       "int",
       "int"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(int,int,int)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
@@ -871,6 +940,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedObject"
     ],
     "method": "addEmbed",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#addEmbed(ru.sal4i.sdiscordwebhook.EmbedObject)",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
@@ -883,6 +953,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedColor"
     ],
     "method": "getColorSpace",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColorSpace()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "java.awt.color.ColorSpace"
@@ -891,6 +962,7 @@
     "descr": "The color magenta.  In the default sRGB space.",
     "static": true,
     "field": "MAGENTA",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#MAGENTA",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -904,6 +976,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedColor"
     ],
     "method": "getRed",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getRed()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "int"
@@ -919,6 +992,7 @@
       "float[]"
     ],
     "method": "getComponents",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getComponents(float[])",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "float[]"
@@ -932,6 +1006,7 @@
       "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
     ],
     "method": "execute",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#execute()",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
@@ -952,6 +1027,7 @@
       "ru.sal4i.sdiscordwebhook.embed.Footer",
       "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor,ru.sal4i.sdiscordwebhook.embed.Footer,ru.sal4i.sdiscordwebhook.embed.Thumbnail)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
@@ -966,6 +1042,7 @@
       "java.lang.String",
       "java.lang.String"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#SDiscordWebhook(java.lang.String,java.lang.String,java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
@@ -973,6 +1050,7 @@
     "descr": "The color yellow.  In the default sRGB space.",
     "static": true,
     "field": "YELLOW",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#YELLOW",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -987,6 +1065,7 @@
       "java.lang.String"
     ],
     "method": "setUrl",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setUrl(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
@@ -1001,6 +1080,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedColor"
     ],
     "method": "setColor",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setColor(ru.sal4i.sdiscordwebhook.EmbedColor)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
@@ -1016,6 +1096,7 @@
       "java.lang.String",
       "boolean"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Field#Field(java.lang.String,java.lang.String,boolean)",
     "class": "ru.sal4i.sdiscordwebhook.embed.Field"
   },
@@ -1023,6 +1104,7 @@
     "descr": "The color red.  In the default sRGB space.",
     "static": true,
     "field": "RED",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#RED",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -1035,6 +1117,7 @@
       "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
     ],
     "method": "getEmbeds",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getEmbeds()",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
     "return": "java.util.List"
@@ -1048,6 +1131,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedColor"
     ],
     "method": "getGreen",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getGreen()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "int"
@@ -1063,6 +1147,7 @@
       "java.lang.String"
     ],
     "method": "setUsername",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setUsername(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
@@ -1077,6 +1162,7 @@
       "java.lang.Object"
     ],
     "method": "equals",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#equals(java.lang.Object)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "boolean"
@@ -1085,6 +1171,7 @@
     "descr": "The color gray.  In the default sRGB space.",
     "static": true,
     "field": "gray",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#gray",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -1103,6 +1190,7 @@
       "java.lang.String"
     ],
     "method": "setAuthor",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setAuthor(java.lang.String,java.lang.String,java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
@@ -1123,6 +1211,7 @@
       "float[]"
     ],
     "method": "RGBtoHSB",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#RGBtoHSB(int,int,int,float[])",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "float[]"
@@ -1136,6 +1225,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedColor"
     ],
     "method": "getTransparency",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getTransparency()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "int"
@@ -1150,6 +1240,7 @@
       "int",
       "boolean"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(int,boolean)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
@@ -1161,6 +1252,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedObject"
     ],
     "method": "getAuthor",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getAuthor()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.embed.Author"
@@ -1169,6 +1261,7 @@
     "descr": "The color pink.  In the default sRGB space.",
     "static": true,
     "field": "PINK",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#PINK",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -1177,6 +1270,7 @@
     "descr": "The color light gray.  In the default sRGB space.",
     "static": true,
     "field": "lightGray",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#lightGray",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -1191,6 +1285,7 @@
       "java.lang.String"
     ],
     "method": "getColor",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getColor(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -1213,6 +1308,7 @@
       "java.awt.RenderingHints"
     ],
     "method": "createContext",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "java.awt.PaintContext"
@@ -1228,6 +1324,7 @@
       "boolean"
     ],
     "method": "setTts",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setTts(boolean)",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
   },
@@ -1239,6 +1336,7 @@
       "ru.sal4i.sdiscordwebhook.embed.Author"
     ],
     "method": "getName",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Author#getName()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Author",
     "return": "java.lang.String"
@@ -1247,6 +1345,7 @@
     "descr": "The color blue.  In the default sRGB space.",
     "static": true,
     "field": "blue",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#blue",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -1265,6 +1364,7 @@
       "float"
     ],
     "method": "getHSBColor",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getHSBColor(float,float,float)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -1284,6 +1384,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedColor",
       "ru.sal4i.sdiscordwebhook.embed.Footer"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor,ru.sal4i.sdiscordwebhook.embed.Footer)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
@@ -1294,6 +1395,7 @@
     "param-types": [
       "java.lang.String"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Thumbnail#Thumbnail(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
   },
@@ -1305,6 +1407,7 @@
       "ru.sal4i.sdiscordwebhook.embed.Field"
     ],
     "method": "getValue",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Field#getValue()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Field",
     "return": "java.lang.String"
@@ -1317,6 +1420,7 @@
       "ru.sal4i.sdiscordwebhook.EmbedObject"
     ],
     "method": "getThumbnail",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#getThumbnail()",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
@@ -1332,6 +1436,7 @@
       "float[]"
     ],
     "method": "getRGBColorComponents",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#getRGBColorComponents(float[])",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "float[]"
@@ -1340,6 +1445,7 @@
     "descr": "The color dark gray.  In the default sRGB space.",
     "static": true,
     "field": "DARK_GRAY",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#DARK_GRAY",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
@@ -1354,6 +1460,7 @@
       "java.lang.String"
     ],
     "method": "setThumbnail",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setThumbnail(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
@@ -1370,6 +1477,7 @@
       "float[]",
       "float"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#EmbedColor(java.awt.color.ColorSpace,float[],float)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor"
   },
@@ -1383,6 +1491,7 @@
       "java.lang.String"
     ],
     "method": "setDescription",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setDescription(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
@@ -1396,6 +1505,7 @@
       "java.lang.String",
       "java.lang.String"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Footer#Footer(java.lang.String,java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.embed.Footer"
   },
@@ -1407,6 +1517,7 @@
       "ru.sal4i.sdiscordwebhook.embed.Thumbnail"
     ],
     "method": "getUrl",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Thumbnail#getUrl()",
     "class": "ru.sal4i.sdiscordwebhook.embed.Thumbnail",
     "return": "java.lang.String"
@@ -1418,6 +1529,7 @@
     "param-types": [
       "java.lang.String"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
@@ -1430,6 +1542,7 @@
       "java.lang.String",
       "java.lang.String"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject"
   },
@@ -1443,6 +1556,7 @@
       "java.lang.String"
     ],
     "method": "setImage",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedObject#setImage(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.EmbedObject",
     "return": "ru.sal4i.sdiscordwebhook.EmbedObject"
@@ -1455,6 +1569,7 @@
       "ru.sal4i.sdiscordwebhook.SDiscordWebhook"
     ],
     "method": "getUsername",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#getUsername()",
     "class": "ru.sal4i.sdiscordwebhook.SDiscordWebhook",
     "return": "java.lang.String"
@@ -1466,6 +1581,7 @@
     "param-types": [
       "java.lang.String"
     ],
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.embed.Image#Image(java.lang.String)",
     "class": "ru.sal4i.sdiscordwebhook.embed.Image"
   },
@@ -1473,6 +1589,7 @@
     "descr": "The color orange.  In the default sRGB space.",
     "static": true,
     "field": "ORANGE",
+    "module": "sDiscordWebhookJava",
     "id": "ru.sal4i.sdiscordwebhook.EmbedColor#ORANGE",
     "class": "ru.sal4i.sdiscordwebhook.EmbedColor",
     "return": "ru.sal4i.sdiscordwebhook.EmbedColor"
