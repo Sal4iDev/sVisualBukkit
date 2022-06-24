@@ -1,0 +1,77 @@
+{
+  "children": [
+    {
+      "=": "stat-set-local-variable",
+      "parameters": [
+        "webhook",
+        {
+          "=": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#SDiscordWebhook(java.lang.String)",
+          "parameters": [{
+            "=": "expr-string",
+            "parameters": ["https://discord.com/api/webhooks/id/token"]
+          }]
+        }
+      ]
+    },
+    {
+      "=": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#setUsername(java.lang.String)",
+      "parameters": [
+        {
+          "=": "expr-local-variable",
+          "parameters": ["webhook"]
+        },
+        {
+          "=": "expr-string",
+          "parameters": ["Sal4iDiscordWebhook"]
+        }
+      ]
+    },
+    {
+      "=": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#addEmbed(ru.sal4i.sdiscordwebhook.EmbedObject)",
+      "parameters": [
+        {
+          "=": "expr-local-variable",
+          "parameters": ["webhook"]
+        },
+        {
+          "=": "ru.sal4i.sdiscordwebhook.EmbedObject#EmbedObject(java.lang.String,java.lang.String,java.lang.String,ru.sal4i.sdiscordwebhook.EmbedColor)",
+          "parameters": [
+            {
+              "=": "expr-string",
+              "parameters": ["Player joined!"]
+            },
+            {
+              "size": 1,
+              "=": "expr-combine-strings",
+              "parameters": [
+                {
+                  "=": "expr-string",
+                  "parameters": ["Welcome "]
+                },
+                {
+                  "=": "org.bukkit.command.CommandSender#getName()",
+                  "parameters": [{"=": "org.bukkit.event.player.PlayerJoinEvent#getPlayer()"}]
+                },
+                {
+                  "=": "expr-string",
+                  "parameters": [" to the server!"]
+                }
+              ]
+            },
+            null,
+            {"=": "ru.sal4i.sdiscordwebhook.EmbedColor#CYAN"}
+          ]
+        }
+      ]
+    },
+    {
+      "=": "ru.sal4i.sdiscordwebhook.SDiscordWebhook#execute()",
+      "parameters": [{
+        "=": "expr-local-variable",
+        "parameters": ["webhook"]
+      }]
+    }
+  ],
+  "=": "org.bukkit.event.player.PlayerJoinEvent",
+  "parameters": ["NORMAL"]
+}
