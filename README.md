@@ -1,7 +1,7 @@
 ## sVisualBukkit
 
 My extensions, themes for VisualBukkit<p>
-# Jars in **`ExtensionJars`** folder
+# Jar files (extensions) in **`ExtensionJars`** folder
 https://github.com/OfficialDonut/VisualBukkit
   
  https://discord.gg/jfSQAAnamn
